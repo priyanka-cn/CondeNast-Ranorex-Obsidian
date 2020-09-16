@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="NamedCriteria"
+      id="e132c1d7-e62b-4d8a-9119-282c01b3b6e0"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="NamedCriteria"
+      id="e132c1d7-e62b-4d8a-9119-282c01b3b6e0"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

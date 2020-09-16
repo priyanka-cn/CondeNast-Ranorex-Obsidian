@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ddf49165-1391-44e0-a4c8-34d5edee7953"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="ContextCreation">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="8989a3b9-3549-4e3f-9559-f606f991ed46">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="823c9497-8fe1-4f43-92e3-c31c632170d8"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="7fc6ca68-82ae-4407-ac30-9403b580fea9"
+	name="ContextCreationRepository"
+	relativepath="ContextCreationRepository.rxrep">
+		<codegen
+		classname="ContextCreationRepository"
+		namespace="ContextCreation">
+		</codegen>
+		<rootfolder
+		id="3c1d8e65-33e2-4e0b-bf1a-4762e295e4a8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="ContextCreation"
+      id="c2e8fc11-3608-4091-b367-b73107dcf9bb"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="ContextCreation"
+      id="c2e8fc11-3608-4091-b367-b73107dcf9bb"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

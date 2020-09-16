@@ -1,0 +1,373 @@
+﻿<repository
+id="da7725aa-1059-4cf1-b7db-3531dbacb73c"
+name="NamedCriteriaRepository">
+	<codegen
+	classname="NamedCriteriaRepository"
+	namespace="NamedCriteria">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="bf7e67d4-f05c-4862-ab3c-bb158e1d5105"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="34089432-bae7-4308-8448-81979698d8cb"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="ca9fdce9-fb03-4b23-99e0-aa49b4b53d40"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="8b18f50d-93e6-445b-8f44-e87a26d36b50"
+			name="UserEmail"
+			refimgid="dd63acc5-e999-419b-b1ff-4adc6e2283b1"
+			refpath="/dom[@domain='obsidian-staging.conde.io']//input[#'user_email']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//input[#'user_email']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="58a1d682-2fd0-4fcd-a8c9-e2a7fbdaa82c"
+			name="UserPassword"
+			refimgid="43f68d73-fbca-4c20-bba9-930a763da2f7"
+			refpath="/dom[@domain='obsidian-staging.conde.io']//input[#'user_password']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//input[#'user_password']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="60564e4c-42b3-45bc-a799-ebbe18d23be8"
+			name="LoginButton"
+			refimgid="1043c66a-136a-492d-8f5e-901f813b7b65"
+			refpath="/dom[@domain='obsidian-staging.conde.io']//form[#'new_user']/div[3]/input[@name='commit']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//form[#'new_user']/?/?/input[@name='commit']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="4863fb3e-a395-4cf1-9ec9-13f371f42533"
+			name="ContextStudio_ToUserPortal"
+			refimgid="300bc0bd-242d-4775-8d16-187e64d521e7"
+			refpath="/dom[@domain='obsidian-staging.conde.io']//h1[#'site_title']/a[@innertext='Context Studio']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//h1[#'site_title']/a[@innertext='Context Studio']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="8a0de1ab-83f5-47c0-9721-f669557df518"
+			name="NAMEDCRITERIA"
+			refimgid="3d7ece8b-a42a-432a-a165-2c04aaee3129"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//a[@innertext='NAMED CRITERIA']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="inputtag"
+			id="6bb24f5e-a7e3-440f-bf02-80d683e17b8c"
+			name="CreateNamedCriteria"
+			refimgid="3d7ece8b-a42a-432a-a165-2c04aaee3129"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//input[@class='action-button float-right']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="82ffb288-2c01-491d-a352-efc9d0422998"
+			name="NamedCriteriaName"
+			refimgid="52619779-9fa4-4ca8-a26c-e97932d03962"
+			refpath="/dom[@domain='obsidian-staging.conde.io']//input[#'named-criteria-name']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//input[#'named-criteria-name']
+			</item>
+			<item
+			addcaps="unknown,webelement,textareatag"
+			capname="textareatag"
+			id="2d288d88-b503-4d6a-b6e3-a675f16c9aba"
+			name="RawCriteria"
+			refimgid="bcad442d-9b79-4785-9b76-f195fd58337f"
+			refpath="/dom[@domain='obsidian-staging.conde.io']//textarea[#'raw-criteria']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//textarea[#'raw-criteria']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9dee361f-821e-4e08-9f8c-b8c2ab121d0c"
+			name="PreviewResults"
+			refimgid="2b64648c-6439-49d0-8fcf-3ddde068144f"
+			refpath="/dom[@domain='obsidian-staging.conde.io']/body/div[1]/div/div/div/div[2]/input[@type='button' and @value='Preview Results']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']/body/div[1]/div/div/div/div[2]/input[@value='Preview Results']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="0793412a-a551-41de-a8e6-8867ebde5342"
+			name="SaveNamedCriteria"
+			refimgid="cd4a6736-68da-4da1-a72f-939409ed4f27"
+			refpath="/dom[@domain='obsidian-staging.conde.io']/body/div[1]/div/div/div/div[2]/input[@type='button' and @value='Save Named Criteria']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']/body/div[1]/div/div/div/div[2]/input[@value='Save Named Criteria']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9b06d676-2086-4c62-a179-66bcc0125df3"
+			name="NamedCriteriaSearch"
+			refimgid="e399e797-5f32-4388-b8a1-e53aa34e683a"
+			refpath="/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[1]/div/div[1]/input[@type='text']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[1]/div/div[1]/input[@type='text']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="ed06735c-5125-4f4f-bfe1-7fab0bd7cadc"
+			name="ClearSearch"
+			refimgid="cff4855f-0061-42b3-85cd-b63b2be7f990"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[1]/?/?/span/a[@class='clear-named-criteria']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="64f7f432-cf17-4092-8eab-a972d088e0a5"
+			name="CloseNamedCriteria"
+			refimgid="ac96e8fc-a3c0-4ddf-8c63-83c3cb0bc99b"
+			refpath="/dom[@domain='obsidian-staging.conde.io']/body/div[1]/div/div/div/div[2]/span/a[@innertext='Close']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']/body/div[1]/div/div/div/div[2]/?/?/a[@innertext='Close']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="d400a253-ae05-4d72-a338-f4446638a3a4"
+			name="NamedCriteriaDescription"
+			refimgid="00321ca9-5dd1-4829-9f49-49a49d5e8932"
+			refpath="/dom[@domain='obsidian-staging.conde.io']//input[#'named-criteria-description']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//input[#'named-criteria-description']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="659d6b4e-ab4d-4052-b9e3-9880ce6ea30d"
+			name="SelectTargetLanguage"
+			refimgid="35cf1de6-236d-4246-839d-78da3b16acda"
+			refpath="/dom[@domain='obsidian-staging.conde.io']/body/div[2]/div[1]/div[1]/div[3]/div[2]/ul/li[2]/a[@innertext='English']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']/body/div[2]/div[1]/div[1]/div[3]/div[2]/ul/li[2]/a[@innertext='English']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="36192e84-7065-4310-9912-9c536195e400"
+			name="UpdateCriteria"
+			refimgid="b4730032-8187-4f1a-a770-aa58647e8e90"
+			refpath="/dom[@domain='obsidian-staging.conde.io']//input[#'create_criteria']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//input[#'create_criteria']
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="93a2fb0e-e7df-400b-abc4-98a0f2bc5230"
+			isrooted="True"
+			name="PaddingTop100Row"
+			refpath="/dom[@domain='obsidian-staging.conde.io']/body/div/div"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="df264744-adff-44ca-85e2-0fd7613c3aff"
+				name="SelectEntireCriteriaContentType"
+				refimgid="0b55af5c-e27a-421a-bb5b-de6f8bc30b06"
+				refpath="/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[1]/div/div[1]/div[3]/ul/li[2]/a[@innertext='Entire Content']"
+				searchtimeout="30000ms">
+					/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[1]/div/div[1]/div[3]/ul/li[2]/a[@innertext='Entire Content']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="fe7bd4e5-372d-4f3e-9ee8-0185244d5dbb"
+				name="SelectHALKeywordsField"
+				refimgid="a26c30f0-0cc6-4424-bb26-ae476888ac49"
+				refpath="/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[1]/div/div[2]/div[5]/span[@title='']"
+				searchtimeout="30000ms">
+					/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[1]/div/div[2]/div[5]/span[@title='']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="b63fa525-76b9-422f-8389-1cb49d285097"
+				name="GetResult"
+				refimgid="ff499885-3b22-4bc7-af7b-166c1b6993fc"
+				refpath="/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[2]/div/div[5]/input[@type='button' and @value='Get Result']"
+				searchtimeout="30000ms">
+					/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[2]/div/div[5]/input[@value='Get Result']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="8fe8086d-e36c-4f87-b981-aa7c7abef755"
+				name="EditNamedCriteria_QueryFromField"
+				refimgid="a3ca08b8-1226-4d55-96f9-b66631546a46"
+				searchtimeout="30000ms">
+					/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[3]/?/?/table/tbody/tr[1]/td[5]/span[@innertext&gt;'&#160;/&#160;                    &#160;/']/a[@innertext='                    Edit']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="7dea1273-e107-45bf-acf7-c83564f49f88"
+				name="EditNamedCriteria"
+				refimgid="beb51814-2b81-44e5-bfea-120d3ce61353"
+				refpath="/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[3]/div/table/tbody/tr[1]/td[5]/span/a[@innertext='Edit']"
+				searchtimeout="30000ms">
+					/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[3]/?/?/table/tbody/tr[1]/td[5]/span[@innertext&gt;'&#160;/&#160;                    &#160;/']/a[@innertext='Edit']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="21b35f0d-3c6b-4cbb-9143-6cf8dab82f10"
+				name="Show"
+				refimgid="09cff856-c752-4bb1-b6fd-e9e24b31b179"
+				searchtimeout="30000ms">
+					/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[3]/?/?/table/tbody/tr[1]/td[5]/span[@innertext&gt;'&#160;/&#160;                    &#160;/']/a[@innertext='Show']
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="a77c2512-949d-4743-bdb2-c0d633680c15"
+				name="CriteriaType_QueryByfield"
+				refimgid="233a317a-faa9-4a2a-b8aa-d854581c1dff"
+				searchtimeout="30000ms">
+					/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[1]/div/div[1]/div[3]/button[@class='btn btn-default dropdown-toggle drop-down-title float-right display-flex criteria-type']
+				</item>
+				<basepath>
+					/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]
+				</basepath>
+			</folder>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="e052f3f2-476a-4593-9776-bbd6f2c9089e"
+			isrooted="True"
+			name="FormLogin"
+			refpath="/dom[@domain='obsidian-staging.conde.io']/body/div/div/div/div[2]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="button"
+				id="c6a5c153-91ea-4b83-903e-862ccf9763e5"
+				name="CriteriaType"
+				refimgid="85f86b92-5acb-4c33-b8f4-92477c51f80f"
+				searchtimeout="30000ms">
+					/dom[@domain='obsidian-staging.conde.io']/body/div[2]/div[1]/div[1]/div[3]/div[1]/button[@title='Criteria Type']
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="3d00fc68-aa46-43af-8cb8-f2cde8d1de62"
+				name="Criteria_type_update"
+				refimgid="a51209de-b75d-4809-9648-14de83e0c26f"
+				searchtimeout="30000ms">
+					/dom[@domain='obsidian-staging.conde.io']/body/div[2]/div[1]/div[1]/div[3]/div[1]/button[@class='btn btn-default dropdown-toggle drop-down-title float-right display-flex criteria-type']
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="f8d10a45-2442-4b0f-91c5-844f06a3f022"
+				name="TargetLanguage"
+				refimgid="a51209de-b75d-4809-9648-14de83e0c26f"
+				searchtimeout="30000ms">
+					/dom[@domain='obsidian-staging.conde.io']/body/div[2]/div[1]/div[1]/div[3]/div[2]/button[@title='Target Language']
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="887d2a6d-083c-4aa5-90e1-7d12fbcb7707"
+				name="Copy_of_TargetLanguage"
+				refimgid="a51209de-b75d-4809-9648-14de83e0c26f"
+				searchtimeout="30000ms">
+					/dom[@domain='obsidian-staging.conde.io']/body/div[2]/div[1]/div[1]/div[3]/div[2]/button[@class='btn btn-default dropdown-toggle drop-down-title float-right display-flex target-language']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="2ba60631-b87f-46c1-b864-cf2cd8bf2973"
+				name="SelectEntireContent"
+				refimgid="2936afe9-0be5-4c86-a21c-6420cb85cb02"
+				refpath="/dom[@domain='obsidian-staging.conde.io']/body/div[2]/div[1]/div[1]/div[3]/div[1]/ul/li[2]/a[@innertext='Entire Content']"
+				searchtimeout="30000ms">
+					/dom[@domain='obsidian-staging.conde.io']/body/div[2]/div[1]/div[1]/div[3]/?/?/ul/?/?/a[@innertext='Entire Content']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="252dfb09-7e3a-4e00-b9f2-0bfcead000e9"
+				name="SelectHeadingTitle"
+				refimgid="2936afe9-0be5-4c86-a21c-6420cb85cb02"
+				searchtimeout="30000ms">
+					/dom[@domain='obsidian-staging.conde.io']/body/div[2]/div[1]/div[1]/div[3]/?/?/ul/?/?/a[@innertext='Heading and Title']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="a5fd6f06-438b-4e0d-a1db-1b7931a1e02e"
+				name="SelectQueryByField"
+				refimgid="8eaa9c4e-cfd0-441f-93cf-46b58c1bed14"
+				refpath="/dom[@domain='obsidian-staging.conde.io']/body/div[2]/div[1]/div[1]/div[3]/div[1]/ul/li[3]/a[@innertext='Query By Field']"
+				searchtimeout="30000ms">
+					/dom[@domain='obsidian-staging.conde.io']/body/div[2]/div[1]/div[1]/div[3]/?/?/ul/?/?/a[@innertext='Query By Field']
+				</item>
+				<basepath>
+					/dom[@domain='obsidian-staging.conde.io']/body/div[2]/div[1]/div[1]/div[3]
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='obsidian-staging.conde.io']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="3b29223b-92c0-4808-ab5e-d81198eb02c9"
+		name="NewVariable">
+			NAMED CRITERIA
+		</var>
+		<var
+		id="69c19ca9-8f2e-4814-8b76-0e1f8f8061cb"
+		name="NewVariable1">
+			http://obsidian-staging.conde.io/named_criteria/show/848
+		</var>
+	</variables>
+</repository>

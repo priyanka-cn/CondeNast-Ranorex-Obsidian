@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c73ed77a-0d10-47b1-ba92-5bdc3b9bf43d"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="NamedCriteria">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				http://obsidian-staging.conde.io/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="da7725aa-1059-4cf1-b7db-3531dbacb73c"
+	name="NamedCriteriaRepository"
+	relativepath="NamedCriteriaRepository.rxrep">
+		<codegen
+		classname="NamedCriteriaRepository"
+		namespace="NamedCriteria">
+		</codegen>
+		<rootfolder
+		id="bf7e67d4-f05c-4862-ab3c-bb158e1d5105"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

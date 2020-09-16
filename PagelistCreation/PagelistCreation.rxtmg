@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="PagelistCreation"
+      id="0e4157ca-c241-4346-9395-52ec3d0118a6"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="PagelistCreation"
+      id="0e4157ca-c241-4346-9395-52ec3d0118a6"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

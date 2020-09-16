@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e9114df1-bd44-4b9e-8973-c1968d4231c6"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="LoginObsidian">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="d0b0b9a7-f8da-4669-a206-2231285cef19">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c9aeb153-65fc-4e2b-acf6-9fda92dce74d"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="bbf5eec9-2acf-4875-8614-05791a51bd47"
+	name="LoginObsidianRepository"
+	relativepath="LoginObsidianRepository.rxrep">
+		<codegen
+		classname="LoginObsidianRepository"
+		namespace="LoginObsidian">
+		</codegen>
+		<rootfolder
+		id="f69fcabe-3d3c-49d1-94d5-8e10d5614587"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="15de0a3d-6dc8-44dc-8ea9-024c091d6bd6"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="NamedCriteria">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="da7725aa-1059-4cf1-b7db-3531dbacb73c"
+	name="NamedCriteriaRepository"
+	relativepath="NamedCriteriaRepository.rxrep">
+		<codegen
+		classname="NamedCriteriaRepository"
+		namespace="NamedCriteria">
+		</codegen>
+		<rootfolder
+		id="bf7e67d4-f05c-4862-ab3c-bb158e1d5105"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

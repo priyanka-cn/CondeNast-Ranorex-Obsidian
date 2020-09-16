@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="68a7742c-fe06-4a6d-b65a-2e1ae7049559"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="NamedCriteria">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="6557b374-90af-4e5b-bf4b-7c71577e4243">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="34089432-bae7-4308-8448-81979698d8cb"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="da7725aa-1059-4cf1-b7db-3531dbacb73c"
+	name="NamedCriteriaRepository"
+	relativepath="NamedCriteriaRepository.rxrep">
+		<codegen
+		classname="NamedCriteriaRepository"
+		namespace="NamedCriteria">
+		</codegen>
+		<rootfolder
+		id="bf7e67d4-f05c-4862-ab3c-bb158e1d5105"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

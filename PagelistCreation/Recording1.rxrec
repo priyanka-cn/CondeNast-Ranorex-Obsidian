@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="898dd888-76ad-4bd0-a259-0e3c2fe86832"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="PagelistCreation">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="aae8ba3b-f36a-4c33-937e-88a625dc7371"
+	name="PagelistCreationRepository"
+	relativepath="PagelistCreationRepository.rxrep">
+		<codegen
+		classname="PagelistCreationRepository"
+		namespace="PagelistCreation">
+		</codegen>
+		<rootfolder
+		id="1a5f8a4a-3208-4b3b-87fb-4af87796a57a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

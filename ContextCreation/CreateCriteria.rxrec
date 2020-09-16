@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4192016d-5f3f-4bc7-afa4-4270127d5690"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CreateCriteria"
+	namespace="ContextCreation">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="7fc6ca68-82ae-4407-ac30-9403b580fea9"
+	name="ContextCreationRepository"
+	relativepath="ContextCreationRepository.rxrep">
+		<codegen
+		classname="ContextCreationRepository"
+		namespace="ContextCreation">
+		</codegen>
+		<rootfolder
+		id="3c1d8e65-33e2-4e0b-bf1a-4762e295e4a8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CreateCriteria.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

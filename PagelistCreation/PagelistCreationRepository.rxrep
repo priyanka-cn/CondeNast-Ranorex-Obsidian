@@ -1,0 +1,274 @@
+﻿<repository
+id="aae8ba3b-f36a-4c33-937e-88a625dc7371"
+name="PagelistCreationRepository">
+	<codegen
+	classname="PagelistCreationRepository"
+	namespace="PagelistCreation">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="1a5f8a4a-3208-4b3b-87fb-4af87796a57a"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="10fe921c-63a8-4019-9c9b-5f82289a97f4"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="323703c5-e4a7-461a-b961-e3ffd64e4f13"
+			name="DeletePageList"
+			refimgid="15dbea75-bb06-4259-be03-4541eaa2211a"
+			refpath="/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[3]/div/table/tbody/tr[1]/td[5]/span/a[@innertext='Delete']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//table/tbody/tr[1]/td[5]/span[@innertext&gt;'&#160;/&#160;                    &#160;/']/a[@innertext='Delete']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="6595cb6d-4716-4440-a397-e9c2fc169dd3"
+			name="DeletePagelistSelection"
+			refimgid="1fb6c3ee-be1f-4d96-ad58-de66734a7ad0"
+			refpath="/dom[@domain='obsidian-staging.conde.io']//div[#'confirmPageListDelete']/div/div/div[3]/button[@innertext='Ok']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//div[#'confirmPageListDelete']//button[@innertext='Ok']
+			</item>
+			<basepath>
+				/dom[@domain='obsidian-staging.conde.io']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="7aaee0d6-60f1-4c57-93c7-47cefebe5633"
+		isrooted="True"
+		name="ContextStudio"
+		refpath="/dom[@domain='obsidian-staging.conde.io']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="2b7c676a-e18e-4c3a-82d2-ea5a07d10b8b"
+			name="UserEmail"
+			refimgid="346d865c-839c-4741-9141-32f22b838035"
+			refpath="/dom[@domain='obsidian-staging.conde.io']//input[#'user_email']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//input[#'user_email']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="5e5951b8-9112-4474-82da-7cb3656a48d2"
+			name="UserPassword"
+			refimgid="8ca944a6-38fd-41bc-9748-d9d2f6cfe405"
+			refpath="/dom[@domain='obsidian-staging.conde.io']//input[#'user_password']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//input[#'user_password']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="ab60b0e2-d43d-4c1d-8672-1c3c1981ed34"
+			name="LogIn"
+			refimgid="6cfc1799-bf32-472c-a4a1-6757ae642af7"
+			refpath="/dom[@domain='obsidian-staging.conde.io']//form[#'new_user']/div[3]/input[@name='commit']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//form[#'new_user']/?/?/input[@name='commit']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="71f0c35e-5d34-4ec5-9cdd-d3fbb82af3ef"
+			name="ContextStudio_ToUserPortal"
+			refimgid="2510da9d-fbde-464b-b6fe-4cb9c7ddbaf1"
+			refpath="/dom[@domain='obsidian-staging.conde.io']//h1[#'site_title']/a[@innertext='Context Studio']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//h1[#'site_title']/a[@innertext='Context Studio']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="fec1b489-1ba2-48a4-bd68-ffc88d7548b0"
+			name="PAGELISTS_tab"
+			refimgid="f7504249-7738-4b8a-a60e-0989279afb1d"
+			refpath="/dom[@domain='obsidian-staging.conde.io']//div[#'myTopnav']/a[@innertext='PAGE LISTS']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//div[#'myTopnav']/a[@innertext='PAGE LISTS']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="7758e0f7-0023-438d-8ef8-498ee09d552f"
+			name="PageListName"
+			refimgid="28976408-78e2-4bb2-9ded-d3c2e447f17e"
+			refpath="/dom[@domain='obsidian-staging.conde.io']//input[#'page_name']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//input[#'page_name']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="298ebe4f-0965-408b-9d2b-3d31fe453da8"
+			name="PageListPath"
+			refimgid="522a18b5-bcf0-4c05-8316-dd612f6f34e9"
+			refpath="/dom[@domain='obsidian-staging.conde.io']//input[#'page_path']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//input[#'page_path']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="adac4066-76ea-4467-b90b-95d7f35734da"
+			name="ShowPagelist"
+			refimgid="80bfed64-3b74-411d-afed-518bd0fb5ac9"
+			refpath="/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[3]/div/table/tbody/tr[1]/td[5]/span/a[@innertext='Show']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//table/tbody/tr[1]/td[5]/span[@innertext&gt;'&#160;/&#160;                    &#160;/']/a[@innertext='Show']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="93f093b1-f513-45f5-9531-43eb7d1e0bb0"
+			name="Close"
+			refimgid="ed6d5dc3-584a-4d00-81e2-25f3e6d39799"
+			refpath="/dom[@domain='obsidian-staging.conde.io']/body/div[1]/div/div/div/div[2]/span/a[@innertext='Close']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']/body/div[1]//a[@innertext='Close']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="b8b107e8-d688-4157-a7ae-0f7ed45efd29"
+			name="EditPagelist"
+			refimgid="5c0a91e3-4a05-445c-866a-80d3ea8344de"
+			refpath="/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[3]/div/table/tbody/tr[1]/td[5]/span/a[@innertext='Edit']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//table/tbody/tr[1]/td[5]/span[@innertext&gt;'&#160;/&#160;                    &#160;/']/a[@innertext='Edit']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="e4f37a23-9b29-430a-a598-2b980f083f42"
+			name="PageDescription"
+			refimgid="1208700a-7275-429f-8712-70658582026f"
+			refpath="/dom[@domain='obsidian-staging.conde.io']//input[#'page_description']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//input[#'page_description']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="9a55dbe4-d576-4a0d-b8b8-a04a1869d5be"
+			name="Logout"
+			refimgid="c2562623-d924-4c07-9647-1f812c49f8bc"
+			refpath="/dom[@domain='obsidian-staging.conde.io']//div[#'myDropdown']/a[@innertext='  Logout']"
+			searchtimeout="30000ms">
+				/dom[@domain='obsidian-staging.conde.io']//div[#'myDropdown']/a[@innertext='  Logout']
+			</item>
+			<folder
+			capname="divtag"
+			id="5f03dc41-d99c-47c2-9df7-6bb6b8feaa64"
+			isrooted="True"
+			name="Container"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="66a780b9-cab2-464f-91eb-1461d6c27f73"
+				name="UserMenu"
+				refimgid="ce33330c-6799-49b4-a43e-6c9ec8524d4c"
+				refpath="/dom[@domain='obsidian-staging.conde.io']/body/div/div[1]/div/div[1]/div[2]/div/button[@innertext='Priyanka Ramesh ']"
+				searchtimeout="30000ms">
+					/dom[@domain='obsidian-staging.conde.io']/body/div//button[@innertext='Priyanka Ramesh ']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="14857b1d-8017-4556-9159-20e37b3f1000"
+				name="ClearSearch"
+				refimgid="14c53989-a30c-4b90-9b09-9a275ba644e1"
+				refpath="/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[1]/div/span/a[@innertext='Clear Search']"
+				searchtimeout="30000ms">
+					/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[1]/?/?/span/a[@innertext='Clear Search']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="4e87e81a-101c-42d7-9163-8f3b210f2540"
+				name="Text"
+				refimgid="8d7514e6-0bc2-4a34-a691-420e9773108b"
+				refpath="/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[1]/div/div[1]/input[@type='text']"
+				searchtimeout="30000ms">
+					/dom[@domain='obsidian-staging.conde.io']/body/div/div[2]/div[1]/div/div[1]/input[@type='text']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="d8b58cf0-0682-46a6-93fb-ec7fa186c59e"
+				name="SavePageList"
+				refimgid="7fcf920b-0d50-4cf8-b67c-9d92a5c0f5af"
+				searchtimeout="30000ms">
+					/dom[@domain='obsidian-staging.conde.io']/body/div/div/div/div/div[2]/input[@type='button' and @class='action-button margin-right-10 float-right save-page-list']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="ecaa715d-f249-4bd9-be61-d9400594bf8e"
+				name="CreatePageList"
+				refimgid="7fcf920b-0d50-4cf8-b67c-9d92a5c0f5af"
+				searchtimeout="30000ms">
+					/dom[@domain='obsidian-staging.conde.io']/body/div/div/div/div/div[2]/input[@type='button' and @class='action-button float-right']
+				</item>
+				<basepath>
+					/dom[@domain='obsidian-staging.conde.io']/body/div
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='obsidian-staging.conde.io']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

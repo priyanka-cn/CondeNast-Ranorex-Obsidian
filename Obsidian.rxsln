@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Ranorex Studio 9.3.0
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{812CB61B-7DB1-420A-9B91-D7387389E4E2}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginObsidian", "LoginObsidian\LoginObsidian.csproj", "{4DB10504-ABAE-4C11-A4A3-3634DAE164FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextCreation", "ContextCreation\ContextCreation.csproj", "{A49B81F8-685E-404C-8C4A-3E08826B8B5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranorex Automation Helpers", "RanorexAutomationHelpers\Ranorex Automation Helpers.csproj", "{C2701EF1-2D83-4C66-AFF3-5D893051072C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamedCriteria", "NamedCriteria\NamedCriteria.csproj", "{437412B9-3860-42C1-B5D8-B526A9772803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagelistCreation", "PagelistCreation\PagelistCreation.csproj", "{73023AC3-EFB9-4477-9D4D-A464F0CFD437}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DB10504-ABAE-4C11-A4A3-3634DAE164FC}.Debug|x86.Build.0 = Debug|x86
+		{4DB10504-ABAE-4C11-A4A3-3634DAE164FC}.Debug|x86.ActiveCfg = Debug|x86
+		{4DB10504-ABAE-4C11-A4A3-3634DAE164FC}.Release|x86.Build.0 = Release|x86
+		{4DB10504-ABAE-4C11-A4A3-3634DAE164FC}.Release|x86.ActiveCfg = Release|x86
+		{A49B81F8-685E-404C-8C4A-3E08826B8B5B}.Debug|x86.Build.0 = Debug|x86
+		{A49B81F8-685E-404C-8C4A-3E08826B8B5B}.Debug|x86.ActiveCfg = Debug|x86
+		{A49B81F8-685E-404C-8C4A-3E08826B8B5B}.Release|x86.Build.0 = Release|x86
+		{A49B81F8-685E-404C-8C4A-3E08826B8B5B}.Release|x86.ActiveCfg = Release|x86
+		{C2701EF1-2D83-4C66-AFF3-5D893051072C}.Debug|x86.Build.0 = Debug|x86
+		{C2701EF1-2D83-4C66-AFF3-5D893051072C}.Debug|x86.ActiveCfg = Debug|x86
+		{C2701EF1-2D83-4C66-AFF3-5D893051072C}.Release|x86.Build.0 = Release|x86
+		{C2701EF1-2D83-4C66-AFF3-5D893051072C}.Release|x86.ActiveCfg = Release|x86
+		{437412B9-3860-42C1-B5D8-B526A9772803}.Debug|x86.Build.0 = Debug|x86
+		{437412B9-3860-42C1-B5D8-B526A9772803}.Debug|x86.ActiveCfg = Debug|x86
+		{437412B9-3860-42C1-B5D8-B526A9772803}.Release|x86.Build.0 = Release|x86
+		{437412B9-3860-42C1-B5D8-B526A9772803}.Release|x86.ActiveCfg = Release|x86
+		{73023AC3-EFB9-4477-9D4D-A464F0CFD437}.Debug|x86.Build.0 = Debug|x86
+		{73023AC3-EFB9-4477-9D4D-A464F0CFD437}.Debug|x86.ActiveCfg = Debug|x86
+		{73023AC3-EFB9-4477-9D4D-A464F0CFD437}.Release|x86.Build.0 = Release|x86
+		{73023AC3-EFB9-4477-9D4D-A464F0CFD437}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal
