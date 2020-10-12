@@ -25,6 +25,3764 @@ mode="Global">
 	<variables>
 	</variables>
 	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="400ms"
+		enabled="True"
+		loc="10;4"
+		movetime="400ms"
+		optional="False"
+		searchpropertyid="87c4075b-be11-4e0f-b817-3f5a29b5ccfb"
+		sx="1214"
+		sy="500"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0827979d-893b-4f0c-b425-5b5542df81aa"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="atag"
+				rect="1204,496,25,15"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Edit
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						http://obsidian-staging.conde.io/context/419/edit
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//table/tbody/tr[2]/td[6]/span[@innertext=' /  / ']/a[@innertext='Edit']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="438e7e17-e00d-432e-92c8-8bbd365351a5">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="400ms"
+		enabled="True"
+		loc="64;6"
+		movetime="400ms"
+		optional="False"
+		searchpropertyid="a05d44a1-7726-4f22-9a14-d5dd212df632"
+		sx="1259"
+		sy="296"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="59ea527e-ba0e-41d6-b3cb-e1ebf8492a7f"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="1195,290,110,32"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						float-right dynamicAttribute-label
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#10;        More Attributes...
+   &#32;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						dynamicAttribute-label float-right
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-controls"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-expanded"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-target"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-toggle"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']/body/div[2]/div[1]/div[5]/a[@innertext&gt;'        More Attributes...']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="b602b395-5c9d-4b18-8fd6-bc3874da4504">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACoAWIDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDo6KTa
+f7x/Sjaf7x/SgBaKTaf7x/Sjaf7x/SgBaKTaf7x/Sjaf7x/SgBaKTaf7x/Sjaf7x/SgBaKTaf7x/
+Sjaf7x/SgBaKTaf7x/Sjaf7x/SgBaKTaf7x/Sjaf7x/SgBaKTaf7x/Sjaf7x/SgBaKTaf7x/Sjaf
+7x/SgBaKTaf7x/Sjaf7x/SgBaKTaf7x/Sjaf7x/SgBaKTaf7x/Sjaf7x/SgBaKTaf7x/Sjaf7x/S
+gBaKTaf7x/Sjaf7x/SgBaKQgqM7icetLQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+C0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAC
+P9xvoaKH+430NFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUALRSb1/vD86N6/3h+dA
+C0Um9f7w/Ojev94fnQAtFJvX+8Pzo3r/AHh+dAC0Um9f7w/Ojev94fnQAtFJvX+8Pzo3r/eH50AL
+RSb1/vD86N6/3h+dAC0Um9f7w/Ojev8AeH50ALRSb1/vD86N6/3h+dAC0Um9f7w/Ojev94fnQAtF
+JvX+8Pzo3r/eH50ALRSb1/vD86N6/wB4fnQAtFJvX+8Pzo3r/eH50ALRSb1/vD86N6/3h+dAC0Um
+9f7w/Ojev94fnQAP9xvoaKRmBUgEEnjiloAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigCG7JWzmZSQRGxBHbisyztLm6tkm+3zLuzxknvj1rSvf+PKf/rm38qyrG8kt4oQcmEIS
+wA6fMeaSjzysdEZunScl3LP9m3P/AEEpv1/xo/s25/6CU36/40sF/J+/edTwVCIAM89BUjagY1k8
+6Ao6AHbuByCfWqdHWxH1qff8F/kRf2bc/wDQSm/X/Gj+zbn/AKCU36/41JJqJj2hodrkbirOBgf4
++1W45UkgEoOFIzzSdK2rBYmb0v8Agv8AIof2bc/9BKb9f8aP7Nuf+glN+v8AjTrO9eW4ZXKlXBaM
+AjjHamfbbr7GZPL5D4DZHr0xVew1sL61P+kv8hf7Nuf+glN+v+NH9m3P/QSm/X/Gp/tkhm8n7OwY
+KCx3D5aoQ380XkTSz70mEg2OVQDa2Bz9Kn2Q/rM+/wCC/wAix/Ztz/0Epv1/xo/s25/6CU36/wCN
+T29/HcGLYuRJu5z0IqL7dK80HlRZV9wIyOcU1RD6zPv+C/yG/wBm3P8A0Epv1/xo/s25/wCglN+v
++NSrqUbThNvyltobcM5+nXFSW159olZRHtC553DP4jqKTpW6B9Zn3/Bf5Fb+zbn/AKCU36/40aQ0
+vn3UcsryeWwUFiT3NadZml/8ft//ANdP6tUWSasaqpKdOXN5fmadFFFWcoUUUUAFFFFABRRRQAUU
+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
+AooooAKKKKACiiigAooooAKKKKAP/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="400ms"
+		enabled="True"
+		loc="31;20"
+		movetime="400ms"
+		optional="False"
+		searchpropertyid="260c843f-d22a-4b78-98a0-22c011636dc1"
+		sx="714"
+		sy="362"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bd83f4f5-03a4-4abe-a67b-5eadb743e761"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="683,342,578,39"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						col-md-6 form-control dynamic-input-box input-box
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						businessName
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						col-md-6 dynamic-input-box form-control input-box
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//input[#'businessName']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="4c59fec0-f2e0-446a-900c-75e70fc1c133">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCADEAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDotx/u
+n9KNx/un9KWigBNx/un9KNx/un9KWigBNx/un9KNx/un9KWigBNx/un9KNx/un9KWigBNx/un9KN
+x/un9KWigBNx/un9KNx/un9KWigBNx/un9KNx/un9KWigBNx/un9KNx/un9KWigBNx/un9KNx/un
+9KWigBNx/un9KNx/un9KWigBNx/un9KNx/un9KWigBNx/un9KNx/un9KWigBNx/un9KNx/un9KWi
+gBNx/un9KNx/un9KWigBNx/un9KNx/un9KWigBNx/un9KNx/un9KWigBNx/un9KNx/un9KWigBNx
+/un9KNx/un9KWigBNx/un9KNx/un9KWigBNx/un9KNx/un9KWigBNx/un9KNx/un9KWigBNx/un9
+KNx/un9KWigBNx/un9KNx/un9KWigBNx/un9KNx/un9KWigBNx/un9KNx/un9KWigBNx/un9KNx/
+un9KWigBNx/un9KNx/un9KWigBNx/un9KNx/un9KWigBNx/un9KNx/un9KWigBNx/un9KNx/un9K
+WigBNx/un9KNx/un9KWigBNx/un9KKWigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKZk0
+ZNOwrj6KZk0ZNFguPopmTRk0WC4+imZNGTRYLj6KZk0ZNFguPopmTRk0WC4+imZNGTRYLj6KZk0Z
+NFguPopmTRk0WC4+imZNGTRYLj6KZk0ZNFguPopmTRk0WC4+imZNGTRYLj6KZk0ZNFguPopmTRk0
+WC4+imZNGTRYLj6KZk0ZNFguPopmTRk0WC4+imZNGTRYLj6KZk0ZNFguPopmTRk0WC4+imZNGTRY
+Lj6KZk0ZNFguPopmTRk0WC4+imZNGTRYLj6KZk0ZNFguPopmTRk0WC4+imZNGTRYLj6KZk0ZNFgu
+PopmTRk0WC4+imZNGTRYLj6KZk0UWC4lFQfbLf8A56foaPtlv/z0/Q1VibonoqD7Zb/89P0NH2y3
+/wCen6GiwXRPRUH2y3/56foaPtlv/wA9P0NFguieioPtlv8A89P0NH2y3/56foaLBdE9FQfbLf8A
+56foaPtlv/z0/Q0WC6J6Kg+2W/8Az0/Q0fbLf/np+hosF0T0VB9st/8Anp+ho+2W/wDz0/Q0WC6J
+6Kg+2W//AD0/Q0fbLf8A56foaLBdE9FQfbLf/np+ho+2W/8Az0/Q0WC6J6Kg+2W//PT9DR9st/8A
+np+hosF0T0VB9st/+en6Gj7Zb/8APT9DRYLonoqD7Zb/APPT9DR9st/+en6GiwXRPRQpDAFSCD3F
+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
+ABRRRQAUUUUAFFFFABRRRQAUUUUAf//Z
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="Vogue"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="4353a912-f264-43af-9daf-7b508e0d2c42">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bd83f4f5-03a4-4abe-a67b-5eadb743e761"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="683,342,578,39"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						col-md-6 form-control dynamic-input-box input-box
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						businessName
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						col-md-6 dynamic-input-box form-control input-box
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//input[#'businessName']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="72749ea8-9966-4c9c-839e-031d49a181fc">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCADEAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDot49/
+yNG8e/5GlooATePf8jRvHv8AkaWigBN49/yNG8e/5GlooATePf8AI0bx7/kaWigBN49/yNG8e/5G
+looATePf8jRvHv8AkaWigBN49/yNG8e/5GlooATePf8AI0bx7/kaWigBN49/yNG8e/5GlooATePf
+8jRvHv8AkaWigBN49/yNG8e/5GlooATePf8AI0bx7/kaWigBN49/yNG8e/5GlooATePf8jRvHv8A
+kaWigBN49/yNG8e/5GlooATePf8AI0bx7/kaWigBN49/yNG8e/5GlooATePf8jRvHv8AkaWigBN4
+9/yNG8e/5GlooATePf8AI0bx7/kaWigBN49/yNG8e/5GlooATePf8jRvHv8AkaWigBN49/yNG8e/
+5GlooATePf8AI0bx7/kaWigBN49/yNG8e/5GlooATePf8jRvHv8AkaWigBN49/yNG8e/5GlooATe
+Pf8AI0bx7/kaWigBN49/yNG8e/5GlooATePf8jRvHv8AkaWigBN49/yNG8e/5GlooATePf8AI0Ut
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAVV1F2S0ZkYqcjkHHerVRzQpPGY5BlT71UXZpsT2I724NtAHABYsF
+GelVvt85gZhECysAW2ttx6461YFjBsZSGIPqxNL9ig2bcN13Z3nOfrVJwSFZjFuZWjRkiEgYZJQ8
+UU/7Hb7VXy+FGByaKV4lLbUsUU3caNxqbCuOopu40bjRYLjqKbuNG40WC46im7jRuNFguOopu40b
+jRYLjqKbuNG40WC46im7jRuNFguOopu40bjRYLjqKbuNG40WC46im7jRuNFguOopu40bjRYLjqKb
+uNG40WC46im7jRuNFguOopu40bjRYLjqKbuNG40WC46im7jRuNFguOopu40bjRYLjqKbuNG40WC4
+6im7jRuNFguOopu40bjRYLjqKbuNG40WC46im7jRuNFguOopu40bjRYLjqKbuNG40WC46im7jRuN
+FguOopu40bjRYLjqKbuNG40WC46im7jRuNFguOopu40bjRYLjqKbuNG40WC46im7jRuNFguOopu4
+0UWC42io/NP9w0eaf7hrL6xT7/gx8jJKKj80/wBw0eaf7ho+sU+/4MORklFR+af7ho80/wBw0fWK
+ff8ABhyMkoqPzT/cNHmn+4aPrFPv+DDkZJRUfmn+4aPNP9w0fWKff8GHIySio/NP9w0eaf7ho+sU
++/4MORklFR+af7ho80/3DR9Yp9/wYcjJKKj80/3DR5p/uGj6xT7/AIMORklFR+af7ho80/3DR9Yp
+9/wYcjJKKj80/wBw0eaf7ho+sU+/4MORklFR+af7ho80/wBw0fWKff8ABhyMkoqPzT/cNHmn+4aP
+rFPv+DDkZJRUfmn+4aPNP9w0fWKff8GHIySio/NP9w0eaf7ho+sU+/4MORklFR+af7ho80/3DR9Y
+p9/wYcjJKKj80/3DR5p/uGj6xT7/AIMORklFR+af7ho80/3DR9Yp9/wYcjJKKj80/wBw0eaf7ho+
+sU+/4MORklFR+af7ho80/wBw0fWKff8ABhyMkoqPzT/cNHmn+4aPrFPv+DDkZJRUfmn+4aPNP9w0
+fWKff8GHIySio/NP9w0eaf7ho+sU+/4MORklFR+af7ho80/3DR9Yp9/wYcjJKKj80/3DR5p/uGj6
+xT7/AIMORklFR+af7ho80/3DR9Yp9/wYcjJKKj80/wBw0eaf7ho+sU+/4MORklFR+af7ho80/wBw
+0fWKff8ABhyMkoqPzT/cNHmn+4aPrFPv+DDkZJRUfmn+4aPNP9w0fWKff8GHIySio/NP9w0eaf7h
+o+sU+/4MORklFR+af7ho80/3DR9Yp9/wYcjJKKj80/3DRR9Yp9/wYcjLNFFRtIRcJHxhkZj+BH+N
+aASUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAZNvJsS1kdmWMSSAlz064zUlnIJdSkZW3L8+D/wB8VoRxpFGEjUKo6CgxgyrJ
+zlVKj8cf4UAOooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAZ5yev6ijzk9f1FR+Wnp+tHlp6frWX77svx/yHeJJ5yev6ijzk9f
+1FR+Wnp+tHlp6frR++7L8f8AILxJPOT1/UUecnr+oqPy09P1o8tPT9aP33Zfj/kF4knnJ6/qKPOT
+1/UVH5aen60eWnp+tH77svx/yC8STzk9f1FHnJ6/qKj8tPT9aPLT0/Wj992X4/5BeJJ5yev6ijzk
+9f1FR+Wnp+tHlp6frR++7L8f8gvEk85PX9RR5yev6io/LT0/Wjy09P1o/fdl+P8AkF4knnJ6/qKP
+OT1/UVH5aen60eWnp+tH77svx/yC8STzk9f1FHnJ6/qKj8tPT9aPLT0/Wj992X4/5BeJJ5yev6ij
+zk9f1FR+Wnp+tHlp6frR++7L8f8AILxJPOT1/UUecnr+oqPy09P1o8tPT9aP33Zfj/kF4knnJ6/q
+KPOT1/UVH5aen60eWnp+tH77svx/yC8STzk9f1FHnJ6/qKj8tPT9aPLT0/Wj992X4/5BeJJ5yev6
+ijzk9f1FR+Wnp+tHlp6frR++7L8f8gvEk85PX9RR5yev6io/LT0/Wjy09P1o/fdl+P8AkF4knnJ6
+/qKPOT1/UVH5aen60eWnp+tH77svx/yC8STzk9f1FHnJ6/qKj8tPT9aPLT0/Wj992X4/5BeJJ5ye
+v6ijzk9f1FR+Wnp+tHlp6frR++7L8f8AILxJPOT1/UUecnr+oqPy09P1o8tPT9aP33Zfj/kF4knn
+J6/qKPOT1/UVH5aen60eWnp+tH77svx/yC8STzk9f1FHnJ6/qKj8tPT9aPLT0/Wj992X4/5BeJJ5
+yev6ijzk9f1FR+Wnp+tHlp6frR++7L8f8gvEk85PX9RR5yev6io/LT0/Wjy09P1o/fdl+P8AkF4k
+nnJ6/qKPOT1/UVH5aen60eWnp+tH77svx/yC8STzk9f1FHnJ6/qKj8tPT9aPLT0/Wj992X4/5BeJ
+J5yev6ijzk9f1FR+Wnp+tHlp6frR++7L8f8AILxJPOT1/UUecnr+oqPy09P1o8tPT9aP33Zfj/kF
+4knnJ6/qKPOT1/UVH5aen60eWnp+tH77svx/yC8STzk9f1FHnJ6/qKj8tPT9aPLT0/Wj992X4/5B
+eJJ5yev6ijzk9f1FR+Wnp+tHlp6frR++7L8f8gvEk85PX9RR5yev6io/LT0/Wjy09P1o/fdl+P8A
+kF4knnJ6/qKKj8tPT9aKP33Zfj/kF4k2xf7o/KjYv90flS0VqITYv90flRsX+6PypaKAE2L/AHR+
+VGxf7o/KlooATYv90flRsX+6PypaKAE2L/dH5UbF/uj8qWigBNi/3R+VGxf7o/KlooATYv8AdH5U
+bF/uj8qWigBNi/3R+VGxf7o/KlooATYv90flRsX+6PypaKAE2L/dH5UbF/uj8qWigBNi/wB0flRs
+X+6PypaKAE2L/dH5UbF/uj8qWigBNi/3R+VGxf7o/KlooATYv90flRsX+6PypaKAE2L/AHR+VGxf
+7o/KlooATYv90flRsX+6PypaKAE2L/dH5UbF/uj8qWigBNi/3R+VGxf7o/KlooATYv8AdH5UbF/u
+j8qWigBNi/3R+VGxf7o/KlooATYv90flRsX+6PypaKAE2L/dH5UbF/uj8qWigBNi/wB0flRsX+6P
+ypaKAE2L/dH5UbF/uj8qWigBNi/3R+VGxf7o/KlooATYv90flRsX+6PypaKAE2L/AHR+VGxf7o/K
+looATYv90flRsX+6PypaKAE2L/dH5UbF/uj8qWigBNi/3R+VGxf7o/KlooATYv8AdH5UbF/uj8qW
+igBNi/3R+VFLRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFADfMX3/I0eYvv+RplFOwrj/MX3/I0eYvv+RplFFguP8A
+MX3/ACNHmL7/AJGmUUWC4/zF9/yNHmL7/kaZRRYLj/MX3/I0eYvv+RplFFguP8xff8jR5i+/5GmU
+UWC4/wAxff8AI0eYvv8AkaZRRYLj/MX3/I0eYvv+RplFFguP8xff8jR5i+/5GmUUWC4/zF9/yNHm
+L7/kaZRRYLj/ADF9/wAjR5i+/wCRplFFguP8xff8jR5i+/5GmUUWC4/zF9/yNHmL7/kaZRRYLj/M
+X3/I0eYvv+RplFFguP8AMX3/ACNHmL7/AJGmUUWC4/zF9/yNHmL7/kaZRRYLj/MX3/I0eYvv+Rpl
+FFguP8xff8jR5i+/5GmUUWC4/wAxff8AI0eYvv8AkaZRRYLj/MX3/I0eYvv+RplFFguP8xff8jR5
+i+/5GmUUWC4/zF9/yNHmL7/kaZRRYLj/ADF9/wAjR5i+/wCRplFFguP8xff8jR5i+/5GmUUWC4/z
+F9/yNHmL7/kaZRRYLj/MX3/I0eYvv+RplFFguP8AMX3/ACNHmL7/AJGmUUWC4/zF9/yNHmL7/kaZ
+RRYLj/MX3/I0eYvv+RplFFguP8xff8jR5i+/5GmUUWC4/wAxff8AI0eYvv8AkaZRRYLj/MX3/I0U
+yiiwXH+Wvv8AmaPLX3/M06ikMb5a+/5mjy19/wAzTqKAG+Wvv+Zo8tff8zTqMjOM80ANMYxxkH60
+wHIBqUEHOD0qFfuj6U0Ji0UUUxBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFAEtFFFSUFFFFABWbq+bcLdwkpLnYSOhHvRRQBZsIljtVYZLSAOzE5JJp6/d
+H0oopoTFooopiCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKAP/Z
+			</helperscreenshot>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="400ms"
+		enabled="True"
+		loc="40;24"
+		movetime="400ms"
+		optional="False"
+		searchpropertyid="7758b31d-4116-4089-95b7-7c427dcc3fb2"
+		sx="723"
+		sy="415"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="53e21911-b9a6-4d1c-bd28-759c71ac1bb2"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="683,391,578,39"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						col-md-6 form-control dynamic-input-box input-box
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						businessDescription
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						col-md-6 dynamic-input-box form-control input-box
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//input[#'businessDescription']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="c97aa2be-8c59-4d0b-8079-480f280cf1d9">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCADEAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDo6KZk
+0ZNOwrj6KZk0ZNFguPopmTRk0WC4+imZNGTRYLj6KZk0ZNFguPopmTRk0WC4+imZNGTRYLj6KZk0
+ZNFguPopmTRk0WC4+imZNGTRYLj6KZk0ZNFguPopmTRk0WC4+imZNGTRYLj6KZk0ZNFguPopmTRk
+0WC4+imZNGTRYLj6KZk0ZNFguPopmTRk0WC4+imZNGTRYLj6KZk0ZNFguPopmTRk0WC4+imZNGTR
+YLj6KZk0ZNFguPopmTRk0WC4+imZNGTRYLj6KZk0ZNFguPopmTRk0WC4+imZNGTRYLj6KZk0ZNFg
+uPopmTRk0WC4+imZNGTRYLj6KZk0UWC4lFLg+h/KjB9D+VMQlFLg+h/KjB9D+VACUUuD6H8qMH0P
+5UAJRS4PofyowfQ/lQAlFLg+h/KjB9D+VACUUuD6H8qMH0P5UAJRS4PofyowfQ/lQAlFLg+h/KjB
+9D+VACUUuD6H8qMH0P5UAJRS4PofyowfQ/lQAlFLg+h/KjB9D+VACUUuD6H8qMH0P5UAJRS4Pofy
+owfQ/lQAlFLg+h/KjB9D+VACUUuD6H8qMH0P5UAJRS4PofyowfQ/lQAlFLg+h/KjB9D+VACUUuD6
+H8qMH0P5UAJRS4PofyowfQ/lQAlFLg+h/KjB9D+VACUUuD6H8qMH0P5UAJRS4PofyowfQ/lQAlFL
+g+h/KjB9D+VACUUuD6H8qMH0P5UAJRS4PofyowfQ/lQAlFLg+h/KjB9D+VACUUuD6H8qMH0P5UAJ
+RS4PofyowfQ/lQAlFLg+h/KjB9D+VACUUuD6H8qMH0P5UAJRS4PofyowfQ/lQAlFLg+h/KigCSik
+DqcYYHPTmjcvPI4689KkoWioXmBeDy3DKzlTg5z8pP8AQVNQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQBk2oKxWsojbYkj5CDdgH
+I7U5o5ZYrhljcAzBtrLyyjHatNVCqFUAAdAKWgDORAb6KVQwBbB/dlAflb171o0jIrFSRkqcj2OM
+f1paACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKAGbz6frRvPp+tZf9pz/8+En5n/Cj+05/+fCT8z/hS5om31ep2/Ff5mpvPp+tG8+n
+61l/2nP/AM+En5n/AAo/tOf/AJ8JPzP+FHNEPq9Tt+K/zNTefT9aN59P1rL/ALTn/wCfCT8z/hR/
+ac//AD4Sfmf8KOaIfV6nb8V/mam8+n60bz6frWX/AGnP/wA+En5n/Cj+05/+fCT8z/hRzRD6vU7f
+iv8AM1N59P1o3n0/Wsv+05/+fCT8z/hR/ac//PhJ+Z/wo5oh9XqdvxX+Zqbz6frRvPp+tZf9pz/8
++En5n/Cj+05/+fCT8z/hRzRD6vU7fiv8zU3n0/WjefT9ay/7Tn/58JPzP+FH9pz/APPhJ+Z/wo5o
+h9XqdvxX+Zqbz6frRvPp+tZf9pz/APPhJ+Z/wo/tOf8A58JPzP8AhRzRD6vU7fiv8zU3n0/WjefT
+9ay/7Tn/AOfCT8z/AIUf2nP/AM+En5n/AAo5oh9XqdvxX+Zqbz6frRvPp+tZf9pz/wDPhJ+Z/wAK
+P7Tn/wCfCT8z/hRzRD6vU7fiv8zU3n0/WjefT9ay/wC05/8Anwk/M/4Uf2nP/wA+En5n/CjmiH1e
+p2/Ff5mpvPp+tG8+n61l/wBpz/8APhJ+Z/wo/tOf/nwk/M/4Uc0Q+r1O34r/ADNTefT9aN59P1rL
+/tOf/nwk/M/4Uf2nP/z4Sfmf8KOaIfV6nb8V/mam8+n60bz6frWX/ac//PhJ+Z/wo/tOf/nwk/M/
+4Uc0Q+r1O34r/M1N59P1o3n0/Wsv+05/+fCT8z/hR/ac/wDz4Sfmf8KOaIfV6nb8V/mam8+n60bz
+6frWX/ac/wDz4Sfmf8KP7Tn/AOfCT8z/AIUc0Q+r1O34r/M1N59P1o3n0/Wsv+05/wDnwk/M/wCF
+H9pz/wDPhJ+Z/wAKOaIfV6nb8V/mam8+n60bz6frWX/ac/8Az4Sfmf8ACj+05/8Anwk/M/4Uc0Q+
+r1O34r/M1N59P1o3n0/Wsv8AtOf/AJ8JPzP+FH9pz/8APhJ+Z/wo5oh9XqdvxX+Zqbz6frRvPp+t
+Zf8Aac//AD4Sfmf8KP7Tn/58JPzP+FHNEPq9Tt+K/wAzU3n0/WjefT9ay/7Tn/58JPzP+FH9pz/8
++En5n/CjmiH1ep2/Ff5mpvPp+tG8+n61l/2nP/z4Sfmf8KP7Tn/58JPzP+FHNEPq9Tt+K/zNTefT
+9aN59P1rL/tOf/nwk/M/4Uf2nP8A8+En5n/CjmiH1ep2/Ff5mpvPp+tG8+n61l/2nP8A8+En5n/C
+j+05/wDnwk/M/wCFHNEPq9Tt+K/zNTefT9aN59P1rL/tOf8A58JPzP8AhR/ac/8Az4Sfmf8ACjmi
+H1ep2/Ff5mpvPp+tG8+n61l/2nP/AM+En5n/AAo/tOf/AJ8JPzP+FHNEPq9Tt+K/zNTefT9aN59P
+1rL/ALTn/wCfCT8z/hR/ac//AD4Sfmf8KOaIfV6nb8V/mam8+n60bz6frWX/AGnP/wA+En5n/Cj+
+05/+fCT8z/hRzRD6vU7fiv8AM1N59P1o3n0/Wsv+05/+fCT8z/hR/ac//PhJ+Z/wo5oh9XqdvxX+
+Zqbz6frRvPp+tZf9pz/8+En5n/Cj+05/+fCT8z/hRzRD6vU7fiv8zU3n0/WjefT9ay/7Tn/58JPz
+P+FH9pz/APPhJ+Z/wo5oh9XqdvxX+Zqbz6frRWX/AGnP/wA+En5n/CijmiH1ep2/Ff5mvRRRTMQo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAO9FGeaKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigCv9utv+e0f/AH2v+NRyarZxthpcnGflG7+VR/2XZ/8A
+PH/x4/40yPTbRrqRDD8qopA3HqS2e/sKXvG37nu/w/zJP7Ysv+ejf98Gj+2LL/no3/fBpJbDToiA
+8DZPQLvb+VKmm6c5wsQPAbh26Hp3pe8O1Hu/w/zD+2LL/no3/fBo/tiy/wCejf8AfBp39k2P/PD/
+AMfb/Gj+ybH/AJ4f+Pt/jR7wWo93+H+Y3+2LL/no3/fBo/tiy/56N/3wad/ZNj/zw/8AH2/xqP7B
+p2WHkt8vU/Pj86PeC1Hu/wAP8x39sWX/AD0b/vg0f2xZf89G/wC+DSrpmnuSFhzjGfmb/Gl/smx/
+54f+Pt/jR7wrUe7/AA/zG/2xZf8APRv++DR/bFl/z0b/AL4NOOl2CgloQAOpLn/Gg6VYAcwgduXP
++NHvBaj3f4f5jf7Ysv8Ano3/AHwaP7Ysv+ejf98GlXTLBiwEPKnB+Zv8aVdKsWGRAfxZh/Wj3gtR
+7v8AD/Mb/bFl/wA9G/74NH9sWX/PRv8Avg0Pp2nxlQ0Jy3QAsf5U4aVYkAiA8+rMP60e8FqPd/h/
+mN/tiy/56N/3waP7Ysv+ejf98GlXTNPZSwhyBkfebt+NC6XYOoZYcgjI+Zv8aPeC1Hu/w/zHR6rZ
+yNhZcHGfmG3+dSfbrb/ntH/32v8AjVSTTbRbqNBD8rIxI3HqCuO/uaf/AGXZ/wDPH/x4/wCNP3g/
+c93+H+ZY+3W3/PaP/vtf8aPt1t/z2j/77X/Gq/8AZdn/AM8f/Hj/AI0f2XZ/88f/AB4/40WkH7nu
+/wAP8yx9utv+e0f/AH2v+NH262/57R/99r/jVf8Asuz/AOeP/jx/xo/suz/54/8Ajx/xotIP3Pd/
+h/mWPt1t/wA9o/8Avtf8aPt1t/z2j/77X/Gq/wDZdn/zx/8AHj/jR/Zdn/zx/wDHj/jRaQfue7/D
+/Msfbrb/AJ7R/wDfa/40fbrb/ntH/wB9r/jVf+y7P/nj/wCPH/Gj+y7P/nj/AOPH/Gi0g/c93+H+
+ZY+3W3/PaP8A77X/ABo+3W3/AD2j/wC+1/xqv/Zdn/zx/wDHj/jR/Zdn/wA8f/Hj/jRaQfue7/D/
+ADLH262/57R/99r/AI0fbrb/AJ7R/wDfa/41X/suz/54/wDjx/xo/suz/wCeP/jx/wAaLSD9z3f4
+f5lj7dbf89o/++1/xo+3W3/PaP8A77X/ABqv/Zdn/wA8f/Hj/jR/Zdn/AM8f/Hj/AI0WkH7nu/w/
+zLH262/57R/99r/jR9utv+e0f/fa/wCNV/7Ls/8Anj/48f8AGj+y7P8A54/+PH/Gi0g/c93+H+ZY
++3W3/PaP/vtf8aPt1t/z2j/77X/Gq/8AZdn/AM8f/Hj/AI0f2XZ/88f/AB4/40WkH7nu/wAP8yx9
+utv+e0f/AH2v+NH262/57R/99r/jVf8Asuz/AOeP/jx/xo/suz/54/8Ajx/xotIP3Pd/h/mWPt1t
+/wA9o/8Avtf8aPt1t/z2j/77X/Gq/wDZdn/zx/8AHj/jR/Zdn/zx/wDHj/jRaQfue7/D/Msfbrb/
+AJ7R/wDfa/40fbrb/ntH/wB9r/jVf+y7P/nj/wCPH/Gj+y7P/nj/AOPH/Gi0g/c93+H+ZY+3W3/P
+aP8A77X/ABo+3W3/AD2j/wC+1/xqv/Zdn/zx/wDHj/jR/Zdn/wA8f/Hj/jRaQfue7/D/ADLH262/
+57R/99r/AI0fbrb/AJ7R/wDfa/41X/suz/54/wDjx/xo/suz/wCeP/jx/wAaLSD9z3f4f5lj7dbf
+89o/++1/xo+3W3/PaP8A77X/ABqv/Zdn/wA8f/Hj/jR/Zdn/AM8f/Hj/AI0WkH7nu/w/zLH262/5
+7R/99r/jR9utv+e0f/fa/wCNV/7Ls/8Anj/48f8AGj+y7P8A54/+PH/Gi0g/c93+H+ZY+3W3/PaP
+/vtf8aPt1t/z2j/77X/Gq/8AZdn/AM8f/Hj/AI0f2XZ/88f/AB4/40WkH7nu/wAP8yx9utv+e0f/
+AH2v+NH262/57R/99r/jVf8Asuz/AOeP/jx/xo/suz/54/8Ajx/xotIP3Pd/h/mWPt1t/wA9o/8A
+vtf8aPt1t/z2j/77X/Gq/wDZdn/zx/8AHj/jR/Zdn/zx/wDHj/jRaQfue7/D/Msfbrb/AJ7R/wDf
+a/40fbrb/ntH/wB9r/jVf+y7P/nj/wCPH/Gj+y7P/nj/AOPH/Gi0g/c93+H+ZY+3W3/PaP8A77X/
+ABo+3W3/AD2j/wC+1/xqv/Zdn/zx/wDHj/jR/Zdn/wA8f/Hj/jRaQfue7/D/ADLH262/57R/99r/
+AI0VX/suz/54/wDjx/xootIP3Pd/h/mX9i/3R+VQxgC+lwAP3Sfzep6rNIIr2RnWQho0AKxs3Qt6
+D3FMxHTrK08ZiIXCtlmXcO3uKhljkiV1h3ABEXdgk4yc9MfpU32uP+7N/wB+H/wo+1x/3Zv+/D/4
+UAVJfOFuqq8rH5irBJAc9hjOfxJxUjGbzZPL8xpChIyGAU4HGD8pqf7XH/dm/wC/D/4Un26AuU/e
+7wMlfJfOPyoASxDBXzI7AngMjrj/AL6JNRCJ0Rgok+ZpMgkn1x1qZb6BywTzWKnBxC5wfypftkXp
+N/35f/Ch6gLbqQ8mQRnb1HtVdRISAnneaQfM3Z29D07dcdKn+2Rek3/fl/8ACj7ZF6Tf9+X/AMKA
+RXkLXEMgCzAeUOCGXLf1qa5RXtUwJSqsp4LbsZ/OnfbIvSb/AL8v/hR9si9Jv+/L/wCFAEXlsJHk
+UyZ81cDJwRgA8d/xpB5glhLeax6bfmAHJ5JHB+hqb7ZF6Tf9+X/wo+2Rek3/AH5f/CgBLiMtcI43
+5VG6MQM8YqAiczx7pJEGF24jZs+ucHH5irH2yL0m/wC/L/4UfbIvSb/vy/8AhQBXIYcSCcD5tgjB
+67j1x+HXirVsSIUQqwKoucj2pv2yL0m/78v/AIUfbIvSb/vy/wDhQAk3/H9D/wBc3/mtPqHzRNeR
+siyYWNwS0bL1K+o9jU1UhMKKKKBBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAEtFFFSUFFFFAB
+Ve7tBcbWVzFKv3XXrj0qxRQBHbwR28QjjGAPzJ9TTV+6PpU1Qr90fSmhMWiiimIKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAXLf3j+lGW/vH9KSigBct/
+eP6UZb+8f0pKKAFy394/pRlv7x/SkooACSerGiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKfgUYFFx2GUU/AowKLhYZRT8CjAouFhlFPwK
+MCi4WGUU/AowKLhYZRT8CjAouFhlFPwKMCi4WGUU/AowKLhYZRT8CjAouFhlFPwKMCi4WGUU/Aow
+KLhYZRT8CjAouFhlFPwKMCi4WGUU/AowKLhYZRT8CjAouFhlFPwKMCi4WGUU/AowKLhYZRT8CjAo
+uFhlFPwKMCi4WGUU/AowKLhYZRT8CjAouFhlFPwKMCi4WGUU/AowKLhYZRT8CjAouFhlFPwKMCi4
+WGUU/AowKLhYZRT8CjAouFhlFPwKMCi4WGUU/AowKLhYZRT8CjAouFhlFPwKMCi4WGUU/AoouFha
+KKKkYUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAf/2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="Fashion"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="06004071-30cf-4e7c-9fb4-a351ca7e9bb3">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="53e21911-b9a6-4d1c-bd28-759c71ac1bb2"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="683,391,578,39"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						col-md-6 form-control dynamic-input-box input-box
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						businessDescription
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						col-md-6 dynamic-input-box form-control input-box
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//input[#'businessDescription']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="18c5f65b-b9d7-45ad-a3a6-d38b7a864873">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCADaAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDfoooq
+iQooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAop/lr7/maPLX3/ADNK47DKKf5a+/5mjy19/wAzRcLD
+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
+86Ny/wB4fnS/Z09/zo+zp7/nRet2X4haIm5f7w/Ojcv94fnS/Z09/wA6Ps6e/wCdF63ZfiFoibl/
+vD86Ny/3h+dL9nT3/Oj7Onv+dF63ZfiFoibl/vD86Ny/3h+dL9nT3/Oj7Onv+dF63ZfiFoibl/vD
+86Ny/wB4fnS/Z09/zo+zp7/nRet2X4haIm5f7w/Ojcv94fnS/Z09/wA6Ps6e/wCdF63ZfiFoibl/
+vD86KX7Onv8AnRRet2X4haJLRWbb3E8NsjsqtF5hU8ndy2M1KLnYZdqZczeWoLHBOOvtWoi47qgy
+xwMgfiTgUtUZppA4gmVdxZGVk6EbxV6gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigCD7JH9nEGW2ht2c85zmkazjZZAS3zvvyDyp9
+qsUUAVXtP49zyyFk+ZiOAGBPpVqiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigCttk/vLRtk/vLU2w/3h+VGw/3h+VZexXd/ePmf
+Yh2yf3lo2yf3lqbYf7w/KjYf7w/Kj2K7v7w5n2Idsn95aNsn95am2H+8Pyo2H+8Pyo9iu7+8OZ9i
+HbJ/eWjbJ/eWpijAdQfwpvUU/Yru/vDmfYj2yf3lo2yf3lqSij2K7v7xcxHtk/vLRtk/vLUlFHsV
+3f3hzEe2T+8tG2T+8tSUUexXd/eHMR7ZP7y0bZP7y1JRR7Fd394cxHtk/vLRtk/vLUlFHsV3f3hz
+Ee2T+8tG2T+8tSUUexXd/eHMR7ZP7y0bZP7y1JRR7Fd394cxHtk/vLRtk/vLUlFHsV3f3hzEe2T+
+8tG2T+8tSUUexXd/eHMR7ZP7y0bZP7y1JRR7Fd394cxHtk/vLRtk/vLUlFHsV3f3hzEe2T+8tG2T
++8tSUUexXd/eHMR7ZP7y0bZP7y1JRR7Fd394cxHtk/vLRtk/vLUlFHsV3f3hzEe2T+8tG2T+8tSU
+UexXd/eHMR7ZP7y0bZP7y1JRR7Fd394cxHtk/vLRtk/vLUlFHsV3f3hzEe2T+8tG2T+8tSUUexXd
+/eHMR7ZP7y0bZP7y1JRR7Fd394cxHtk/vLRtk/vLUlFHsV3f3hzEe2T+8tG2T+8tSUUexXd/eHMR
+7ZP7y0bZP7y1JRR7Fd394cxHtk/vLRtk/vLUlFHsV3f3hzEe2T+8tG2T+8tSUUexXd/eHMR7ZP7y
+0bZP7y1JRR7Fd394cxHtk/vLRtk/vLUlFHsV3f3hzEe2T+8tG2T+8tSUUexXd/eHMR7ZP7y0VJRR
+7Fd394cxLRRRWgBRRRQAUUVUumuYJBNEDNHjDRdx7igC3UK/dH0otFnEZa4fLsc7R0X2oX7o+lNC
+YtFFFMQUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQBL
+RTPM/wBk/pR5n+yf0qSh9FM8z/ZP6UeZ/sn9KAH0UzzP9k/pR5n+yf0oAfUK/dH0p5fjhTn3po4G
+KaEwooopiCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAdtNG006ilcdhu00bTTqKLhYbtNG006ii4WG7TRtNOoouFhu00bTTqKLh
+YbtNG006ii4WG7TRtNOoouFhu00bTTqKLhYbtNG006ii4WG7TRtNOoouFhu00bTTqKLhYbtNG006
+ii4WG7TRtNOoouFhu00bTTqKLhYbtNG006ii4WG7TRtNOoouFhu00bTTqKLhYbtNG006ii4WG7TR
+tNOoouFhu00bTTqKLhYbtNG006ii4WG7TRtNOoouFhu00bTTqKLhYbtNG006ii4WG7TRtNOoouFh
+u00bTTqKLhYbtNG006ii4WG7TRtNOoouFhu00bTTqKLhYbtNG006ii4WG7TRtNOoouFhu00U6ii4
+WI/M9v1o8z2/WmUUhj/M9v1o8z2/WmUUAP8AM9v1o8z2/WmUUAP8z2/WjzPb9aZRQA/zPb9aPM9v
+1plFAD/M9v1o8z2/WmUUAP8AM9v1o8z2/WmUUAP8z2/WjzPb9aZRQA/zPb9aPM9v1plFAD/M9v1o
+8z2/WmUUAP8AM9v1o8z2/WmUUAP8z2/WjzPb9aZRQA/zPb9aPM9v1plFAD/M9v1o8z2/WmUUAP8A
+M9v1o8z2/WmUUAP8z2/WjzPb9aZRQA/zPb9aPM9v1plFAD/M9v1o8z2/WmUUAP8AM9v1o8z2/WmU
+UAP8z2/WjzPb9aZRQA/zPb9aPM9v1plFAD/M9v1o8z2/WmUUAP8AM9v1o8z2/WmUUAP8z2/WjzPb
+9aZRQA/zPb9aPM9v1plFAD/M9v1o8z2/WmUUAP8AM9v1o8z2/WmUUAP8z2/WjzPb9aZRQA/zPb9a
+PM9v1plFAD/M9v1o8z2/WmUUAP8AM9v1o8z2/WmUUAP8z2/WimUUAf/Z
+			</helperscreenshot>
+		</keysequenceitem>
+		<setvaluerecorditem
+		attrname="TagValue"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="f0ec7e8f-f0f4-4178-81da-f76b39c82a81">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="26fa0fbd-9cac-4feb-bbee-ea45056147f7"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, selecttag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="selecttag"
+				rect="683,440,96,35"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control col-md-1 float-right
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						PushToSpire
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						col-md-1 float-right form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						select
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Yes
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//select[#'PushToSpire']
+				</path>
+			</info>
+			<AttributeValue>
+				Yes
+			</AttributeValue>
+		</setvaluerecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="400ms"
+		enabled="True"
+		loc="26;187"
+		movetime="400ms"
+		optional="False"
+		searchpropertyid="6c63925b-850d-4cc4-ad3b-99457e03e705"
+		sx="146"
+		sy="509"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="288b0fd1-0cf4-4b61-accb-694232c1e14e"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="7"
+				prefcap="divtag"
+				rect="120,322,1200,191"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						dynamic collapse show
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						dynamicAttribute
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						collapse dynamic show
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//div[#'dynamicAttribute']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="3c238a67-39e6-42d7-8165-fa303edfe866">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAH0AYwDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDo6KKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigBr/cP0p9NpMEdGIoAfRTcH+8f0owf7x/SgB1FN
+wf7x/SjB/vH9KAHUU3B/vH9KMH+8f0oAdRTcH+8f0owf7x/SgB1FNwf7x/SjB/vH9KAHUU3B/vH9
+KMH+8f0oAdRTcH+8f0owf7x/SgB1FNwf7x/SjB/vH9KAHABRgAAegopuD/eP6UYP94/pQA6im4P9
+4/pRg/3j+lADqKbg/wB4/pRg/wB4/pQA6im4P94/pRg/3j+lADqKbg/3j+lGD/eP6UAOopuD/eP6
+UYP94/pQA6im4P8AeP6UYP8AeP6UAOopuD/eP6UYP94/pQAtFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFVb+7+xwCTZvy23Gcdj/AIVW/tK5
+/wCgbN+v+FJySNY0ZyV0vyNOisz+0rn/AKBs36/4Uf2nc/8AQOl/X/Clzof1ep/TRp0Vmf2nc/8A
+QOl/X/Cj+07n/oHS/r/hRzIPq9T+mjTorM/tO5/6B0v6/wCFH9p3P/QOl/X/AAo5kH1ep/TRp0Vm
+f2nc/wDQOl/X/Cj+07n/AKB0v6/4UcyD6vU/po06KzP7Tuf+gdL+v+FH9p3P/QOl/X/CjmQfV6n9
+NGnRWZ/adz/0Dpf1/wAKP7Tuf+gdL+v+FHMg+r1P6aNOisz+07n/AKB0v6/4Uf2nc/8AQOl/X/Cj
+mQfV6n9NGnRWZ/adz/0Dpf1/wo/tO5/6B0v6/wCFHMg+r1P6aNOisz+07n/oHS/r/hR/adz/ANA6
+X9f8KOZB9Xqf00adFZn9p3P/AEDpf1/wo/tO5/6B0v6/4UcyD6vU/po06KzP7Tuf+gdL+v8AhR/a
+dz/0Dpf1/wAKOZB9Xqf00adFZn9p3P8A0Dpf1/wo/tO5/wCgdL+v+FHMg+r1P6aNOisz+07n/oHS
+/r/hR/adz/0Dpf1/wo5kH1ep/TRp0Vmf2nc/9A6X9f8ACj+07n/oHS/r/hRzIPq9T+mjTorM/tO5
+/wCgdL+v+FH9p3P/AEDpf1/wo5kH1ep/TRp0Vmf2nc/9A6X9f8KP7Tuf+gdL+v8AhRzIPq9T+mjT
+orM/tO5/6B0v6/4Uf2nc/wDQOl/X/CjmQfV6n9NGnRRRVGIUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQBma9/x5J/10H8jWnWZr3/Hkn/XQfyNadSviZtP+FH5/oFMPWn0w9atGDEooopiCiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAJKKKKkoK
+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
+fmwPHnG5SM1UguJIIFhktpS6DaNq5B/Gr1FIClNJP50e4SxxlMny13EN6dKrLFL9jdfLkyZ8gFec
+eta1FMChNG5uLohGIaHAOOpqE75LCO1FtIsnHJXAHvmtWikBSihP9pySOhICAKxHGahnM8iXCSCb
+dkhFRPlI7c4rTooAz/nimtZDFIwEW07VyQaa6SRXM5bztsnIMaBsj0PFaVFMCK0j8q2RBu4HRuoq
+rEXspZVaKSSN2LKyDOPY1fooAoLFLcSTzshj3RmNFbr9TUBMr2tvD9nlDRuNxK8cVrUUAUwWj1OQ
+mNysiqAwXI/Gq1tL5Yul8h5N0jDKrnPsa1abHGke7YoXccn3NIDNWGW3Wzdo2fy9wYKMkZp0aySt
+fN5Tr5ijaGGM8GtKigCvYsTaopR0KKFO5cVYoopgFFFFABRRRQAUUUUAFFFFAE9FFFIAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAQ/dNRYPofyqaigCHB9D+VGD6H8qmooAhwfQ/lRg+h/KpqKA
+IcH0P5UYPofyqaigCHB9D+VGD6H8qmooAhwfQ/lRg+h/KpqKAIcH0P5UYPofyqaigCHB9D+VGD6H
+8qmooAhwfQ/lRg+h/KpqKAIcH0P5UYPofyqaigCHB9D+VGD6H8qmooAhwfQ/lRg+h/KpqKAIcH0P
+5UYPofyqaigCHB9D+VGD6H8qmooAhwfQ/lRg+h/KpqKAIcH0P5UYPofyqaigCHB9D+VGD6H8qmoo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="400ms"
+		enabled="True"
+		loc="22;7"
+		movetime="400ms"
+		optional="False"
+		searchpropertyid="7db66126-d8ab-4523-b2d4-b4507424b3b4"
+		sx="178"
+		sy="586"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d0d15e54-674b-4374-8f7c-2b7c9b2f3f75"
+			sourcename="Recorder">
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//a[@class='font-gray add-new-include-criteria']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="400ms"
+		enabled="True"
+		loc="65;20"
+		movetime="400ms"
+		optional="False"
+		searchpropertyid="4acba43b-d9d3-4930-935d-2b58c3ee73b3"
+		sx="213"
+		sy="596"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0b5665c0-bce7-40b7-bd7c-1c606eb24cb9"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="148,576,307,38"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control bottom-20
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						criteria-name
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						bottom-20 form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						criteria-name
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Criteria name
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//input[#'criteria-name']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="007229bc-2ad7-4e56-8d9b-f0fd0bf1e6b0">
+				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
+Iy9Rxk0hlYPNgMJFjBwW4FP8l/tEUjMG2oQT0yaPIYzzOSNsihR60EkcN04tFkmQknAXBGXJqWOd
+jJ5csflvjcOcgiofssr2qwv5eYyCp5IOPWpIYCrljDCnGBsGTn60MRH9rM1s8nlOsYU/MGwc+1TM
+7LEpjQvkDq2P1qNbZxp5t8rv2kZ7U54W4+VJPlA2ueBjPPT3oGSQTCePcAVIJBB7Go3uX86SOOEu
+Uxk7gKWzhaCNlfbkuW+XoKWOJkuZpCRh8Y/AUAAuC9ussUZbd2JAxTPtgEUrNGVeL7y5z+tRizkW
+KBTsfyycox+U5/Ck+xybLgYjTzQNoXoMfhQBIbxw6q1uwLj5PmHP19Kct2vlymVCjRfeXOfpileF
+mlgcEYjzn8qZJaGRrjcwAl27fbFAD0uG8xUliMe/7pzn8KnqtDAyyKWhgXb1Kjkn29Ks0AFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABWXr/APx6r/vr/Jq1Ky9f/wCPVf8A
+fX+TVM/hZvh/4sTUoooqjAKKKKAGj74+lOpo++PpTqAKWsf8gyb/AID/AOhCpdP/AOPCD/cH8qTU
+onnsJI4l3O2MDOO4qlGdVjiSNbWLCqFB3c8f8CqG7SOmMeala637mtRWX5mr/wDPrH/33/8AZUeZ
+q/8Az6x/99//AGVPmJ9i/wCZfealFZfmav8A8+sf/ff/ANlR5mr/APPrH/33/wDZUcwexf8AMvvN
+SisvzNX/AOfWP/vv/wCyo8zV/wDn1j/77/8AsqOYPYv+ZfealGKy/M1f/n1j/wC+/wD7KjzNX/59
+Y/8Avv8A+yo5g9i/5l95qUVl+Zq//PrH/wB9/wD2VHmav/z6x/8Aff8A9lRzB7F/zL7zUorL8zV/
++fWP/vv/AOyo8zV/+fWP/vv/AOyo5g9i/wCZfealFZfmav8A8+sf/ff/ANlR5mr/APPrH/33/wDZ
+Ucwexf8AMvvNSisvzNX/AOfWP/vv/wCyo8zV/wDn1j/77/8AsqOYPYv+ZfealFZfmav/AM+sf/ff
+/wBlR5mr/wDPrH/33/8AZUcwexf8y+81KKy/M1f/AJ9Y/wDvv/7KjzNX/wCfWP8A77/+yo5g9i/5
+l95qUVl+Zq//AD6x/wDff/2VHmav/wA+sf8A33/9lRzB7F/zL7zUorL8zV/+fWP/AL7/APsqPM1f
+/n1j/wC+/wD7KjmD2L/mX3mpRWX5mr/8+sf/AH3/APZUeZq//PrH/wB9/wD2VHMHsX/MvvNSisvz
+NX/59Y/++/8A7KjzNX/59Y/++/8A7KjmD2L/AJl95qUVl+Zq/wDz6x/99/8A2VHmav8A8+sf/ff/
+ANlRzB7F/wAy+81KKy/M1f8A59Y/++//ALKjzNX/AOfWP/vv/wCyo5g9i/5l95qUVl+Zq/8Az6x/
+99//AGVHmav/AM+sf/ff/wBlRzB7F/zL7zUorL8zV/8An1j/AO+//sqPM1f/AJ9Y/wDvv/7KjmD2
+L/mX3mpWXr//AB6L/wBdF/k1Hmav/wA+sf8A33/9lUF3Fqd3CI5LaNVDbvlYZz+dTJ3VrGlGnyTU
+nJfebdFFFaHIFFFFADR98fSnU0ffH0p1ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB/
+/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="Makeup products"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="ee6e1f1c-e1d4-4fbf-a682-a1a6062fbf9f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0b5665c0-bce7-40b7-bd7c-1c606eb24cb9"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="148,576,307,38"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control bottom-20
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						criteria-name
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						bottom-20 form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						criteria-name
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Criteria name
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//input[#'criteria-name']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="2b47cd9a-0b34-478c-9989-064655df3f27">
+				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
+			</helperscreenshot>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="400ms"
+		enabled="True"
+		loc="71;19"
+		movetime="400ms"
+		optional="False"
+		searchpropertyid="1ce5cfb4-734d-41bb-b6f4-6a02f9bcee26"
+		sx="219"
+		sy="711"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2f341cdc-9efe-4d35-b9a2-9c3cceeb05fa"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, textareatag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="textareatag"
+				rect="148,692,548,134"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control bottom-20
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						raw-criteria
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						bottom-20 form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						textarea
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="cols"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Raw Criteria
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="rows"
+					type="System.String">
+						5
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//textarea[#'raw-criteria']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="c57ec2d0-d16b-40a4-ab84-c6bc85dd5be1">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACuAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigDL/s28/wCgjJ+Z/wAaP7NvP+gjJ+Z/xrUoqeRG/wBYqd/wRl/2bef9BGT8z/jR
+/Zt5/wBBGT8z/jWpRRyIPrFTv+CMv+zbz/oIyfmf8aP7NvP+gjJ+Z/xrUoo5EH1ip3/BGX/Zt5/0
+EZPzP+NH9m3n/QRk/M/41qUUciD6xU7/AIIy/wCzbz/oIyfmf8aP7NvP+gjJ+Z/xrUoo5EH1ip3/
+AARl/wBm3n/QRk/M/wCNH9m3n/QRk/M/41qUUciD6xU7/gjL/s28/wCgjJ+Z/wAaP7NvP+gjJ+Z/
+xrUoo5EH1ip3/BGX/Zt5/wBBGT8z/jR/Zt5/0EZPzP8AjWpRRyIPrFTv+CMv+zbz/oIyfmf8aP7N
+vP8AoIyfmf8AGtSijkQfWKnf8EZf9m3n/QRk/M/40f2bef8AQRk/M/41qUUciD6xU7/gjL/s28/6
+CMn5n/Gj+zbz/oIyfmf8a1KKORB9Yqd/wRl/2bef9BGT8z/jR/Zt5/0EZPzP+NalFHIg+sVO/wCC
+Mv8As28/6CMn5n/Gj+zbz/oIyfmf8a1KKORB9Yqd/wAEZf8AZt5/0EZPzP8AjR/Zt5/0EZPzP+Na
+lFHIg+sVO/4Iy/7NvP8AoIyfmf8AGj+zbz/oIyfmf8a1KKORB9Yqd/wRl/2bef8AQRk/M/40f2be
+f9BGT8z/AI1qUUciD6xU7/gjL/s28/6CMn5n/Gj+zbz/AKCMn5n/ABrUoo5EH1ip3/BGX/Zt5/0E
+ZPzP+NH9m3n/AEEZPzP+NalFHIg+sVO/4Iy/7NvP+gjJ+Z/xo/s28/6CMn5n/GtSijkQfWKnf8EZ
+f9m3n/QRk/M/40f2bef9BGT8z/jWpRRyIPrFTv8AgjL/ALNvP+gjJ+Z/xo/s28/6CMn5n/GtSijk
+QfWKnf8ABGX/AGbef9BGT8z/AI0f2bef9BGT8z/jWpRRyIPrFTv+CMv+zbz/AKCMn5n/ABo/s28/
+6CMn5n/GtSijkQfWKnf8EZf9m3n/AEEZPzP+NH9m3n/QRk/M/wCNalFHIg+sVO/4Iy/7NvP+gjJ+
+Z/xo/s28/wCgjJ+Z/wAa1KKORB9Yqd/wRl/2bef9BGT8z/jR/Zt5/wBBGT8z/jWpRRyIPrFTv+CM
+v+zbz/oIyfmf8aP7NvP+gjJ+Z/xrUoo5EH1ip3/BGX/Zt5/0EZPzP+NH9m3n/QRk/M/41qUUciD6
+xU7/AIIy/wCzbz/oIyfmf8aP7NvP+gjJ+Z/xrUoo5EH1ip3/AARl/wBm3n/QRk/M/wCNH9m3n/QR
+k/M/41qUUciD6xU7/gjL/s28/wCgjJ+Z/wAaP7NvP+gjJ+Z/xrUoo5EH1ip3/BGX/Zt5/wBBGT8z
+/jRWpRRyIPrFTv8AgitczvG+FeAcZw7cmhLst5DbQElB/A0pt3EsjxyhfMxnK5x9Oaa1kGslt/M5
+U5D4qjAYt+WhlbYNykBB/eB6VbdikTMRkhc1AbNDNE4OBGMbcdcdKs9RQBTt7ZLiBZZ8u7jOcnj6
+U6WSS3MMMa+aXyMueaVbaWIFIZ9qdgy52/SnfZ/nhcyE+Vnr1OaYDfMf7R5eF3+Vuzk4zmoreeSK
+w86UhgBxyck571Z8nNz527+Dbtx75qNLQi3aB5N0f8OFwRzmkA2O7bzkSRom39PLbOD701biWaCV
+2jQRqGByT81TxxyqwLzBgB0CYz9aRLbZavDvzuzzj1oAYZiltCUMUe5Rw5PHHan2k/no2Qu5W2na
+cg+4pv2ZlaJo5AGjTZ8y5BH50+3gMPmFn3l23E4xTETUUUUhhRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUVl+Zq/wDz
+6x/99/8A2VHmav8A8+sf/ff/ANlU8xv7F/zL7zUorL8zV/8An1j/AO+//sqPM1f/AJ9Y/wDvv/7K
+jmD2L/mX3mpRWX5mr/8APrH/AN9//ZUeZq//AD6x/wDff/2VHMHsX/MvvNSisvzNX/59Y/8Avv8A
++yo8zV/+fWP/AL7/APsqOYPYv+ZfealFZfmav/z6x/8Aff8A9lR5mr/8+sf/AH3/APZUcwexf8y+
+81KKy/M1f/n1j/77/wDsqPM1f/n1j/77/wDsqOYPYv8AmX3mpRWX5mr/APPrH/33/wDZUeZq/wDz
+6x/99/8A2VHMHsX/ADL7zUorL8zV/wDn1j/77/8AsqPM1f8A59Y/++//ALKjmD2L/mX3mpRWX5mr
+/wDPrH/33/8AZUeZq/8Az6x/99//AGVHMHsX/MvvNSisvzNX/wCfWP8A77/+yo8zV/8An1j/AO+/
+/sqOYPYv+ZfealFZfmav/wA+sf8A33/9lR5mr/8APrH/AN9//ZUcwexf8y+81KKy/M1f/n1j/wC+
+/wD7KjzNX/59Y/8Avv8A+yo5g9i/5l95qUVl+Zq//PrH/wB9/wD2VHmav/z6x/8Aff8A9lRzB7F/
+zL7zUorL8zV/+fWP/vv/AOyo8zV/+fWP/vv/AOyo5g9i/wCZfealFZfmav8A8+sf/ff/ANlR5mr/
+APPrH/33/wDZUcwexf8AMvvNSisvzNX/AOfWP/vv/wCyo8zV/wDn1j/77/8AsqOYPYv+ZfealFZf
+mav/AM+sf/ff/wBlR5mr/wDPrH/33/8AZUcwexf8y+81KKy/M1f/AJ9Y/wDvv/7KjzNX/wCfWP8A
+77/+yo5g9i/5l95qUVl+Zq//AD6x/wDff/2VHmav/wA+sf8A33/9lRzB7F/zL7zUorL8zV/+fWP/
+AL7/APsqPM1f/n1j/wC+/wD7KjmD2L/mX3mpRWX5mr/8+sf/AH3/APZUeZq//PrH/wB9/wD2VHMH
+sX/MvvNSisvzNX/59Y/++/8A7KjzNX/59Y/++/8A7KjmD2L/AJl95qUVl+Zq/wDz6x/99/8A2VHm
+av8A8+sf/ff/ANlRzB7F/wAy+81KKy/M1f8A59Y/++//ALKjzNX/AOfWP/vv/wCyo5g9i/5l95qU
+Vl+Zq/8Az6x/99//AGVHmav/AM+sf/ff/wBlRzB7F/zL7zUorL8zV/8An1j/AO+//sqPM1f/AJ9Y
+/wDvv/7KjmD2L/mX3mpRWX5mr/8APrH/AN9//ZUeZq//AD6x/wDff/2VHMHsX/MvvNSisvzNX/59
+Y/8Avv8A+yo8zV/+fWP/AL7/APsqOYPYv+ZfealFZfmav/z6x/8Aff8A9lR5mr/8+sf/AH3/APZU
+cwexf8y+81KKy/M1f/n1j/77/wDsqPM1f/n1j/77/wDsqOYPYv8AmX3mpRWX5mr/APPrH/33/wDZ
+UeZq/wDz6x/99/8A2VHMHsX/ADL7zUorL8zV/wDn1j/77/8AsqKOYPYv+ZfealFFFUYBRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQB//Z
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="&quot;Foundation&quot; &quot;concealer&quot; &quot;primer&quot;"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="e9c81669-5931-4882-b5dc-4cf62c3508db">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2f341cdc-9efe-4d35-b9a2-9c3cceeb05fa"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, textareatag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="textareatag"
+				rect="148,692,548,134"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control bottom-20
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						raw-criteria
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						bottom-20 form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						textarea
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="cols"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Raw Criteria
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="rows"
+					type="System.String">
+						5
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//textarea[#'raw-criteria']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="903e8e15-ee99-4cf2-af0c-52cbf17d80e5">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACuAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigCHypP+eh/M0eVJ/wA9D+ZqaisfYQ/psrmZD5Un/PQ/maPKk/56H8zU1FHsIf02
+HMyHypP+eh/M0eVJ/wA9D+Zqaij2EP6bDmZD5Un/AD0P5mjypP8AnofzNTUUewh/TYczIfKk/wCe
+h/M0eVJ/z0P5mpJJBGoZs4LBePc4/rTqPYQ/psOZkPlSf89D+Zo8qT/nofzNTUUewh/TYczIfKk/
+56H8zR5Un/PQ/mamoo9hD+mw5mQ+VJ/z0P5mjypP+eh/M1NRR7CH9NhzMh8qT/nofzNHlSf89D+Z
+qaij2EP6bDmZD5Un/PQ/maPKk/56H8zU1FHsIf02HMyHypP+eh/M0eVJ/wA9D+Zqaij2EP6bDmZD
+5Un/AD0P5mjypP8AnofzNTUUewh/TYczIfKk/wCeh/M0eVJ/z0P5mpqKPYQ/psOZkPlSf89D+Zo8
+qT/nofzNTUUewh/TYczIfKk/56H8zR5Un/PQ/mamoo9hD+mw5mQ+VJ/z0P5mjypP+eh/M1NRR7CH
+9NhzMh8qT/nofzNHlSf89D+Zqaij2EP6bDmZD5Un/PQ/maPKk/56H8zU1FHsIf02HMyHypP+eh/M
+0eVJ/wA9D+Zqaij2EP6bDmZD5Un/AD0P5mjypP8AnofzNTUUewh/TYczIfKk/wCeh/M0eVJ/z0P5
+mpqKPYQ/psOZkPlSf89D+Zo8qT/nofzNTUUewh/TYczIfKk/56H8zR5Un/PQ/mamoo9hD+mw5mQ+
+VJ/z0P5mjypP+eh/M1NRR7CH9NhzMh8qT/nofzNHlSf89D+Zqaij2EP6bDmZD5Un/PQ/maPKk/56
+H8zU1FHsIf02HMyHypP+eh/M0eVJ/wA9D+Zqaij2EP6bDmZD5Un/AD0P5mjypP8AnofzNTUUewh/
+TYczIfKk/wCeh/M0eVJ/z0P5mpqKPYQ/psOZkPlSf89D+Zo8qT/nofzNTUUewh/TYczIfKk/56H8
+zR5Un/PQ/mamoo9hD+mw5mQ+VJ/z0P5mipqKPYQ/psOZlGCO1Mq7IJ1bOQWDgfrSS37RSZL27IGw
+VV/mHP8Anir+OMVRNhJ9mFsLgCIHI/d89c8nNbkDnu5PtbQr5SbcYEhIL59KYxm/tSUQBM+WuS+c
+Dr6VLc2slwGRpl8tuxjyV+hqRINly027O5AuMenvSGVmuRNbwPJEpYzhCM9DzyKk8+4mkkFsse2N
+tpLk/MfbFAscRonmfdm83O3rz0pxtZEkka3mEYkOWBTdg+o5oAjN87RQNFGN0jlCrH7pFKJJ5vtF
+rIEWUJ8rKTg5p62SqsAVyBExbkZLGpFg23Tz7vvKFxjpigCs9uYgWLZBaJV57BhV6obv/Ur/ANdI
+/wD0MVNQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUVD++/uD8//AK9H77+4Pz/+vWPtl2f3FcpNRUP7
+7+4Pz/8Ar0fvv7g/P/69Htl2f3Byk1FQ/vv7g/P/AOvR++/uD8//AK9Htl2f3Byk1FQ/vv7g/P8A
++vR++/uD8/8A69Htl2f3Byk1FQ/vv7g/P/69H77+4Pz/APr0e2XZ/cHKTUVD++/uD8//AK9H77+4
+Pz/+vR7Zdn9wcpNRUP77+4Pz/wDr0fvv7g/P/wCvR7Zdn9wcpNRUP77+4Pz/APr0fvv7g/P/AOvR
+7Zdn9wcpNRUP77+4Pz/+vR++/uD8/wD69Htl2f3Byk1FQ/vv7g/P/wCvR++/uD8//r0e2XZ/cHKT
+UVD++/uD8/8A69H77+4Pz/8Ar0e2XZ/cHKTUVD++/uD8/wD69H77+4Pz/wDr0e2XZ/cHKTUVD++/
+uD8//r0fvv7g/P8A+vR7Zdn9wcpNRUP77+4Pz/8Ar0fvv7g/P/69Htl2f3Byk1FQ/vv7g/P/AOvR
+++/uD8//AK9Htl2f3Byk1FQ/vv7g/P8A+vR++/uD8/8A69Htl2f3Byk1FQ/vv7g/P/69H77+4Pz/
+APr0e2XZ/cHKTUVD++/uD8//AK9H77+4Pz/+vR7Zdn9wcpNRUP77+4Pz/wDr0fvv7g/P/wCvR7Zd
+n9wcpNRUP77+4Pz/APr0fvv7g/P/AOvR7Zdn9wcpNRUP77+4Pz/+vR++/uD8/wD69Htl2f3Byk1F
+Q/vv7g/P/wCvR++/uD8//r0e2XZ/cHKTUVD++/uD8/8A69H77+4Pz/8Ar0e2XZ/cHKTUVD++/uD8
+/wD69H77+4Pz/wDr0e2XZ/cHKTUVD++/uD8//r0fvv7g/P8A+vR7Zdn9wcpNRUP77+4Pz/8Ar0fv
+v7g/P/69Htl2f3Byk1FQ/vv7g/P/AOvR++/uD8//AK9Htl2f3Byk1FQ/vv7g/P8A+vR++/uD8/8A
+69Htl2f3Byk1FQ/vv7g/P/69H77+4Pz/APr0e2XZ/cHKTUVD++/uD8//AK9H77+4Pz/+vR7Zdn9w
+cpNRUP77+4Pz/wDr0fvv7g/P/wCvR7Zdn9wcpNRUP77+4Pz/APr0Ue2XZ/cHKTUUUVsSFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFAH//2Q==
+			</helperscreenshot>
+		</keysequenceitem>
+		<mousewheelitem
+		delta="-28"
+		duration="400ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
+		<mousewheelitem
+		delta="-2"
+		duration="400ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="400ms"
+		enabled="True"
+		loc="55;17"
+		movetime="400ms"
+		optional="False"
+		searchpropertyid="6db186a9-c0c8-444f-8876-c7c2119bd85b"
+		sx="491"
+		sy="840"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="074ce0ae-423e-4f26-b8ba-c80838a2019c"
+			sourcename="Recorder">
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']/body/div[2]/div[2]/div/div[2]//input[@class='action-button margin-right-10 preview_results']
+				</path>
+			</info>
+		</mouseitem>
+		<mousewheelitem
+		delta="-39"
+		duration="400ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="400ms"
+		enabled="True"
+		loc="31;17"
+		movetime="400ms"
+		optional="False"
+		searchpropertyid="3695cfd5-6002-4c55-8c7a-462be6cdeed4"
+		sx="606"
+		sy="807"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="25e2c2fd-5261-4469-a71c-68966207a2cd"
+			sourcename="Recorder">
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']/body/div[2]/div[2]/div/div[2]//input[@class='action-button create-criteria']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="400ms"
+		enabled="True"
+		loc="274;8"
+		movetime="400ms"
+		optional="False"
+		searchpropertyid="62b583de-3fd1-4319-9ba7-be06fca35c77"
+		sx="423"
+		sy="690"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8f851f2a-af02-463c-9fa2-7235b29f9b29"
+			sourcename="Recorder">
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']/body/div[2]/div[2]/div[2]//i[@class='fa fa-minus-circle font-24']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="400ms"
+		enabled="True"
+		loc="48;5"
+		movetime="400ms"
+		optional="False"
+		searchpropertyid="23c3355c-f3c3-49c8-9719-6762611537f5"
+		sx="204"
+		sy="627"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="186c2ec5-8ee0-420e-b5b4-0c39b9f56c41"
+			sourcename="Recorder">
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//a[@class='font-gray add-new-exclude-criteria']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="400ms"
+		enabled="True"
+		loc="61;22"
+		movetime="400ms"
+		optional="False"
+		searchpropertyid="9c7efb14-aafa-48fe-90ca-83804af11424"
+		sx="209"
+		sy="641"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0b5665c0-bce7-40b7-bd7c-1c606eb24cb9"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="148,619,307,38"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control bottom-20
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						criteria-name
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						bottom-20 form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						criteria-name
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Criteria name
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//input[#'criteria-name']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="ea742f3d-7e57-450d-8c1e-2f0fc50029f7">
+				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
+QAUUUUAf/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="Desin"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="302957c2-f3ff-41bb-a58c-bb78e9b0bde6">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0b5665c0-bce7-40b7-bd7c-1c606eb24cb9"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="148,619,307,38"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control bottom-20
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						criteria-name
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						bottom-20 form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						criteria-name
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Criteria name
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//input[#'criteria-name']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="6a2540d3-16ba-4c1d-9ca5-4588b02f6f99">
+				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
+GQOTUY84ADYOBjr/APXrnlLlqXs9i0ronoqH99/cH5//AF6P339wfn/9eq9suz+4XKTUVD++/uD8
+/wD69H77+4Pz/wDr0e2XZ/cHKSkBhhgCM55pah/ff3B+f/16P339wfn/APXo9suz+4OUmoqH99/c
+H5//AF6P339wfn/9ej2y7P7g5Saiof339wfn/wDXo/ff3B+f/wBej2y7P7g5Saiof339wfn/APXo
+/ff3B+f/ANej2y7P7g5Saiof339wfn/9ej99/cH5/wD16PbLs/uDlJqKh/ff3B+f/wBej99/cH5/
+/Xo9suz+4OUmoqH99/cH5/8A16P339wfn/8AXo9suz+4OUmoqH99/cH5/wD16P339wfn/wDXo9su
+z+4OUmoqH99/cH5//Xo/ff3B+f8A9ej2y7P7g5Saiof339wfn/8AXo/ff3B+f/16PbLs/uDlJqKh
+/ff3B+f/ANej99/cH5//AF6PbLs/uDlJqKh/ff3B+f8A9ej99/cH5/8A16PbLs/uDlJqKh/ff3B+
+f/16P339wfn/APXo9suz+4OUmoqH99/cH5//AF6P339wfn/9ej2y7P7g5Saiof339wfn/wDXo/ff
+3B+f/wBej2y7P7g5Saiof339wfn/APXo/ff3B+f/ANej2y7P7g5Saobn7v4j+tH77+4Pz/8Ar011
+ldcFABnPBrOrU5oNJP7hxVmWKKKK6iAooooAaPvD6U6mj7w+lOoAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKAP/Z
+			</helperscreenshot>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Back}gn"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="386ad274-c4e7-4790-ac1e-e99f87b6f74d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0b5665c0-bce7-40b7-bd7c-1c606eb24cb9"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="148,619,307,38"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control bottom-20
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						criteria-name
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						bottom-20 form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						criteria-name
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Criteria name
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//input[#'criteria-name']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="97601306-3a9f-43bc-8c07-3b7ba68711e7">
+				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
+BRRRQAUUUUAFFFFABRRRQB//2Q==
+			</helperscreenshot>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="400ms"
+		enabled="True"
+		loc="95;32"
+		movetime="400ms"
+		optional="False"
+		searchpropertyid="ac0dbc7a-0cd0-4a1d-a4fa-b985f44abfa8"
+		sx="243"
+		sy="767"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2f341cdc-9efe-4d35-b9a2-9c3cceeb05fa"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, textareatag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="textareatag"
+				rect="148,735,548,134"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control bottom-20
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						raw-criteria
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						bottom-20 form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						textarea
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="cols"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Raw Criteria
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="rows"
+					type="System.String">
+						5
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//textarea[#'raw-criteria']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="04932a86-78e8-4e62-894b-fd2967ead561">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACuAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigDL/s28/wCgjJ+Z/wAaP7NvP+gjJ+Z/xrUoqeRG/wBYqd/wRl/2bef9BGT8z/jR
+/Zt5/wBBGT8z/jWpRRyIPrFTv+CMv+zbz/oIyfmf8aP7NvP+gjJ+Z/xrUoo5EH1ip3/BGX/Zt5/0
+EZPzP+NH9m3n/QRk/M/41qUUciD6xU7/AIIy/wCzbz/oIyfmf8aP7NvP+gjJ+Z/xrUoo5EH1ip3/
+AARl/wBm3n/QRk/M/wCNH9m3n/QRk/M/41qUUciD6xU7/gjL/s28/wCgjJ+Z/wAaP7NvP+gjJ+Z/
+xrUoo5EH1ip3/BGX/Zt5/wBBGT8z/jR/Zt5/0EZPzP8AjWpRRyIPrFTv+CMv+zbz/oIyfmf8aP7N
+vP8AoIyfmf8AGtSijkQfWKnf8EZf9m3n/QRk/M/40f2bef8AQRk/M/41qUUciD6xU7/gjL/s28/6
+CMn5n/Gj+zbz/oIyfmf8a1KKORB9Yqd/wRl/2bef9BGT8z/jR/Zt5/0EZPzP+NalFHIg+sVO/wCC
+Mv8As28/6CMn5n/Gj+zbz/oIyfmf8a1KKORB9Yqd/wAEZf8AZt5/0EZPzP8AjR/Zt5/0EZPzP+Na
+lFHIg+sVO/4Iy/7NvP8AoIyfmf8AGj+zbz/oIyfmf8a1KKORB9Yqd/wRl/2bef8AQRk/M/40f2be
+f9BGT8z/AI1qUUciD6xU7/gjL/s28/6CMn5n/Gj+zbz/AKCMn5n/ABrUoo5EH1ip3/BGX/Zt5/0E
+ZPzP+NH9m3n/AEEZPzP+NalFHIg+sVO/4Iy/7NvP+gjJ+Z/xo/s28/6CMn5n/GtSijkQfWKnf8EZ
+f9m3n/QRk/M/40f2bef9BGT8z/jWpRRyIPrFTv8AgjL/ALNvP+gjJ+Z/xo/s28/6CMn5n/GtSijk
+QfWKnf8ABGX/AGbef9BGT8z/AI0f2bef9BGT8z/jWpRRyIPrFTv+CMv+zbz/AKCMn5n/ABo/s28/
+6CMn5n/GtSijkQfWKnf8EZf9m3n/AEEZPzP+NH9m3n/QRk/M/wCNalFHIg+sVO/4Iy/7NvP+gjJ+
+Z/xo/s28/wCgjJ+Z/wAa1KKORB9Yqd/wRl/2bef9BGT8z/jR/Zt5/wBBGT8z/jWpRRyIPrFTv+CM
+v+zbz/oIyfmf8aP7NvP+gjJ+Z/xrUoo5EH1ip3/BGX/Zt5/0EZPzP+NH9m3n/QRk/M/41qUUciD6
+xU7/AIIy/wCzbz/oIyfmf8aP7NvP+gjJ+Z/xrUoo5EH1ip3/AARl/wBm3n/QRk/M/wCNH9m3n/QR
+k/M/41qUUciD6xU7/gjL/s28/wCgjJ+Z/wAaP7NvP+gjJ+Z/xrUoo5EH1ip3/BGX/Zt5/wBBGT8z
+/jRWpRRyIPrFTv8AgitczvG+FeAcZw7cmhLst5DbQElB/A0pt3EsjxyhfMxnK5x9Oaa1kGslt/M5
+U5D4qjAYt+WhlbYNykBB/eB6VbdikTMRkhc1AbNDNE4OBGMbcdcdKs9RQBTt7ZLiBZZ8u7jOcnj6
+U6WSS3MMMQ8wvkZc80q20sQKQz7U7Blzt+lP+znzIWMhYxZ69TmmBHub7VtKp5vk53DPr0+lR288
+kVh50pDADjk5Jz3qyYc3Xnbv4NmMe9RpaEW7QPJuj/hwuCOc0gGx3beciSNE2/p5bZwfemrcSzQS
+u0aCNQwOSfmqeOOZWBeUMAOgTGfrSR2+y1eHdndu5x60AMMxS2hKGKPco4cnjjtT7Sfz0bIXcrbT
+tOQfcU37MytE0cgDRps+Zcgj86fbwGHzCz7y7bicYpiJqKKKQwooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACgUUCgAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA4D+0b7/n
+8uP+/rf40f2jff8AP5cf9/W/xq//AGDcf882/wC+1qlLBBDK0cjsrqcEeh/KoU09jf2D7r7xv9o3
+3/P5cf8Af1v8aP7Rvv8An8uP+/rf40my1/56N/n8KNlr/wA9G/z+FPm8hexf8y+8X+0b7/n8uP8A
+v63+NH9o33/P5cf9/W/xpY4IJZAkbuzHoP8AIqR7FY2VX8wFiQPfH4UudXsP6vLuvvIv7Rvv+fy4
+/wC/rf40f2jff8/lx/39b/GtJ9KkkgRVt1UJ/EjDLfXnms6WCCKQxyM6svUf5FJVE9gdBrqvvE/t
+G+/5/Lj/AL+t/jR/aN9/z+XH/f1v8aTZa/8APRv8/hRstf8Ano3+fwqubyF7F/zL7xf7Rvv+fy4/
+7+t/jR/aN9/z+XH/AH9b/GlSGCRtqO5P+falS2heXy1Zy/p/kUc6H9Xl3X3jf7Rvv+fy4/7+t/jR
+/aN9/wA/lx/39b/Gp57JIU8yTKL04YVX2Wv/AD0b/P4Uc6B4eS0bX3i/2jff8/lx/wB/W/xq1DfX
+hiBN1OT/ANdDVTZa/wDPRv8AP4VPGIgg2sSKObyF7F/zL7yf7bd/8/U//fw0fbbv/n6n/wC/hqLC
+epqVbc9dufqaHNIpYeT2a+8Ptt3/AM/U/wD38NH227/5+p/+/hpzQMR/qgPoaieIRn5sjNJTTG8N
+JdV94/7bd/8AP1P/AN/DVWbUL0SkC8uAP+urf41LhPU1BItuXO6Rgf8APtT5vIj2L/mX3if2jff8
+/lx/39b/ABo/tG+/5/Lj/v63+NJstf8Ano3+fwo2Wv8Az0b/AD+FHN5B7F/zL7xf7Rvv+fy4/wC/
+rf40f2jff8/lx/39b/Gk2Wv/AD0b/P4UbLX/AJ6N/n8KObyD2L/mX3i/2jff8/lx/wB/W/xo/tG+
+/wCfy4/7+t/jSbLX/no3+fwo2Wv/AD0b/P4Uc3kHsX/MvvF/tG+/5/Lj/v63+NH9o33/AD+XH/f1
+v8aTZa/89G/z+FGy1/56N/n8KObyD2L/AJl94v8AaN9/z+XH/f1v8aP7Rvv+fy4/7+t/jSbLX/no
+3+fwo2Wv/PRvy/8ArUc3kHsX/MvvF/tG+/5/Lj/v63+NH9o33/P5cf8Af1v8aTZa/wDPRv8AP4Ub
+LX/no3+fwo5vIPYv+ZfeL/aN9/z+XH/f1v8AGj+0b7/n8uP+/rf40my1/wCejfl/9ajZa/8APRvy
+/wDrUc3kHsX/ADL7xf7Rvv8An8uP+/rf40f2jff8/lx/39b/ABpNlr/z0b/P4UbLX/no3+fwo5vI
+PYv+ZfeL/aN9/wA/lx/39b/Gj+0b7/n8uP8Av63+NJstf+ejf5/CjZa/89G/z+FHN5B7F/zL7xf7
+Rvv+fy4/7+t/jR/aN9/z+XH/AH9b/Gk2Wv8Az0b/AD+FGy1/56N/n8KObyD2L/mX3i/2jff8/lx/
+39b/ABo/tG+/5/Lj/v63+NJstf8Ano3+fwo2Wv8Az0b/AD+FHN5B7F/zL7xf7Rvv+fy4/wC/rf40
+f2jff8/lx/39b/Gk2Wv/AD0b/P4UbLX/AJ6N/n8KObyD2L/mX3i/2jff8/lx/wB/W/xo/tG+/wCf
+y4/7+t/jSbLX/no3+fwo2Wv/AD0b/P4Uc3kHsX/MvvF/tG+/5/Lj/v63+NH9o33/AD+XH/f1v8aT
+Za/89G/z+FGy1/56N/n8KObyD2L/AJl94v8AaN9/z+XH/f1v8aP7Rvv+fy4/7+t/jSbLX/no3+fw
+o2Wv/PRv8/hRzeQexf8AMvvF/tG+/wCfy4/7+t/jR/aN9/z+XH/f1v8AGk2Wv/PRv8/hRstf+ejf
+5/Cjm8g9i/5l94v9o33/AD+XH/f1v8aP7Rvv+fy4/wC/rf40my1/56N/n8KNlr/z0b/P4Uc3kHsX
+/MvvF/tG+/5/Lj/v63+NH9o33/P5cf8Af1v8aTZa/wDPRv8AP4UbLX/no3+fwo5vIPYv+ZfeL/aN
+9/z+XH/f1v8AGj+0b7/n8uP+/rf40my1/wCejf5/CjZa/wDPRv8AP4Uc3kHsX/MvvF/tG+/5/Lj/
+AL+t/jR/aN9/z+XH/f1v8aTZa/8APRv8/hRstf8Ano3+fwo5vIPYv+ZfeL/aN9/z+XH/AH9b/Gik
+2Wv/AD0b/P4UUc3kHsX/ADL7ztEnjkbap5+lcdqv/IUuf+uhreXUIEH2wI4i7KAM+nrXO3sy3F7N
+MoIV2JAPWhQUZadjnjJyWvcgoooqxl/R8C5YnqF4ralniChWQkkevSuat5jDKHH41tq4kQZHFZOK
+51NnbRXPTtHcu2M2N68cdDWP4hC/2gpXqYxn681d84QKSF96xLqdrmdpW79B6Ci3NVdRbEVockUn
+uQ0UUVqco+F3jkBTk9MetbcYSC0MrKPMP5nPasWCTypQ2M1K108lwCSducBazkrs6aUlGOrLzwx3
+UMZl4lbG4AnK/MR0PGMCs26iEFw8akkL0J7+9Wr1U8gMV+bPBqhVRd0Z1YuMtWFW4P8AUrVSrcH+
+pWqMyaLmRc+tattwzsACVXIFZAODkVeglYgOpKsPSl1TZlOUoPmRo2sjvLtc7lxnnnFQ60q/ZkOO
+Q2P0qxZFnVnY98AAYrM1W5M0/lgYWMkfU1jOSqVrxVrG1PSnr1KNVJ/9c1W6qT/65q3ER0UUUCCi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooA//Z
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="&quot;Design&quot;"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="e0495cbc-a200-44ab-a927-c23e69bed121">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2f341cdc-9efe-4d35-b9a2-9c3cceeb05fa"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, textareatag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="textareatag"
+				rect="148,735,548,134"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control bottom-20
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						raw-criteria
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						bottom-20 form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						textarea
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="cols"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Raw Criteria
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="rows"
+					type="System.String">
+						5
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//textarea[#'raw-criteria']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="007f4941-01c2-4c47-be54-2c087e575593">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACuAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigCHypP+eh/M0eVJ/wA9D+ZqaisfYQ/psrmZD5Un/PQ/maPKk/56H8zU1FHsIf02
+HMyHypP+eh/M0eVJ/wA9D+ZqammQCVY+cspYfhj/ABo9hD+mw5mR+VJ/z0P5mjypP+eh/M1NRR7C
+H9NhzMh8qT/nofzNHlSf89D+Zqaij2EP6bDmZD5Un/PQ/maPKk/56H8zU1FHsIf02HMyHypP+eh/
+M0eVJ/z0P5mpqKPYQ/psOZkPlSf89D+Zo8qT/nofzNTUUewh/TYczIfKk/56H8zR5Un/AD0P5mpq
+KPYQ/psOZkPlSf8APQ/maPKk/wCeh/M1NRR7CH9NhzMh8qT/AJ6H8zR5Un/PQ/mamoo9hD+mw5mQ
++VJ/z0P5mjypP+eh/M1NRR7CH9NhzMh8qT/nofzNHlSf89D+Zqaij2EP6bDmZD5Un/PQ/maPKk/5
+6H8zU1FHsIf02HMyHypP+eh/M0eVJ/z0P5mpqKPYQ/psOZkPlSf89D+Zo8qT/nofzNTUUewh/TYc
+zIfKk/56H8zR5Un/AD0P5mpqKPYQ/psOZkPlSf8APQ/maPKk/wCeh/M1NRR7CH9NhzMh8qT/AJ6H
+8zR5Un/PQ/mamoo9hD+mw5mQ+VJ/z0P5mjypP+eh/M1NRR7CH9NhzMh8qT/nofzNHlSf89D+Zqai
+j2EP6bDmZD5Un/PQ/maPKk/56H8zU1FHsIf02HMyHypP+eh/M0eVJ/z0P5mpqKPYQ/psOZkPlSf8
+9D+Zo8qT/nofzNTUUewh/TYczIfKk/56H8zR5Un/AD0P5mpqKPYQ/psOZkPlSf8APQ/maPKk/wCe
+h/M1NRR7CH9NhzMh8qT/AJ6H8zR5Un/PQ/mamoo9hD+mw5mQ+VJ/z0P5mjypP+eh/M1NRR7CH9Nh
+zMh8qT/nofzNHlSf89D+Zqaij2EP6bDmZD5Un/PQ/maPKk/56H8zU1FHsIf02HMyHypP+eh/M0eV
+J/z0P5mpqKPYQ/psOZkPlSf89D+Zoqaij2EP6bDmZRubZba3ae3Zo3QbvvEhvYg0sl8S6xoYo22B
+2MpwOewp72ss2FuLjdH3RU25+vJp0ls3n+dC4Riu1gVyCO3pWxJAdQJtlkVUBMnlsxOVX3yO1Onl
+JtY2lWKTMigFGJU89anMU/lqBcDeDkkoMH2xUIsMRbPMGTKJCQuB9AO1ADjPPLPJHbrGFi4Yvnk+
+gxUdrO9xcqzoEZRIuAc9ClE6FLl3jW4QuBuMQUhvz6Gm2MDQSxhxhmWRsE5xkr3oA0KKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigDgP7Rvv+fy4/7+t/jR/aN9/z+XH/AH9b/Gt3/hHLb+/N/wB9
+L/hVGWz0iGVo5LqZXU4Ix0P/AHzWKrxeyf3FcrKH9o33/P5cf9/W/wAaP7Rvv+fy4/7+t/jVzyNF
+/wCfyb8j/wDE0eRov/P5N+R/+Jp+2XZ/cHKU/wC0b7/n8uP+/rf40f2jff8AP5cf9/W/xq/HaaPL
+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
+			</helperscreenshot>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{RShiftKey down}&quot;{RShiftKey up}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="e12b7452-aa5a-4b6d-850a-47cfb0100e3e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2f341cdc-9efe-4d35-b9a2-9c3cceeb05fa"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, textareatag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="textareatag"
+				rect="148,735,548,134"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control bottom-20
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						raw-criteria
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						bottom-20 form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						textarea
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="cols"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Raw Criteria
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="rows"
+					type="System.String">
+						5
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//textarea[#'raw-criteria']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="78880cb3-5fef-490b-9e8e-6f63b8a0c9ae">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACuAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigCHypP+eh/M0eVJ/wA9D+ZqaisfYQ/psrmZD5Un/PQ/maPKk/56H8zU1FHsIf02
+HMyHypP+eh/M0eVJ/wA9D+Zqaij2EP6bDmZD5Un/AD0P5mjypP8AnofzNTU2SQRqGbOCwXj3OP60
+ewh/TYczI/Kk/wCeh/M0eVJ/z0P5mpqKPYQ/psOZkPlSf89D+Zo8qT/nofzNTUUewh/TYczIfKk/
+56H8zR5Un/PQ/mamoo9hD+mw5mQ+VJ/z0P5mjypP+eh/M1NRR7CH9NhzMh8qT/nofzNHlSf89D+Z
+qaij2EP6bDmZD5Un/PQ/maPKk/56H8zU1FHsIf02HMyHypP+eh/M0eVJ/wA9D+Zqaij2EP6bDmZD
+5Un/AD0P5mjypP8AnofzNTUUewh/TYczIfKk/wCeh/M0eVJ/z0P5mpqKPYQ/psOZkPlSf89D+Zo8
+qT/nofzNTUUewh/TYczIfKk/56H8zR5Un/PQ/mamoo9hD+mw5mQ+VJ/z0P5mjypP+eh/M1NRR7CH
+9NhzMh8qT/nofzNHlSf89D+Zqaij2EP6bDmZD5Un/PQ/maPKk/56H8zU1FHsIf02HMyHypP+eh/M
+0eVJ/wA9D+Zqaij2EP6bDmZD5Un/AD0P5mjypP8AnofzNTUUewh/TYczIfKk/wCeh/M0eVJ/z0P5
+mpqKPYQ/psOZkPlSf89D+Zo8qT/nofzNTUUewh/TYczIfKk/56H8zR5Un/PQ/mamoo9hD+mw5mQ+
+VJ/z0P5mjypP+eh/M1NRR7CH9NhzMh8qT/nofzNHlSf89D+Zqaij2EP6bDmZD5Un/PQ/maPKk/56
+H8zU1FHsIf02HMyHypP+eh/M0eVJ/wA9D+Zqaij2EP6bDmZD5Un/AD0P5mjypP8AnofzNTUUewh/
+TYczIfKk/wCeh/M0eVJ/z0P5mpqKPYQ/psOZkPlSf89D+Zo8qT/nofzNTUUewh/TYczIfKk/56H8
+zR5Un/PQ/mamoo9hD+mw5mQ+VJ/z0P5mipqKPYQ/psOZlG5tltrdp7dmjdBu+8SG9iDSyXxLrGhi
+jbYHYynA57CnvayzYW4uN0fdFTbn68mnSWzef50LhGK7WBXII7elbEkB1Am2WRVQEyeWzE5VffI7
+U6eUm1jaVYpMyKAUYlTz1qcxT+WoFwN4OSSgwfbFQiwxFs8wZMokJC4H0A7UAOM88s8kdusYWLhi
++eT6DFRfb5TAG8pd5n8rbn+tLOhS5d41uELgbjEFIb8+hpLexb7NGHOxhN5uDz+GaEBIk07TSW0o
+QOY9ysucelRNatCEZmyF8pBz33jJq35H+mfaN3/LPZtx75zSXf8AqV/66R/+higCaiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigDgP7Rvv+fy4/wC/rf40f2jff8/lx/39b/Gt3/hHLb+/N/30v+FUZbPS
+IZWjkupldTgjHQ/981iq8Xsn9xXKyh/aN9/z+XH/AH9b/Gj+0b7/AJ/Lj/v63+NXPI0X/n8m/I//
+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
+RQAUUUUAFFFFABRRRQAUUUUAf//Z
+			</helperscreenshot>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="400ms"
+		enabled="True"
+		loc="56;18"
+		movetime="400ms"
+		optional="False"
+		searchpropertyid="8fb01388-0d71-4b86-84f2-138ee164cefb"
+		sx="492"
+		sy="800"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="074ce0ae-423e-4f26-b8ba-c80838a2019c"
+			sourcename="Recorder">
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']/body/div[2]/div[2]/div/div[2]//input[@class='action-button margin-right-10 preview_results']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="400ms"
+		enabled="True"
+		loc="45;18"
+		movetime="400ms"
+		optional="False"
+		searchpropertyid="dba18fec-7c84-47e7-ba69-5b62a107597c"
+		sx="620"
+		sy="800"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="25e2c2fd-5261-4469-a71c-68966207a2cd"
+			sourcename="Recorder">
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']/body/div[2]/div[2]/div/div[2]//input[@class='action-button create-criteria']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="400ms"
+		enabled="True"
+		loc="73;23"
+		movetime="400ms"
+		optional="False"
+		searchpropertyid="a268994f-e964-43a5-a884-86cd3b65d137"
+		sx="1185"
+		sy="106"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a952fb2f-b29b-46c7-a302-1e591a9191bf"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="1112,83,183,36"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						float-right action-button margin-right-10 save-context
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						action-button float-right margin-right-10 save-context
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Save &amp; Publish Context
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Save &amp; Publish Context
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="href"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']/body/div[1]/div[1]/div[1]/div[1]/div[2]/input[@type='button'][1]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="747a7652-b70a-4950-b506-f60b68d7cf2b">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABYAeADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoaKz/
+AO3tN/57H/v23+FH9vab/wA9j/37b/CgDQorP/t7Tf8Ansf+/bf4Uf29pv8Az2P/AH7b/CgDQorP
+/t7Tf+ex/wC/bf4Uf29pv/PY/wDftv8ACgDQorP/ALe03/nsf+/bf4Uf29pv/PY/9+2/woA0KKz/
+AO3tN/57H/v23+FH9vab/wA9j/37b/CgDQorP/t7Tf8Ansf+/bf4Uf29pv8Az2P/AH7b/CgDQorP
+/t7Tf+ex/wC/bf4Uf29pv/PY/wDftv8ACgDQorP/ALe03/nsf+/bf4Uf29pv/PY/9+2/woA0KKz/
+AO3tN/57H/v23+FH9vab/wA9j/37b/CgDQorP/t7Tf8Ansf+/bf4Uf29pv8Az2P/AH7b/CgDQorP
+/t7Tf+ex/wC/bf4Uf29pv/PY/wDftv8ACgDQorP/ALe03/nsf+/bf4Uf29pv/PY/9+2/woA0KKz/
+AO3tN/57H/v23+FH9vab/wA9j/37b/CgDQorP/t7Tf8Ansf+/bf4Uf29pv8Az2P/AH7b/CgDQorP
+/t7Tf+ex/wC/bf4Uf29pv/PY/wDftv8ACgDQorP/ALe03/nsf+/bf4Uf29pv/PY/9+2/woA0KKz/
+AO3tN/57H/v23+FH9vab/wA9j/37b/CgDQorP/t7Tf8Ansf+/bf4Uf29pv8Az2P/AH7b/CgDQorP
+/t7Tf+ex/wC/bf4Uf29pv/PY/wDftv8ACgDQorP/ALe03/nsf+/bf4Uf29pv/PY/9+2/woA0KKz/
+AO3tN/57H/v23+FH9vab/wA9j/37b/CgDQprosgw6hhnODVH+3tN/wCex/79t/hR/b2m/wDPY/8A
+ftv8KALzIrFSVBK9D6U4DNZ/9vab/wA9j/37b/Cl/t/Tf+e5/wC+G/woA0gMCis3+39N/wCe5/74
+b/Cj+39N/wCe5/74b/CgC9JbxSuryIGZeh9KGt4mmEzIDIOhqj/b+m/89z/3w3+FH9v6b/z3P/fD
+f4UAaVFZv9v6b/z3P/fDf4Uf2/pv/Pc/98N/hQBYu7FLhg4Yxyjo61D/AGfNJgXF27p/dHGab/b+
+m/8APc/98N/hR/b+m/8APc/98N/hQBooixoEQAKBgAUtZv8Ab+m/89z/AN8N/hR/b+m/89z/AN8N
+/hQBpUyOGOJ3ZFAZzlj6mqH9v6b/AM9z/wB8N/hR/b+m/wDPc/8AfDf4UAaVFZv9v6b/AM9z/wB8
+N/hR/b+m/wDPc/8AfDf4UAcZRRU9nALifYThQMnFNK7sKUlFXZBRW19gtv8Ann/48aPsFt/zy/8A
+HjWnspHN9ah2Zi0VtfYLb/nl/wCPGj7Bbf8APL/x40eykH1qHZmLRW19gtv+eX/jxo+wW3/PL/x4
+0eykH1qHZmLRW19gtv8Anl/48aPsFt/zy/8AHjR7KQfWodmYtFbX2C2/55f+PGj7Bbf88v8Ax40e
+ykH1qHZmLRW19gtv+eX/AI8aPsFt/wA8v/HjR7KQfWodmYtFbX2C2/55f+PGj7Bbf88v/HjR7KQf
+WodmYtFbX2C2/wCeX/jxqtfWUccPmRArjqM5pOm0rlRxMJOxnhSxwoJ+lO8t/wC435VJaf60/wC7
+WrFbKsY8zLN3NZxUpNpHXOVKlBSqN6328jG8t/7jflR5b/3G/KtzyIv7v6mjyIv7v6mr9lU8jH61
+hv733L/Mw/Lf+435UeW/9xvyrc8iL+7+po8iL+7+po9lU8g+tYb+99y/zMPy3/uN+VHlv/cb8q3P
+Ii/u/qaPIi/u/qaPZVPIPrWG/vfcv8zD8t/7jflR5b/3G/KtzyIv7v6mjyIv7v6mj2VTyD61hv73
+3L/Mw/Lf+435UeW/9xvyrc8iL+7+po8iL+7+po9lU8g+tYb+99y/zMPy3/uN+VHlv/cb8q3PIi/u
+/qaPIi/u/qaPZVPIPrWG/vfcv8zD8t/7jflR5b/3G/KtzyIv7v6mjyIv7v6mj2VTyD61hv733L/M
+w/Lf+435UeW/9xvyrc8iL+7+po8iL+7+po9lU8g+tYb+99y/zMPy3/uN+VHlv/cb8q3PIi/u/qaP
+Ii/u/qaPZVPIPrWG/vfcv8zD8t/7jflR5b/3G/KtzyIv7v6mjyIv7v6mj2VTyD61hv733L/Mw/Lf
++435UeW/9xvyrc8iL+7+pqG7g2wM8RKlRn1zSdKouw44nDN2977l/mY5UqcMCPrSVPd/60f7tQVE
+XdXNqsOSbiFFFFMzCiiigAooooAKKKKACiiigAooooAKKKKACiiigAq7pX/Hy3+4f5ioZkiEYZCA
+2cEDJGPxqbSv+Plv9w/zFVD4kZVv4bNmOJ5c+WpbHXFI8bxnDoV+oq3p+PLuMttGzr6dakikikeG
+DcZsMSWYexrocmmcEaacU76szqK0YhFI8zeUi+Xwo25/EjvSlIGmEe0AyJ/dIwfUZo5/IPY6XuZ8
+cbyttQZPpTa0UijW5hgKKSFJc46nFOiihWGMlFbf1JQsfoMdKOcao36/1p/mZlFaUMMEgOAMROSc
+jkj3pl3HFFAzKq5lYFeOgxRzq9hOi1HmuU44pJc+WhbHXFI8bxnDoy59RVuxx9muNzFRgcjtU7Ij
+G3hYtIhJbeT19qHOzsEaSlFP+t7GXRWjLHCV5j+YOAAkZGRnpTjEjSxsI4/L34+5tPToRRzh7B9z
+M6094ZEZgyHK9e+KueQFjuWaPGH+Uke/arDsQ90AisQAcEZzxQ59hxo33/rf/IyKrah/x5Sfh/MV
+tQIrwhREgkOT86HB+h7VjajxZyD6fzFDldMUYcsovuZdp/rT/u1uVh2n+tP+7W9FnzV2jLZGB61j
+Q+KXyO3Hfwqfz/Qc1vMqbmjYL64qOtKRTOJT++hcLlgfumnRwJgRSJGTsz8qHP51rz6anJ7C70Mu
+itGKKF40uCq7UU7xjqRTo44RFExRD5nLfIT+Ax0puZKoN9TMqR4ZY1DOjKD3Ip6RB70Ro2Bu4JFa
+E6iaGXG5Rn5sg546YolO1ghS5kzKRGkbagLH0FK8MsYy8bKPUip9O/4/F+h/lUyyxKDF5jTF3HDD
+gc03Jp2FCmpRu2Z9OkjeMgOMEjI+lX2gUNdkxAKF+Xj27VLIN00KGBXVlALEZx/hS9oUqG9zNWCR
+lVlXIY4HPU0xlKMVYYIOCK0SiiKGP7y+eRz6c0qRx7nURKGLkAumQfYHtRzh7HoZxjcRiQj5ScA0
+2tIER20StGjZkKkEZA5NVLlEjvGUDCAjinGV3YmdPlVxiW8zruWNiPXFRkEHB4NaF4Lg3K+Tv2YG
+zb0pAhjt/MMIllL4bcM4pKfUbpK9l0KFKqs5wqlj6AZrSMMUbTsI1OEDbTzg80+AIJoXWNFMkZJw
+P5UOoNUNbN/1sZNFaMCKYpJXiRX3YwUJAH0pVhhe4kj8vEZUMSRjafxo5xexbS1M5VZgSqk45OB0
+qK5/49pf9w/yrYjO2S5QQqNq8Ljr/jWReEmGclQp2twBjHFNSvcThytGNd/60f7tQVPd/wCtH+7U
+FcUPhR7mI/iyCiiiqMAooooAKKKKACiiigAooooAKKKKACiiigAooooAe8jvje7Nj1OataV/x8t/
+uH+YqlU9nOLefeRkEYOKqLs0Z1U5QaRuq7KCFYgHg4PWhWZW3KSCO4NVRf22P9Z/46aPt9t/z1/8
+dNdXNHueZ7Op2ZbWR0bcrEN6g0NI7PvZ2LDoc81U+323/PX/AMdNH2+2/wCev/jpo5o9w5KnZlvz
+H3797bv72eaVJpUBCSMoPoap/b7b/nr/AOOmj7fbf89f/HTRzRHyVOzLYdxnDMN3XB60jOzABmJA
+6AnpVX7fbf8APX/x00fb7b/nr/46aOaPcXs6nZloOyggMQD1APWl3vtC72wDkDPSqn2+2/56/wDj
+po+323/PX/x00c0e4ezqdmXWmlfG6Rjjpk0jTSPjdIxx0yelU/t9t/z1/wDHTR9vtv8Anr/46aV4
+j5KnZl1p5XGGkcj0zSCaUMWEjbj1OetU/t9t/wA9f/HTR9vtv+ev/jpovEOSp2ZdE8oUgSOAe2ap
+ah/x5Sfh/MUfb7b/AJ6/+Omq19exywmKLJz1OMUpSjZl04VHNXTKtp/rT/u1uVh2n+tP+7WlFeIy
+DzA6t3+UmsKMkpO56GLpznShyq+/6F5ppWXa0jlfQmgTzBQolcAf7Rqr9rh9W/74P+FH2uH1b/vg
+/wCFdHNDujzvZVv5X9zLAdgpUMQp6jPBpUmkRdqSMo9Aarfa4fVv++D/AIUfa4fVv++D/hRzw7oP
+Y1l9l/cyfJBzk59aebiYnmV/++qq/a4fVv8Avg/4Ufa4fVv++D/hRzw7oFRrLaL+5k6syNuVip9Q
+aTvmoftcPq3/AHwf8KdFL5xfyY5JAgBYheg+h5P4Uc8e4vY1esX9w552t0i3zTsslvG7bmZhk5z9
+KkjvHkU+XcMwxyA3T/CtCztfMs4HLY3QwcY/uHd+uao6nFFZzQsQAXMpLKvJywIzj0zWMJ20Z2Va
+LleUb3GiRwAA7AA5Az0NOE8q5xK4z1+aqv2uH1b/AL4P+FH2uH1b/vg/4VtzQ7o5PY1v5X9zLHmP
+gDe2AcgZ6GkZizZYkk9yag+1w+rf98H/AAo+1w+rf98H/Cjnh3F7Gt/K/uZaWeVF2rIwHoDSJLJG
+SUdlz1wetVvtcPq3/fB/wo+1w+rf98H/AAo5od0P2Nb+V/cyx5j/ADfO3zfe560olkBUh2+X7vPS
+q32uH1b/AL4P+FH2uH1b/vg/4Uc8O6D2Nb+V/cy0J5Q5cSNuPU560hlkIILsQevPWq32uH1b/vg/
+4Ufa4fVv++D/AIUc0O6D2Nb+V/cyyJpQ24SNuxjOe1QXRLW8xJJJQ5J+lN+1w+rf98H/AAqC7u1a
+FkiV2LDGdpGKTnC25UaFZyXusoXf+tH+7UFT3f8ArR/u1BXHD4UeziP4sgoooqjAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAHI7
+IcqcGn/aJf736CoqKTSZcak4qybJftEv979BR9ol/vfoKioo5V2H7ap/M/vJftEv979BR9ol/vfo
+Kioo5V2D21T+Z/eS/aJf736Cj7RL/e/QVFRRyrsHtqn8z+8l+0S/3v0FS2l/Na3STockcEf3h6VV
+ooSSE6k5KzbO9tb23uoBLFIu3HIJwV+tc74i1BJ7qNLdwwiBBYcgk4/wrFpKZKbTuiX7RL/e/QUf
+aJf736CoqKXKuxftqn8z+8l+0S/3v0FH2iX+9+gqKijlXYPbVP5n95L9ol/vfoKPtEv979BUVFHK
+uwe2qfzP7yX7RL/e/QUfaJf736CoqKOVdg9tU/mf3kv2iX+9+go+0S/3v0FRUUcq7B7ap/M/vJft
+Ev8Ae/QUfaJf736CoqKOVdg9tU/mf3jndnOWOTTaKKZDbbuwooooEFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFAHZ/wBhab/z7f8Aj7f40f2Fpv8Az7f+Pt/jRRQAf2Fpv/Pt/wCPt/jR/YWm/wDP
+t/4+3+NFFAB/YWm/8+3/AI+3+NH9hab/AM+3/j7f40UUAH9hab/z7f8Aj7f40f2Fpv8Az7f+Pt/j
+RRQAf2Fpv/Pt/wCPt/jR/YWm/wDPt/4+3+NFFAB/YWm/8+3/AI+3+NH9hab/AM+3/j7f40UUAH9h
+ab/z7f8Aj7f40f2Fpv8Az7f+Pt/jRRQAf2Fpv/Pt/wCPt/jR/YWm/wDPt/4+3+NFFAB/YWm/8+3/
+AI+3+NH9hab/AM+3/j7f40UUAH9hab/z7f8Aj7f40f2Fpv8Az7f+Pt/jRRQAf2Fpv/Pt/wCPt/jR
+/YWm/wDPt/4+3+NFFAB/YWm/8+3/AI+3+NH9hab/AM+3/j7f40UUAH9hab/z7f8Aj7f40f2Fpv8A
+z7f+Pt/jRRQAf2Fpv/Pt/wCPt/jR/YWm/wDPt/4+3+NFFAB/YWm/8+3/AI+3+NH9hab/AM+3/j7f
+40UUAH9hab/z7f8Aj7f40f2Fpv8Az7f+Pt/jRRQAf2Fpv/Pt/wCPt/jR/YWm/wDPt/4+3+NFFAB/
+YWm/8+3/AI+3+NH9hab/AM+3/j7f40UUAH9hab/z7f8Aj7f40f2Fpv8Az7f+Pt/jRRQAf2Fpv/Pt
+/wCPt/jR/YWm/wDPt/4+3+NFFAB/YWm/8+3/AI+3+NH9hab/AM+3/j7f40UUAH9hab/z7f8Aj7f4
+0f2Fpv8Az7f+Pt/jRRQAf2Fpv/Pt/wCPt/jR/YWm/wDPt/4+3+NFFAB/YWm/8+3/AI+3+NH9hab/
+AM+3/j7f40UUAH9hab/z7f8Aj7f40f2Fpv8Az7f+Pt/jRRQAf2Fpv/Pt/wCPt/jR/YWm/wDPt/4+
+3+NFFAB/YWm/8+3/AI+3+NH9hab/AM+3/j7f40UUAH9hab/z7f8Aj7f40f2Fpv8Az7f+Pt/jRRQA
+f2Fpv/Pt/wCPt/jR/YWm/wDPt/4+3+NFFAB/YWm/8+3/AI+3+NH9hab/AM+3/j7f40UUAf/Z
+			</helperscreenshot>
+		</mouseitem>
 	</recorditems>
 	<repository
 	id="7fc6ca68-82ae-4407-ac30-9403b580fea9"

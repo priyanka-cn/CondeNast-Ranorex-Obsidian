@@ -73,12 +73,128 @@ namespace ContextCreation
         [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
         void ITestModule.Run()
         {
-            Mouse.DefaultMoveTime = 300;
-            Keyboard.DefaultKeyPressTime = 20;
+            Mouse.DefaultMoveTime = 400;
+            Keyboard.DefaultKeyPressTime = 100;
             Delay.SpeedFactor = 1.00;
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.EditContext' at 10;4.", repo.ApplicationUnderTest.EditContextInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.EditContext.Click("10;4");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.DynamicAttributes_More' at 64;6.", repo.ApplicationUnderTest.DynamicAttributes_MoreInfo, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.DynamicAttributes_More.Click("64;6");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.DA_BusinessName' at 31;20.", repo.ApplicationUnderTest.DA_BusinessNameInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.DA_BusinessName.Click("31;20");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Vogue' with focus on 'ApplicationUnderTest.DA_BusinessName'.", repo.ApplicationUnderTest.DA_BusinessNameInfo, new RecordItemIndex(3));
+            repo.ApplicationUnderTest.DA_BusinessName.PressKeys("Vogue");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.DA_BusinessDescription' at 40;24.", repo.ApplicationUnderTest.DA_BusinessDescriptionInfo, new RecordItemIndex(4));
+            repo.ApplicationUnderTest.DA_BusinessDescription.Click("40;24");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Fashion' with focus on 'ApplicationUnderTest.DA_BusinessDescription'.", repo.ApplicationUnderTest.DA_BusinessDescriptionInfo, new RecordItemIndex(5));
+            repo.ApplicationUnderTest.DA_BusinessDescription.PressKeys("Fashion");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to 'Yes' on item 'ApplicationUnderTest.DA_PushToSpire'.", repo.ApplicationUnderTest.DA_PushToSpireInfo, new RecordItemIndex(6));
+            repo.ApplicationUnderTest.DA_PushToSpire.Element.SetAttributeValue("TagValue", "Yes");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.DynamicAttribute' at 26;187.", repo.ApplicationUnderTest.DynamicAttributeInfo, new RecordItemIndex(7));
+            repo.ApplicationUnderTest.DynamicAttribute.Click("26;187");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Include_AddCriteria' at 22;7.", repo.ApplicationUnderTest.Include_AddCriteriaInfo, new RecordItemIndex(8));
+            repo.ApplicationUnderTest.Include_AddCriteria.Click("22;7");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CriteriaName' at 65;20.", repo.ApplicationUnderTest.CriteriaNameInfo, new RecordItemIndex(9));
+            repo.ApplicationUnderTest.CriteriaName.Click("65;20");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Makeup products' with focus on 'ApplicationUnderTest.CriteriaName'.", repo.ApplicationUnderTest.CriteriaNameInfo, new RecordItemIndex(10));
+            repo.ApplicationUnderTest.CriteriaName.PressKeys("Makeup products");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.RawCriteria' at 71;19.", repo.ApplicationUnderTest.RawCriteriaInfo, new RecordItemIndex(11));
+            repo.ApplicationUnderTest.RawCriteria.Click("71;19");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '\"Foundation\" \"concealer\" \"primer\"' with focus on 'ApplicationUnderTest.RawCriteria'.", repo.ApplicationUnderTest.RawCriteriaInfo, new RecordItemIndex(12));
+            repo.ApplicationUnderTest.RawCriteria.PressKeys("\"Foundation\" \"concealer\" \"primer\"");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -28 units.", new RecordItemIndex(13));
+            Mouse.ScrollWheel(-28);
+            Delay.Milliseconds(400);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -2 units.", new RecordItemIndex(14));
+            Mouse.ScrollWheel(-2);
+            Delay.Milliseconds(400);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.PreviewResultsCriteria' at 55;17.", repo.ApplicationUnderTest.PreviewResultsCriteriaInfo, new RecordItemIndex(15));
+            repo.ApplicationUnderTest.PreviewResultsCriteria.Click("55;17");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -39 units.", new RecordItemIndex(16));
+            Mouse.ScrollWheel(-39);
+            Delay.Milliseconds(400);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CreateCriteria' at 31;17.", repo.ApplicationUnderTest.CreateCriteriaInfo, new RecordItemIndex(17));
+            repo.ApplicationUnderTest.CreateCriteria.Click("31;17");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddExcludeCriteria' at 274;8.", repo.ApplicationUnderTest.AddExcludeCriteriaInfo, new RecordItemIndex(18));
+            repo.ApplicationUnderTest.AddExcludeCriteria.Click("274;8");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Exclude_AddCriteria' at 48;5.", repo.ApplicationUnderTest.Exclude_AddCriteriaInfo, new RecordItemIndex(19));
+            repo.ApplicationUnderTest.Exclude_AddCriteria.Click("48;5");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CriteriaName' at 61;22.", repo.ApplicationUnderTest.CriteriaNameInfo, new RecordItemIndex(20));
+            repo.ApplicationUnderTest.CriteriaName.Click("61;22");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Desin' with focus on 'ApplicationUnderTest.CriteriaName'.", repo.ApplicationUnderTest.CriteriaNameInfo, new RecordItemIndex(21));
+            repo.ApplicationUnderTest.CriteriaName.PressKeys("Desin");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}gn' with focus on 'ApplicationUnderTest.CriteriaName'.", repo.ApplicationUnderTest.CriteriaNameInfo, new RecordItemIndex(22));
+            repo.ApplicationUnderTest.CriteriaName.PressKeys("{Back}gn");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.RawCriteria' at 95;32.", repo.ApplicationUnderTest.RawCriteriaInfo, new RecordItemIndex(23));
+            repo.ApplicationUnderTest.RawCriteria.Click("95;32");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '\"Design\"' with focus on 'ApplicationUnderTest.RawCriteria'.", repo.ApplicationUnderTest.RawCriteriaInfo, new RecordItemIndex(24));
+            repo.ApplicationUnderTest.RawCriteria.PressKeys("\"Design\"");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{RShiftKey down}\"{RShiftKey up}' with focus on 'ApplicationUnderTest.RawCriteria'.", repo.ApplicationUnderTest.RawCriteriaInfo, new RecordItemIndex(25));
+            repo.ApplicationUnderTest.RawCriteria.PressKeys("{RShiftKey down}\"{RShiftKey up}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.PreviewResultsCriteria' at 56;18.", repo.ApplicationUnderTest.PreviewResultsCriteriaInfo, new RecordItemIndex(26));
+            repo.ApplicationUnderTest.PreviewResultsCriteria.Click("56;18");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CreateCriteria' at 45;18.", repo.ApplicationUnderTest.CreateCriteriaInfo, new RecordItemIndex(27));
+            repo.ApplicationUnderTest.CreateCriteria.Click("45;18");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SavePublish' at 73;23.", repo.ApplicationUnderTest.SavePublishInfo, new RecordItemIndex(28));
+            repo.ApplicationUnderTest.SavePublish.Click("73;23");
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

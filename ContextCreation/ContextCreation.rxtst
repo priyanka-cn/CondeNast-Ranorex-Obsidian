@@ -8,6 +8,15 @@
 			reportlevel="Info;20">
 			</testcase>
 			<testmodule
+			id="47ab2715-b0f8-4465-a75c-fa29bac10a67"
+			name="AddFilters"
+			ref="c85b97e3-6f90-46e0-b2bf-dba1b14e3c77"
+			type="Recording">
+				<description>
+					<![CDATA[Add Filters and Calibrate output]]>
+				</description>
+			</testmodule>
+			<testmodule
 			id="4e29d265-42f1-44dd-aa24-1ae163b8028e"
 			name="CloseBrowser"
 			ref="ddf49165-1391-44e0-a4c8-34d5edee7953"
@@ -19,7 +28,7 @@
 			ref="4192016d-5f3f-4bc7-afa4-4270127d5690"
 			type="Recording">
 				<description>
-					<![CDATA[Create Include Criteria for the above context]]>
+					<![CDATA[Create Include and  Exclude Criteria for the above context]]>
 				</description>
 			</testmodule>
 			<testmodule
@@ -40,10 +49,28 @@
 			name="teardown">
 			</teardown>
 			<testmodule
+			id="b03387a1-5770-4f25-9675-445b30e0b9db"
+			name="AddPagelistWithActions"
+			ref="48d211ad-b23d-45b3-b742-9aa8060270c5"
+			type="Recording">
+				<description>
+					<![CDATA[Add Pagelist and perform actions on the pagelist]]>
+				</description>
+			</testmodule>
+			<testmodule
 			id="b7b48038-6d49-4000-9581-0c47a2ea2f0c"
 			name="OpenBrowser"
 			ref="9e505822-7f52-4f40-8413-1fb0296fd530"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="b89a9efb-eea0-4a21-851d-47852b2d01c3"
+			name="ActionsInCriteria"
+			ref="30722468-b857-497b-ad6f-db2a66af3458"
+			type="Recording">
+				<description>
+					<![CDATA[Actions performed on criteria]]>
+				</description>
 			</testmodule>
 			<setup
 			id="dbefd6b2-4bea-46fc-8710-aa7fefafc5d1"
@@ -94,6 +121,18 @@
 						<testmodule
 						id="50b7c79b-24a4-458a-a375-0b86bbd14f96"
 						name="CreateCriteria">
+						</testmodule>
+						<testmodule
+						id="b03387a1-5770-4f25-9675-445b30e0b9db"
+						name="AddPagelistWithActions">
+						</testmodule>
+						<testmodule
+						id="47ab2715-b0f8-4465-a75c-fa29bac10a67"
+						name="AddFilters">
+						</testmodule>
+						<testmodule
+						id="b89a9efb-eea0-4a21-851d-47852b2d01c3"
+						name="ActionsInCriteria">
 						</testmodule>
 						<teardown
 						id="a9409372-b8e1-4e4a-9e98-d82d9a69808d"

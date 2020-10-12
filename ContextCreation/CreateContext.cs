@@ -73,97 +73,101 @@ namespace ContextCreation
         [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
         void ITestModule.Run()
         {
-            Mouse.DefaultMoveTime = 300;
-            Keyboard.DefaultKeyPressTime = 20;
+            Mouse.DefaultMoveTime = 400;
+            Keyboard.DefaultKeyPressTime = 100;
             Delay.SpeedFactor = 1.00;
 
             Init();
 
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.UserEmail' at 122;7.", repo.ApplicationUnderTest.UserEmailInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.UserEmail.Click("122;7");
+            repo.ApplicationUnderTest.UserEmail.Click("122;7", 300);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'priyanka{RShiftKey down}_{RShiftKey up}ramesh{RShiftKey down}@{RShiftKey up}o' with focus on 'ApplicationUnderTest.UserEmail'.", repo.ApplicationUnderTest.UserEmailInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.UserEmail.PressKeys("priyanka{RShiftKey down}_{RShiftKey up}ramesh{RShiftKey down}@{RShiftKey up}o");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'obs-admin@condenast.com' with focus on 'ApplicationUnderTest.UserEmail'.", repo.ApplicationUnderTest.UserEmailInfo, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.UserEmail.PressKeys("obs-admin@condenast.com", 20);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}condenast.com' with focus on 'ApplicationUnderTest.UserEmail'.", repo.ApplicationUnderTest.UserEmailInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.UserEmail.PressKeys("{Back}condenast.com");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}condenast.com' with focus on 'ApplicationUnderTest.UserEmail'.", repo.ApplicationUnderTest.UserEmailInfo, new RecordItemIndex(2));
+            //repo.ApplicationUnderTest.UserEmail.PressKeys("{Back}condenast.com", 20);
+            //Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.UserPassword' at 93;13.", repo.ApplicationUnderTest.UserPasswordInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.UserPassword.Click("93;13");
+            repo.ApplicationUnderTest.UserPassword.Click("93;13", 300);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'obsidian{Return}' with focus on 'ApplicationUnderTest.UserPassword'.", repo.ApplicationUnderTest.UserPasswordInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.UserPassword.PressKeys("obsidian{Return}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'password' with focus on 'ApplicationUnderTest.UserPassword'.", repo.ApplicationUnderTest.UserPasswordInfo, new RecordItemIndex(4));
+            repo.ApplicationUnderTest.UserPassword.PressKeys("password", 20);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ContextStudio' at 73;6.", repo.ApplicationUnderTest.ContextStudioInfo, new RecordItemIndex(5));
-            repo.ApplicationUnderTest.ContextStudio.Click("73;6");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LoginButton' at Center.", repo.ApplicationUnderTest.LoginButtonInfo, new RecordItemIndex(5));
+            repo.ApplicationUnderTest.LoginButton.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CreateContext' at 26;22.", repo.ApplicationUnderTest.CreateContextInfo, new RecordItemIndex(6));
-            repo.ApplicationUnderTest.CreateContext.Click("26;22");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ContextStudio' at 73;6.", repo.ApplicationUnderTest.ContextStudioInfo, new RecordItemIndex(6));
+            repo.ApplicationUnderTest.ContextStudio.Click("73;6", 300);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ContextName' at 244;7.", repo.ApplicationUnderTest.ContextNameInfo, new RecordItemIndex(7));
-            repo.ApplicationUnderTest.ContextName.Click("244;7");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CreateContext' at 26;22.", repo.ApplicationUnderTest.CreateContextInfo, new RecordItemIndex(7));
+            repo.ApplicationUnderTest.CreateContext.Click("26;22", 300);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Fashion' with focus on 'ApplicationUnderTest.ContextName'.", repo.ApplicationUnderTest.ContextNameInfo, new RecordItemIndex(8));
-            repo.ApplicationUnderTest.ContextName.PressKeys("Fashion");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ContextName' at 244;7.", repo.ApplicationUnderTest.ContextNameInfo, new RecordItemIndex(8));
+            repo.ApplicationUnderTest.ContextName.Click("244;7", 300);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.ButtonTagClassifications' at 31;19.", repo.ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.ButtonTagClassificationsInfo, new RecordItemIndex(9));
-            repo.ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.ButtonTagClassifications.Click("31;19");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Fashion' with focus on 'ApplicationUnderTest.ContextName'.", repo.ApplicationUnderTest.ContextNameInfo, new RecordItemIndex(9));
+            repo.ApplicationUnderTest.ContextName.PressKeys("Fashion", 20);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.ButtonTagClassifications' at 65;18.", repo.ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.ButtonTagClassificationsInfo, new RecordItemIndex(10));
-            repo.ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.ButtonTagClassifications.Click("65;18");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.ButtonTagClassifications' at 31;19.", repo.ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.ButtonTagClassificationsInfo, new RecordItemIndex(10));
+            repo.ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.ButtonTagClassifications.Click("31;19", 300);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Horizontal by 1 units.", new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.ButtonTagClassifications' at 65;18.", repo.ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.ButtonTagClassificationsInfo, new RecordItemIndex(11));
+            repo.ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.ButtonTagClassifications.Click("65;18", 300);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Horizontal by 1 units.", new RecordItemIndex(12));
             Mouse.ScrollHorizontalWheel(1);
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -157 units.", new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -157 units.", new RecordItemIndex(13));
             Mouse.ScrollWheel(-157);
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'ApplicationUnderTest.ClassificationsDropdownMenuShow' at 243;84.", repo.ApplicationUnderTest.ClassificationsDropdownMenuShowInfo, new RecordItemIndex(13));
-            repo.ApplicationUnderTest.ClassificationsDropdownMenuShow.MoveTo("243;84");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'ApplicationUnderTest.ClassificationsDropdownMenuShow' at 243;84.", repo.ApplicationUnderTest.ClassificationsDropdownMenuShowInfo, new RecordItemIndex(14));
+            repo.ApplicationUnderTest.ClassificationsDropdownMenuShow.MoveTo("243;84", 300);
             Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'ApplicationUnderTest.ClassificationsDropdownMenuShow' at 251;249.", repo.ApplicationUnderTest.ClassificationsDropdownMenuShowInfo, new RecordItemIndex(14));
-            repo.ApplicationUnderTest.ClassificationsDropdownMenuShow.MoveTo("251;249");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'ApplicationUnderTest.ClassificationsDropdownMenuShow' at 251;249.", repo.ApplicationUnderTest.ClassificationsDropdownMenuShowInfo, new RecordItemIndex(15));
+            repo.ApplicationUnderTest.ClassificationsDropdownMenuShow.MoveTo("251;249", 300);
             Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ClassificationSelection' at 96;19.", repo.ApplicationUnderTest.ClassificationSelectionInfo, new RecordItemIndex(15));
-            repo.ApplicationUnderTest.ClassificationSelection.Click("96;19");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ClassificationSelection' at 96;19.", repo.ApplicationUnderTest.ClassificationSelectionInfo, new RecordItemIndex(16));
+            repo.ApplicationUnderTest.ClassificationSelection.Click("96;19", 300);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.SubClassifications' at 112;14.", repo.ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.SubClassificationsInfo, new RecordItemIndex(16));
-            repo.ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.SubClassifications.Click("112;14");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.SubClassifications' at 112;14.", repo.ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.SubClassificationsInfo, new RecordItemIndex(17));
+            repo.ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.SubClassifications.Click("112;14", 300);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.SubClassificationSelection' at 36;16.", repo.ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.SubClassificationSelectionInfo, new RecordItemIndex(17));
-            repo.ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.SubClassificationSelection.Click("36;16");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.SubClassificationSelection' at 36;16.", repo.ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.SubClassificationSelectionInfo, new RecordItemIndex(18));
+            repo.ApplicationUnderTest.AutoMarginColMd4ColMdOffset2Pl.SubClassificationSelection.Click("36;16", 300);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SavePublish' at 108;21.", repo.ApplicationUnderTest.SavePublishInfo, new RecordItemIndex(18));
-            repo.ApplicationUnderTest.SavePublish.Click("108;21");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SavePublish' at 108;21.", repo.ApplicationUnderTest.SavePublishInfo, new RecordItemIndex(19));
+            repo.ApplicationUnderTest.SavePublish.Click("108;21", 300);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.UserProfileButton' at 79;26.", repo.ApplicationUnderTest.UserProfileButtonInfo, new RecordItemIndex(19));
-            repo.ApplicationUnderTest.UserProfileButton.Click("79;26");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.UserProfileButton' at 79;26.", repo.ApplicationUnderTest.UserProfileButtonInfo, new RecordItemIndex(20));
+            //repo.ApplicationUnderTest.UserProfileButton.Click("79;26", 300);
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ATagLogout' at 62;13.", repo.ApplicationUnderTest.ATagLogoutInfo, new RecordItemIndex(20));
-            repo.ApplicationUnderTest.ATagLogout.Click("62;13");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ATagLogout' at 62;13.", repo.ApplicationUnderTest.ATagLogoutInfo, new RecordItemIndex(21));
+            //repo.ApplicationUnderTest.ATagLogout.Click("62;13", 300);
+            //Delay.Milliseconds(0);
             
         }
 

@@ -123,6 +123,42 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionsInCriteria.cs">
+      <BoundTo>43ced07f-046d-4027-a371-f63721408af1</BoundTo>
+      <DependentUpon>ActionsInCriteria.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f5129f3b-45c8-4223-b46c-efed0d0ee4ed</id>
+    </Compile>
+    <Compile Include="ActionsInCriteria.UserCode.cs">
+      <BoundTo>43ced07f-046d-4027-a371-f63721408af1</BoundTo>
+      <DependentUpon>ActionsInCriteria.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>db92a3f7-53e1-45fc-9e46-7b0e8b976749</id>
+    </Compile>
+    <Compile Include="AddFilters.cs">
+      <BoundTo>78a954a8-a828-4e0b-bf32-77b13e56d9c3</BoundTo>
+      <DependentUpon>AddFilters.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6b05b685-94d0-4f76-8f2a-55e04aa47d76</id>
+    </Compile>
+    <Compile Include="AddFilters.UserCode.cs">
+      <BoundTo>78a954a8-a828-4e0b-bf32-77b13e56d9c3</BoundTo>
+      <DependentUpon>AddFilters.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>06faff63-87ec-454f-9f89-80486cfad220</id>
+    </Compile>
+    <Compile Include="AddPagelistWithActions.cs">
+      <BoundTo>6620df5f-6a1d-4459-8f22-ee9699a6fd57</BoundTo>
+      <DependentUpon>AddPagelistWithActions.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9f3a4c8c-3a2c-4946-b034-d787201a99c8</id>
+    </Compile>
+    <Compile Include="AddPagelistWithActions.UserCode.cs">
+      <BoundTo>6620df5f-6a1d-4459-8f22-ee9699a6fd57</BoundTo>
+      <DependentUpon>AddPagelistWithActions.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>326f28d1-1ff1-480c-bb9e-962605de3fdb</id>
+    </Compile>
     <Compile Include="AssemblyInfo.cs">
       <id>605098b5-6130-47ff-b15a-1900177077b5</id>
     </Compile>
@@ -197,6 +233,21 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ActionsInCriteria.rxrec">
+      <BoundTo>fc32be71-f26c-4dfd-aa71-5735d4fd0e7a</BoundTo>
+      <id>43ced07f-046d-4027-a371-f63721408af1</id>
+      <recordtableid>30722468-b857-497b-ad6f-db2a66af3458</recordtableid>
+    </None>
+    <None Include="AddFilters.rxrec">
+      <BoundTo>fc32be71-f26c-4dfd-aa71-5735d4fd0e7a</BoundTo>
+      <id>78a954a8-a828-4e0b-bf32-77b13e56d9c3</id>
+      <recordtableid>c85b97e3-6f90-46e0-b2bf-dba1b14e3c77</recordtableid>
+    </None>
+    <None Include="AddPagelistWithActions.rxrec">
+      <id>6620df5f-6a1d-4459-8f22-ee9699a6fd57</id>
+      <recordtableid>48d211ad-b23d-45b3-b742-9aa8060270c5</recordtableid>
+      <BoundTo>fc32be71-f26c-4dfd-aa71-5735d4fd0e7a</BoundTo>
+    </None>
     <None Include="app.config">
       <id>f1b6c254-3cd5-4bc9-893f-0d8e895a5c73</id>
     </None>

@@ -245,7 +245,7 @@ gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAPSkoooA//Z
 			</helperscreenshot>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="priyanka{RShiftKey down}_{RShiftKey up}ramesh{RShiftKey down}@{RShiftKey up}o"
+		KeySequence="obs-admin@condenast.com"
 		duration="20ms"
 		enabled="True"
 		optional="False"
@@ -471,7 +471,7 @@ ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAB6UlFFAH/9k=
 		<keysequenceitem
 		KeySequence="{Back}condenast.com"
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="a28ef932-f9f1-45b2-bf7e-d3cc8e5f4538">
@@ -919,7 +919,7 @@ AFFFFABRRRQAUUUUAB6UlFFAH//Z
 			</helperscreenshot>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="obsidian{Return}"
+		KeySequence="password"
 		duration="20ms"
 		enabled="True"
 		optional="False"
@@ -1122,6 +1122,30 @@ LcHS1uzOQRAHwEHzHGef/rYq+hLIpPUjNFFN7sBaKKKQBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
 BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAHpSUUUAf/Z
 			</helperscreenshot>
 		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="400ms"
+		enabled="True"
+		loc="Center"
+		movetime="400ms"
+		optional="False"
+		searchpropertyid="f0610236-c1b1-45e0-97ea-a4fa5d9fb6f3"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="400d55a7-fb02-437f-88f5-a791581f7e64"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='obsidian-staging.conde.io']//input[@class='login-button']
+				</path>
+			</info>
+		</mouseitem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -3053,7 +3077,7 @@ CiiigAooooAKKKKACiiigAooooAKKKKACiiigD//2Q==
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="79;26"
 		movetime="300ms"
 		optional="False"
@@ -3211,7 +3235,7 @@ f/H9N/1wb+YrcoooAntv4vwooooA/9k=
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="62;13"
 		movetime="300ms"
 		optional="False"
