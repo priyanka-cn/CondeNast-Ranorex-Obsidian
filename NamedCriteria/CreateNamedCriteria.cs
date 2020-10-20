@@ -83,8 +83,8 @@ namespace NamedCriteria
             repo.ApplicationUnderTest.UserEmail.Click("27;9", 300);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'priyanka{RShiftKey down}_{RShiftKey up}ramesh{RShiftKey down}@{RShiftKey up}condenast.com' with focus on 'ApplicationUnderTest.UserEmail'.", repo.ApplicationUnderTest.UserEmailInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.UserEmail.PressKeys("priyanka{RShiftKey down}_{RShiftKey up}ramesh{RShiftKey down}@{RShiftKey up}condenast.com", 20);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'obs-admin@condenast.com' with focus on 'ApplicationUnderTest.UserEmail'.", repo.ApplicationUnderTest.UserEmailInfo, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.UserEmail.PressKeys("obs-admin@condenast.com", 20);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.UserPassword' at 66;15.", repo.ApplicationUnderTest.UserPasswordInfo, new RecordItemIndex(2));
@@ -119,16 +119,16 @@ namespace NamedCriteria
             repo.ApplicationUnderTest.NamedCriteriaName.PressKeys("Hair style", 20);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.RawCriteria' at 233;40.", repo.ApplicationUnderTest.RawCriteriaInfo, new RecordItemIndex(10));
-            repo.ApplicationUnderTest.RawCriteria.Click("233;40", 300);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.RawCriteriaQueryTool' at 233;40.", repo.ApplicationUnderTest.RawCriteriaQueryToolInfo, new RecordItemIndex(10));
+            repo.ApplicationUnderTest.RawCriteriaQueryTool.Click("233;40", 300);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{RShiftKey down}\"{RShiftKey up}curls{RShiftKey down}\"{RShiftKey up} {RShiftKey down}\"{RShiftKey up}ponytail{RShiftKey down}\"{RShiftKey up} {RShiftKey down}{\" down}{RShiftKey up}' with focus on 'ApplicationUnderTest.RawCriteria'.", repo.ApplicationUnderTest.RawCriteriaInfo, new RecordItemIndex(11));
-            repo.ApplicationUnderTest.RawCriteria.PressKeys("{RShiftKey down}\"{RShiftKey up}curls{RShiftKey down}\"{RShiftKey up} {RShiftKey down}\"{RShiftKey up}ponytail{RShiftKey down}\"{RShiftKey up} {RShiftKey down}{\" down}{RShiftKey up}", 20);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{RShiftKey down}\"{RShiftKey up}curls{RShiftKey down}\"{RShiftKey up} {RShiftKey down}\"{RShiftKey up}ponytail{RShiftKey down}\"{RShiftKey up} {RShiftKey down}{\" down}{RShiftKey up}' with focus on 'ApplicationUnderTest.RawCriteriaQueryTool'.", repo.ApplicationUnderTest.RawCriteriaQueryToolInfo, new RecordItemIndex(11));
+            repo.ApplicationUnderTest.RawCriteriaQueryTool.PressKeys("{RShiftKey down}\"{RShiftKey up}curls{RShiftKey down}\"{RShiftKey up} {RShiftKey down}\"{RShiftKey up}ponytail{RShiftKey down}\"{RShiftKey up} {RShiftKey down}{\" down}{RShiftKey up}", 20);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'straighten{RShiftKey down}\"{RShiftKey up}' with focus on 'ApplicationUnderTest.RawCriteria'.", repo.ApplicationUnderTest.RawCriteriaInfo, new RecordItemIndex(12));
-            repo.ApplicationUnderTest.RawCriteria.PressKeys("straighten{RShiftKey down}\"{RShiftKey up}", 20);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'straighten{RShiftKey down}\"{RShiftKey up}' with focus on 'ApplicationUnderTest.RawCriteriaQueryTool'.", repo.ApplicationUnderTest.RawCriteriaQueryToolInfo, new RecordItemIndex(12));
+            repo.ApplicationUnderTest.RawCriteriaQueryTool.PressKeys("straighten{RShiftKey down}\"{RShiftKey up}", 20);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.PreviewResults' at 28;16.", repo.ApplicationUnderTest.PreviewResultsInfo, new RecordItemIndex(13));

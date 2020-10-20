@@ -41,6 +41,15 @@
 				</description>
 			</testmodule>
 			<testmodule
+			id="dbd77ca7-6f60-49cd-95e2-3e9847e55d15"
+			name="QueryTool"
+			ref="5d40d386-f490-484a-9afd-007808987852"
+			type="Recording">
+				<description>
+					<![CDATA[QueryTool Actions and Named Criteria creation from querytool]]>
+				</description>
+			</testmodule>
+			<testmodule
 			id="e1a3fe33-a51d-43cc-bb93-2937e456483b"
 			name="OpenBrowser"
 			ref="c73ed77a-0d10-47b1-ba92-5bdc3b9bf43d"
@@ -94,6 +103,10 @@
 						<testmodule
 						id="bbd88714-37b6-493e-8225-99d87f30bebe"
 						name="NamedCriteriaActions">
+						</testmodule>
+						<testmodule
+						id="dbd77ca7-6f60-49cd-95e2-3e9847e55d15"
+						name="QueryTool">
 						</testmodule>
 						<teardown
 						id="f2025f37-baea-42ca-b10c-e96bcdd1bbd2"

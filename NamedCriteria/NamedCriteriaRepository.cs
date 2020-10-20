@@ -118,7 +118,6 @@ namespace NamedCriteria
             RepoItemInfo _namedcriteriaInfo;
             RepoItemInfo _createnamedcriteriaInfo;
             RepoItemInfo _namedcriterianameInfo;
-            RepoItemInfo _rawcriteriaInfo;
             RepoItemInfo _previewresultsInfo;
             RepoItemInfo _savenamedcriteriaInfo;
             RepoItemInfo _namedcriteriasearchInfo;
@@ -127,6 +126,18 @@ namespace NamedCriteria
             RepoItemInfo _namedcriteriadescriptionInfo;
             RepoItemInfo _selecttargetlanguageInfo;
             RepoItemInfo _updatecriteriaInfo;
+            RepoItemInfo _englishInfo;
+            RepoItemInfo _deleteInfo;
+            RepoItemInfo _adminuserInfo;
+            RepoItemInfo _ataglogoutInfo;
+            RepoItemInfo _querytooltabInfo;
+            RepoItemInfo _rawcriteriaquerytoolInfo;
+            RepoItemInfo _criteriatypequerytoolInfo;
+            RepoItemInfo _targetlanguagequerytoolInfo;
+            RepoItemInfo _shownamedcriteriaInfo;
+            RepoItemInfo _datasourcequerytoolInfo;
+            RepoItemInfo _querynowquerytoolInfo;
+            RepoItemInfo _savenamedinquerytoolInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -143,7 +154,6 @@ namespace NamedCriteria
                 _namedcriteriaInfo = new RepoItemInfo(this, "NAMEDCRITERIA", ".//a[@innertext='NAMED CRITERIA']", 30000, null, "8a0de1ab-83f5-47c0-9721-f669557df518");
                 _createnamedcriteriaInfo = new RepoItemInfo(this, "CreateNamedCriteria", ".//input[@class='action-button float-right']", 30000, null, "6bb24f5e-a7e3-440f-bf02-80d683e17b8c");
                 _namedcriterianameInfo = new RepoItemInfo(this, "NamedCriteriaName", ".//input[#'named-criteria-name']", 30000, null, "82ffb288-2c01-491d-a352-efc9d0422998");
-                _rawcriteriaInfo = new RepoItemInfo(this, "RawCriteria", ".//textarea[#'raw-criteria']", 30000, null, "2d288d88-b503-4d6a-b6e3-a675f16c9aba");
                 _previewresultsInfo = new RepoItemInfo(this, "PreviewResults", "body/div[1]/div/div/div/div[2]/input[@value='Preview Results']", 30000, null, "9dee361f-821e-4e08-9f8c-b8c2ab121d0c");
                 _savenamedcriteriaInfo = new RepoItemInfo(this, "SaveNamedCriteria", "body/div[1]/div/div/div/div[2]/input[@value='Save Named Criteria']", 30000, null, "0793412a-a551-41de-a8e6-8867ebde5342");
                 _namedcriteriasearchInfo = new RepoItemInfo(this, "NamedCriteriaSearch", "body/div/div[2]/div[1]/div/div[1]/input[@type='text']", 30000, null, "9b06d676-2086-4c62-a179-66bcc0125df3");
@@ -152,6 +162,18 @@ namespace NamedCriteria
                 _namedcriteriadescriptionInfo = new RepoItemInfo(this, "NamedCriteriaDescription", ".//input[#'named-criteria-description']", 30000, null, "d400a253-ae05-4d72-a338-f4446638a3a4");
                 _selecttargetlanguageInfo = new RepoItemInfo(this, "SelectTargetLanguage", "body/div[2]/div[1]/div[1]/div[3]/div[2]/ul/li[2]/a[@innertext='English']", 30000, null, "659d6b4e-ab4d-4052-b9e3-9880ce6ea30d");
                 _updatecriteriaInfo = new RepoItemInfo(this, "UpdateCriteria", ".//input[#'create_criteria']", 30000, null, "36192e84-7065-4310-9912-9c536195e400");
+                _englishInfo = new RepoItemInfo(this, "English", ".//ul[#'target-language']/?/?/a[@innertext='English']", 30000, null, "cbdcfa52-691c-4a2c-bba0-cb73d20b4614");
+                _deleteInfo = new RepoItemInfo(this, "Delete", ".//table/tbody/tr[1]/td[5]/span[@innertext>' /                      /']/a[@innertext='Delete']", 30000, null, "b2ac4856-754a-49f7-bae2-966d5111cf4a");
+                _adminuserInfo = new RepoItemInfo(this, "AdminUser", "body/div//button[@innertext='Admin User ']", 30000, null, "3f410c1b-f7c6-4a19-9031-85cf13990451");
+                _ataglogoutInfo = new RepoItemInfo(this, "ATagLogout", ".//div[#'myDropdown']/a[@innertext='  Logout']", 30000, null, "f2dbb819-d5bf-483b-a4ef-71c5181ee1c1");
+                _querytooltabInfo = new RepoItemInfo(this, "QueryToolTab", ".//a[@innertext='QUERY TOOL' and @visible='True']", 30000, null, "ca5cbf0b-8cdb-4e11-9f04-bf1d6ef93e6b");
+                _rawcriteriaquerytoolInfo = new RepoItemInfo(this, "RawCriteriaQueryTool", ".//textarea[@id='raw-criteria']", 30000, null, "abe17b28-dee4-4a07-a4e9-5a3924ab4c62");
+                _criteriatypequerytoolInfo = new RepoItemInfo(this, "CriteriaTypeQueryTool", ".//buttontag[@class='button-link dropdown-toggle drop-down-title btn float-right criteria-type display-flex' and @visible='True']", 30000, null, "07b21608-ffce-410f-b0cc-81164480efd4");
+                _targetlanguagequerytoolInfo = new RepoItemInfo(this, "TargetLanguageQueryTool", ".//buttontag[@class='button-link dropdown-toggle drop-down-title btn float-right target-language  display-flex' and @visible='True']", 30000, null, "1b4d3720-88c2-4aa7-8795-6036f534defb");
+                _shownamedcriteriaInfo = new RepoItemInfo(this, "ShowNamedCriteria", ".//a[@innertext='Show' and @visible='True'][1]", 30000, null, "f4a8ad15-924a-4417-87a2-dcc88c1b94c3");
+                _datasourcequerytoolInfo = new RepoItemInfo(this, "DatasourceQueryTool", ".//buttontag[@class='button-link dropdown-toggle drop-down-title btn btn float-right display-flex data-source' and @visible='True'][1]", 30000, null, "f203e6d8-55bf-4931-afbf-e01a926c4a2e");
+                _querynowquerytoolInfo = new RepoItemInfo(this, "QueryNowQueryTool", ".//input[@class='action-button float-right preview_results' and @visible='True']", 30000, null, "48af2c94-b7e6-4574-bca7-e8a874c01003");
+                _savenamedinquerytoolInfo = new RepoItemInfo(this, "SaveNamedInQueryTool", ".//input[@class='action-button save-named-criteria' and @visible='True']", 30000, null, "16a0bb94-f270-448e-a7fc-bea10565765f");
             }
 
             /// <summary>
@@ -343,30 +365,6 @@ namespace NamedCriteria
                 get
                 {
                     return _namedcriterianameInfo;
-                }
-            }
-
-            /// <summary>
-            /// The RawCriteria item.
-            /// </summary>
-            [RepositoryItem("2d288d88-b503-4d6a-b6e3-a675f16c9aba")]
-            public virtual Ranorex.TextAreaTag RawCriteria
-            {
-                get
-                {
-                    return _rawcriteriaInfo.CreateAdapter<Ranorex.TextAreaTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The RawCriteria item info.
-            /// </summary>
-            [RepositoryItemInfo("2d288d88-b503-4d6a-b6e3-a675f16c9aba")]
-            public virtual RepoItemInfo RawCriteriaInfo
-            {
-                get
-                {
-                    return _rawcriteriaInfo;
                 }
             }
 
@@ -563,6 +561,294 @@ namespace NamedCriteria
             }
 
             /// <summary>
+            /// The English item.
+            /// </summary>
+            [RepositoryItem("cbdcfa52-691c-4a2c-bba0-cb73d20b4614")]
+            public virtual Ranorex.ATag English
+            {
+                get
+                {
+                    return _englishInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The English item info.
+            /// </summary>
+            [RepositoryItemInfo("cbdcfa52-691c-4a2c-bba0-cb73d20b4614")]
+            public virtual RepoItemInfo EnglishInfo
+            {
+                get
+                {
+                    return _englishInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Delete item.
+            /// </summary>
+            [RepositoryItem("b2ac4856-754a-49f7-bae2-966d5111cf4a")]
+            public virtual Ranorex.ATag Delete
+            {
+                get
+                {
+                    return _deleteInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Delete item info.
+            /// </summary>
+            [RepositoryItemInfo("b2ac4856-754a-49f7-bae2-966d5111cf4a")]
+            public virtual RepoItemInfo DeleteInfo
+            {
+                get
+                {
+                    return _deleteInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AdminUser item.
+            /// </summary>
+            [RepositoryItem("3f410c1b-f7c6-4a19-9031-85cf13990451")]
+            public virtual Ranorex.ButtonTag AdminUser
+            {
+                get
+                {
+                    return _adminuserInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AdminUser item info.
+            /// </summary>
+            [RepositoryItemInfo("3f410c1b-f7c6-4a19-9031-85cf13990451")]
+            public virtual RepoItemInfo AdminUserInfo
+            {
+                get
+                {
+                    return _adminuserInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ATagLogout item.
+            /// </summary>
+            [RepositoryItem("f2dbb819-d5bf-483b-a4ef-71c5181ee1c1")]
+            public virtual Ranorex.ATag ATagLogout
+            {
+                get
+                {
+                    return _ataglogoutInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ATagLogout item info.
+            /// </summary>
+            [RepositoryItemInfo("f2dbb819-d5bf-483b-a4ef-71c5181ee1c1")]
+            public virtual RepoItemInfo ATagLogoutInfo
+            {
+                get
+                {
+                    return _ataglogoutInfo;
+                }
+            }
+
+            /// <summary>
+            /// The QueryToolTab item.
+            /// </summary>
+            [RepositoryItem("ca5cbf0b-8cdb-4e11-9f04-bf1d6ef93e6b")]
+            public virtual Ranorex.ATag QueryToolTab
+            {
+                get
+                {
+                    return _querytooltabInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The QueryToolTab item info.
+            /// </summary>
+            [RepositoryItemInfo("ca5cbf0b-8cdb-4e11-9f04-bf1d6ef93e6b")]
+            public virtual RepoItemInfo QueryToolTabInfo
+            {
+                get
+                {
+                    return _querytooltabInfo;
+                }
+            }
+
+            /// <summary>
+            /// The RawCriteriaQueryTool item.
+            /// </summary>
+            [RepositoryItem("abe17b28-dee4-4a07-a4e9-5a3924ab4c62")]
+            public virtual Ranorex.TextAreaTag RawCriteriaQueryTool
+            {
+                get
+                {
+                    return _rawcriteriaquerytoolInfo.CreateAdapter<Ranorex.TextAreaTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The RawCriteriaQueryTool item info.
+            /// </summary>
+            [RepositoryItemInfo("abe17b28-dee4-4a07-a4e9-5a3924ab4c62")]
+            public virtual RepoItemInfo RawCriteriaQueryToolInfo
+            {
+                get
+                {
+                    return _rawcriteriaquerytoolInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CriteriaTypeQueryTool item.
+            /// </summary>
+            [RepositoryItem("07b21608-ffce-410f-b0cc-81164480efd4")]
+            public virtual Ranorex.ButtonTag CriteriaTypeQueryTool
+            {
+                get
+                {
+                    return _criteriatypequerytoolInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CriteriaTypeQueryTool item info.
+            /// </summary>
+            [RepositoryItemInfo("07b21608-ffce-410f-b0cc-81164480efd4")]
+            public virtual RepoItemInfo CriteriaTypeQueryToolInfo
+            {
+                get
+                {
+                    return _criteriatypequerytoolInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TargetLanguageQueryTool item.
+            /// </summary>
+            [RepositoryItem("1b4d3720-88c2-4aa7-8795-6036f534defb")]
+            public virtual Ranorex.ButtonTag TargetLanguageQueryTool
+            {
+                get
+                {
+                    return _targetlanguagequerytoolInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TargetLanguageQueryTool item info.
+            /// </summary>
+            [RepositoryItemInfo("1b4d3720-88c2-4aa7-8795-6036f534defb")]
+            public virtual RepoItemInfo TargetLanguageQueryToolInfo
+            {
+                get
+                {
+                    return _targetlanguagequerytoolInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ShowNamedCriteria item.
+            /// </summary>
+            [RepositoryItem("f4a8ad15-924a-4417-87a2-dcc88c1b94c3")]
+            public virtual Ranorex.ATag ShowNamedCriteria
+            {
+                get
+                {
+                    return _shownamedcriteriaInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ShowNamedCriteria item info.
+            /// </summary>
+            [RepositoryItemInfo("f4a8ad15-924a-4417-87a2-dcc88c1b94c3")]
+            public virtual RepoItemInfo ShowNamedCriteriaInfo
+            {
+                get
+                {
+                    return _shownamedcriteriaInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DatasourceQueryTool item.
+            /// </summary>
+            [RepositoryItem("f203e6d8-55bf-4931-afbf-e01a926c4a2e")]
+            public virtual Ranorex.ButtonTag DatasourceQueryTool
+            {
+                get
+                {
+                    return _datasourcequerytoolInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DatasourceQueryTool item info.
+            /// </summary>
+            [RepositoryItemInfo("f203e6d8-55bf-4931-afbf-e01a926c4a2e")]
+            public virtual RepoItemInfo DatasourceQueryToolInfo
+            {
+                get
+                {
+                    return _datasourcequerytoolInfo;
+                }
+            }
+
+            /// <summary>
+            /// The QueryNowQueryTool item.
+            /// </summary>
+            [RepositoryItem("48af2c94-b7e6-4574-bca7-e8a874c01003")]
+            public virtual Ranorex.InputTag QueryNowQueryTool
+            {
+                get
+                {
+                    return _querynowquerytoolInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The QueryNowQueryTool item info.
+            /// </summary>
+            [RepositoryItemInfo("48af2c94-b7e6-4574-bca7-e8a874c01003")]
+            public virtual RepoItemInfo QueryNowQueryToolInfo
+            {
+                get
+                {
+                    return _querynowquerytoolInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SaveNamedInQueryTool item.
+            /// </summary>
+            [RepositoryItem("16a0bb94-f270-448e-a7fc-bea10565765f")]
+            public virtual Ranorex.InputTag SaveNamedInQueryTool
+            {
+                get
+                {
+                    return _savenamedinquerytoolInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SaveNamedInQueryTool item info.
+            /// </summary>
+            [RepositoryItemInfo("16a0bb94-f270-448e-a7fc-bea10565765f")]
+            public virtual RepoItemInfo SaveNamedInQueryToolInfo
+            {
+                get
+                {
+                    return _savenamedinquerytoolInfo;
+                }
+            }
+
+            /// <summary>
             /// The PaddingTop100Row folder.
             /// </summary>
             [RepositoryFolder("93a2fb0e-e7df-400b-abc4-98a0f2bc5230")]
@@ -594,6 +880,10 @@ namespace NamedCriteria
             RepoItemInfo _editnamedcriteriaInfo;
             RepoItemInfo _showInfo;
             RepoItemInfo _criteriatype_querybyfieldInfo;
+            RepoItemInfo _targetlanguageInfo;
+            RepoItemInfo _testdatasourceInfo;
+            RepoItemInfo _obsidianInfo;
+            RepoItemInfo _buttontagokInfo;
 
             /// <summary>
             /// Creates a new PaddingTop100Row  folder.
@@ -608,6 +898,10 @@ namespace NamedCriteria
                 _editnamedcriteriaInfo = new RepoItemInfo(this, "EditNamedCriteria", "div[3]/?/?/table/tbody/tr[1]/td[5]/span[@innertext>' /                      /']/a[@innertext='Edit']", 30000, null, "7dea1273-e107-45bf-acf7-c83564f49f88");
                 _showInfo = new RepoItemInfo(this, "Show", "div[3]/?/?/table/tbody/tr[1]/td[5]/span[@innertext>' /                      /']/a[@innertext='Show']", 30000, null, "21b35f0d-3c6b-4cbb-9143-6cf8dab82f10");
                 _criteriatype_querybyfieldInfo = new RepoItemInfo(this, "CriteriaType_QueryByfield", "div[1]/div/div[1]/div[3]/button[@class='btn btn-default dropdown-toggle drop-down-title float-right display-flex criteria-type']", 30000, null, "a77c2512-949d-4743-bdb2-c0d633680c15");
+                _targetlanguageInfo = new RepoItemInfo(this, "TargetLanguage", "div[1]/div[2]//button[@title='Target Language']", 30000, null, "3f6d0e2d-b5f5-40f1-be49-6d0697af3b36");
+                _testdatasourceInfo = new RepoItemInfo(this, "Testdatasource", "div[1]//ul/li[2]/a[@innertext='testdatasource']", 30000, null, "7d912d6e-5904-41e0-8f40-e2031471e486");
+                _obsidianInfo = new RepoItemInfo(this, "Obsidian", "div[1]//ul/li[1]/a[@innertext='Obsidian']", 30000, null, "dab9a596-2928-4ae9-8c89-44d66746a098");
+                _buttontagokInfo = new RepoItemInfo(this, "ButtonTagOk", ".//button[@innertext='Ok']", 30000, null, "49d8bcad-39b4-4a3c-9b4c-789a59fd4c98");
             }
 
             /// <summary>
@@ -801,6 +1095,102 @@ namespace NamedCriteria
                     return _criteriatype_querybyfieldInfo;
                 }
             }
+
+            /// <summary>
+            /// The TargetLanguage item.
+            /// </summary>
+            [RepositoryItem("3f6d0e2d-b5f5-40f1-be49-6d0697af3b36")]
+            public virtual Ranorex.ButtonTag TargetLanguage
+            {
+                get
+                {
+                    return _targetlanguageInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TargetLanguage item info.
+            /// </summary>
+            [RepositoryItemInfo("3f6d0e2d-b5f5-40f1-be49-6d0697af3b36")]
+            public virtual RepoItemInfo TargetLanguageInfo
+            {
+                get
+                {
+                    return _targetlanguageInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Testdatasource item.
+            /// </summary>
+            [RepositoryItem("7d912d6e-5904-41e0-8f40-e2031471e486")]
+            public virtual Ranorex.ATag Testdatasource
+            {
+                get
+                {
+                    return _testdatasourceInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Testdatasource item info.
+            /// </summary>
+            [RepositoryItemInfo("7d912d6e-5904-41e0-8f40-e2031471e486")]
+            public virtual RepoItemInfo TestdatasourceInfo
+            {
+                get
+                {
+                    return _testdatasourceInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Obsidian item.
+            /// </summary>
+            [RepositoryItem("dab9a596-2928-4ae9-8c89-44d66746a098")]
+            public virtual Ranorex.ATag Obsidian
+            {
+                get
+                {
+                    return _obsidianInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Obsidian item info.
+            /// </summary>
+            [RepositoryItemInfo("dab9a596-2928-4ae9-8c89-44d66746a098")]
+            public virtual RepoItemInfo ObsidianInfo
+            {
+                get
+                {
+                    return _obsidianInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ButtonTagOk item.
+            /// </summary>
+            [RepositoryItem("49d8bcad-39b4-4a3c-9b4c-789a59fd4c98")]
+            public virtual Ranorex.ButtonTag ButtonTagOk
+            {
+                get
+                {
+                    return _buttontagokInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonTagOk item info.
+            /// </summary>
+            [RepositoryItemInfo("49d8bcad-39b4-4a3c-9b4c-789a59fd4c98")]
+            public virtual RepoItemInfo ButtonTagOkInfo
+            {
+                get
+                {
+                    return _buttontagokInfo;
+                }
+            }
         }
 
         /// <summary>
@@ -811,8 +1201,7 @@ namespace NamedCriteria
         {
             RepoItemInfo _criteriatypeInfo;
             RepoItemInfo _criteria_type_updateInfo;
-            RepoItemInfo _targetlanguageInfo;
-            RepoItemInfo _copy_of_targetlanguageInfo;
+            RepoItemInfo _targetlanguagenamedcriteriInfo;
             RepoItemInfo _selectentirecontentInfo;
             RepoItemInfo _selectheadingtitleInfo;
             RepoItemInfo _selectquerybyfieldInfo;
@@ -825,8 +1214,7 @@ namespace NamedCriteria
             {
                 _criteriatypeInfo = new RepoItemInfo(this, "CriteriaType", "div[1]/button[@title='Criteria Type']", 30000, null, "c6a5c153-91ea-4b83-903e-862ccf9763e5");
                 _criteria_type_updateInfo = new RepoItemInfo(this, "Criteria_type_update", "div[1]/button[@class='btn btn-default dropdown-toggle drop-down-title float-right display-flex criteria-type']", 30000, null, "3d00fc68-aa46-43af-8cb8-f2cde8d1de62");
-                _targetlanguageInfo = new RepoItemInfo(this, "TargetLanguage", "div[2]/button[@title='Target Language']", 30000, null, "f8d10a45-2442-4b0f-91c5-844f06a3f022");
-                _copy_of_targetlanguageInfo = new RepoItemInfo(this, "Copy_of_TargetLanguage", "div[2]/button[@class='btn btn-default dropdown-toggle drop-down-title float-right display-flex target-language']", 30000, null, "887d2a6d-083c-4aa5-90e1-7d12fbcb7707");
+                _targetlanguagenamedcriteriInfo = new RepoItemInfo(this, "TargetLanguageNamedCriteri", "div[2]/button[@class='btn btn-default dropdown-toggle drop-down-title float-right display-flex target-language']", 30000, null, "887d2a6d-083c-4aa5-90e1-7d12fbcb7707");
                 _selectentirecontentInfo = new RepoItemInfo(this, "SelectEntireContent", "?/?/ul/?/?/a[@innertext='Entire Content']", 30000, null, "2ba60631-b87f-46c1-b864-cf2cd8bf2973");
                 _selectheadingtitleInfo = new RepoItemInfo(this, "SelectHeadingTitle", "?/?/ul/?/?/a[@innertext='Heading and Title']", 30000, null, "252dfb09-7e3a-4e00-b9f2-0bfcead000e9");
                 _selectquerybyfieldInfo = new RepoItemInfo(this, "SelectQueryByField", "?/?/ul/?/?/a[@innertext='Query By Field']", 30000, null, "a5fd6f06-438b-4e0d-a1db-1b7931a1e02e");
@@ -905,50 +1293,26 @@ namespace NamedCriteria
             }
 
             /// <summary>
-            /// The TargetLanguage item.
-            /// </summary>
-            [RepositoryItem("f8d10a45-2442-4b0f-91c5-844f06a3f022")]
-            public virtual Ranorex.ButtonTag TargetLanguage
-            {
-                get
-                {
-                    return _targetlanguageInfo.CreateAdapter<Ranorex.ButtonTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The TargetLanguage item info.
-            /// </summary>
-            [RepositoryItemInfo("f8d10a45-2442-4b0f-91c5-844f06a3f022")]
-            public virtual RepoItemInfo TargetLanguageInfo
-            {
-                get
-                {
-                    return _targetlanguageInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Copy_of_TargetLanguage item.
+            /// The TargetLanguageNamedCriteri item.
             /// </summary>
             [RepositoryItem("887d2a6d-083c-4aa5-90e1-7d12fbcb7707")]
-            public virtual Ranorex.ButtonTag Copy_of_TargetLanguage
+            public virtual Ranorex.ButtonTag TargetLanguageNamedCriteri
             {
                 get
                 {
-                    return _copy_of_targetlanguageInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                    return _targetlanguagenamedcriteriInfo.CreateAdapter<Ranorex.ButtonTag>(true);
                 }
             }
 
             /// <summary>
-            /// The Copy_of_TargetLanguage item info.
+            /// The TargetLanguageNamedCriteri item info.
             /// </summary>
             [RepositoryItemInfo("887d2a6d-083c-4aa5-90e1-7d12fbcb7707")]
-            public virtual RepoItemInfo Copy_of_TargetLanguageInfo
+            public virtual RepoItemInfo TargetLanguageNamedCriteriInfo
             {
                 get
                 {
-                    return _copy_of_targetlanguageInfo;
+                    return _targetlanguagenamedcriteriInfo;
                 }
             }
 

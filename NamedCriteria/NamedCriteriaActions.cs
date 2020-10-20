@@ -118,8 +118,8 @@ namespace NamedCriteria
             repo.ApplicationUnderTest.NamedCriteriaDescription.PressKeys("test", 20);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FormLogin.Copy_of_TargetLanguage' at 36;18.", repo.ApplicationUnderTest.FormLogin.Copy_of_TargetLanguageInfo, new RecordItemIndex(10));
-            repo.ApplicationUnderTest.FormLogin.Copy_of_TargetLanguage.Click("36;18", 300);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FormLogin.TargetLanguageNamedCriteri' at 36;18.", repo.ApplicationUnderTest.FormLogin.TargetLanguageNamedCriteriInfo, new RecordItemIndex(10));
+            repo.ApplicationUnderTest.FormLogin.TargetLanguageNamedCriteri.Click("36;18", 300);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SelectTargetLanguage' at 48;12.", repo.ApplicationUnderTest.SelectTargetLanguageInfo, new RecordItemIndex(11));

@@ -183,6 +183,18 @@
     <Compile Include="Program.cs">
       <id>cd0dc55e-74ea-416a-ab64-85279c379a93</id>
     </Compile>
+    <Compile Include="QueryTool.cs">
+      <BoundTo>b48b6196-b218-44ce-9fc9-652ae6054e51</BoundTo>
+      <DependentUpon>QueryTool.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7610765d-1d24-46ac-9990-3ff5cea7e2ec</id>
+    </Compile>
+    <Compile Include="QueryTool.UserCode.cs">
+      <BoundTo>b48b6196-b218-44ce-9fc9-652ae6054e51</BoundTo>
+      <DependentUpon>QueryTool.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2e9c1df0-9675-415e-bd8a-d35695477604</id>
+    </Compile>
     <Compile Include="Recording1.cs">
       <BoundTo>d0fee863-450f-4e25-a03d-d5a9789eaff0</BoundTo>
       <DependentUpon>Recording1.rxrec</DependentUpon>
@@ -230,6 +242,11 @@
       <BoundTo>d7b7d500-cd03-4a46-aff7-e5688325a29c</BoundTo>
       <id>16c76cef-ac3d-4305-8e67-253898ed7d8e</id>
       <recordtableid>c73ed77a-0d10-47b1-ba92-5bdc3b9bf43d</recordtableid>
+    </None>
+    <None Include="QueryTool.rxrec">
+      <BoundTo>d7b7d500-cd03-4a46-aff7-e5688325a29c</BoundTo>
+      <id>b48b6196-b218-44ce-9fc9-652ae6054e51</id>
+      <recordtableid>5d40d386-f490-484a-9afd-007808987852</recordtableid>
     </None>
     <None Include="Recording1.rxrec">
       <BoundTo>d7b7d500-cd03-4a46-aff7-e5688325a29c</BoundTo>
