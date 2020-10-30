@@ -17,6 +17,12 @@
 			ref="e9114df1-bd44-4b9e-8973-c1968d4231c6"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="2a877e98-9ca8-49e6-ad20-15b90fe1f1d2"
+			name="LoginScenarios"
+			ref="3a8db3df-27d0-4055-a6e7-baace9392cbc"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="53ab5539-1ade-4eeb-b714-f52d46131b82"
 			name="Login">
@@ -84,6 +90,10 @@
 						<testmodule
 						id="0279d9c7-ce7a-4aca-a091-dabef1f6eb7a"
 						name="LoginIndexPage">
+						</testmodule>
+						<testmodule
+						id="2a877e98-9ca8-49e6-ad20-15b90fe1f1d2"
+						name="LoginScenarios">
 						</testmodule>
 						<teardown
 						id="8c4ece92-93ff-45a9-97ea-a14de98646f9"

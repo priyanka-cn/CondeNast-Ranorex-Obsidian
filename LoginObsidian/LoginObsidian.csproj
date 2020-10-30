@@ -144,6 +144,18 @@
       <RepositoryCode>true</RepositoryCode>
       <id>77bd1f25-37b9-4944-8da3-e7d4a34ae611</id>
     </Compile>
+    <Compile Include="LoginScenarios.cs">
+      <BoundTo>7550a0b6-e0c7-4003-bc6d-f7f443c303d3</BoundTo>
+      <DependentUpon>LoginScenarios.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>18aa0b36-bea3-4ffb-88fb-02b2ab4ab913</id>
+    </Compile>
+    <Compile Include="LoginScenarios.UserCode.cs">
+      <BoundTo>7550a0b6-e0c7-4003-bc6d-f7f443c303d3</BoundTo>
+      <DependentUpon>LoginScenarios.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d52407a3-c4c0-4169-84fc-2e35c8ac1380</id>
+    </Compile>
     <Compile Include="OpenBrowser.cs">
       <BoundTo>7d41e50b-84dd-457e-b47d-eb2fd2825edd</BoundTo>
       <DependentUpon>OpenBrowser.rxrec</DependentUpon>
@@ -191,6 +203,11 @@
       <id>f66e049d-95ba-4a01-8a6b-f17a627bac44</id>
       <repoid>bbf5eec9-2acf-4875-8614-05791a51bd47</repoid>
       <reporootid>f69fcabe-3d3c-49d1-94d5-8e10d5614587</reporootid>
+    </None>
+    <None Include="LoginScenarios.rxrec">
+      <BoundTo>f66e049d-95ba-4a01-8a6b-f17a627bac44</BoundTo>
+      <id>7550a0b6-e0c7-4003-bc6d-f7f443c303d3</id>
+      <recordtableid>3a8db3df-27d0-4055-a6e7-baace9392cbc</recordtableid>
     </None>
     <None Include="OpenBrowser.rxrec">
       <BoundTo>f66e049d-95ba-4a01-8a6b-f17a627bac44</BoundTo>

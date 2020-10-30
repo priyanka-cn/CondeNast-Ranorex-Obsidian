@@ -28,6 +28,8 @@ namespace LoginObsidian
     {
         static LoginObsidianRepository instance = new LoginObsidianRepository();
         LoginObsidianRepositoryFolders.ApplicationUnderTestAppFolder _applicationundertest;
+        LoginObsidianRepositoryFolders.DropdownAppFolder _dropdown;
+        LoginObsidianRepositoryFolders.ObsidianStagingCondeIoUsersPasswordAppFolder _obsidianstagingcondeiouserspassword;
 
         /// <summary>
         /// Gets the singleton class instance representing the LoginObsidianRepository element repository.
@@ -45,6 +47,8 @@ namespace LoginObsidian
             : base("LoginObsidianRepository", "/", null, 0, false, "f69fcabe-3d3c-49d1-94d5-8e10d5614587", ".\\RepositoryImages\\LoginObsidianRepositoryf69fcabe.rximgres")
         {
             _applicationundertest = new LoginObsidianRepositoryFolders.ApplicationUnderTestAppFolder(this);
+            _dropdown = new LoginObsidianRepositoryFolders.DropdownAppFolder(this);
+            _obsidianstagingcondeiouserspassword = new LoginObsidianRepositoryFolders.ObsidianStagingCondeIoUsersPasswordAppFolder(this);
         }
 
 #region Variables
@@ -71,6 +75,24 @@ namespace LoginObsidian
         {
             get { return _applicationundertest; }
         }
+
+        /// <summary>
+        /// The Dropdown folder.
+        /// </summary>
+        [RepositoryFolder("9cd2ab7c-8f01-4bac-8e55-41ccfe9ee10a")]
+        public virtual LoginObsidianRepositoryFolders.DropdownAppFolder Dropdown
+        {
+            get { return _dropdown; }
+        }
+
+        /// <summary>
+        /// The ObsidianStagingCondeIoUsersPassword folder.
+        /// </summary>
+        [RepositoryFolder("d1507476-514d-43de-9f0f-d07382ef1577")]
+        public virtual LoginObsidianRepositoryFolders.ObsidianStagingCondeIoUsersPasswordAppFolder ObsidianStagingCondeIoUsersPassword
+        {
+            get { return _obsidianstagingcondeiouserspassword; }
+        }
     }
 
     /// <summary>
@@ -88,12 +110,14 @@ namespace LoginObsidian
             LoginObsidianRepositoryFolders.ContainerFolder _container;
             RepoItemInfo _useremailInfo;
             RepoItemInfo _userpasswordInfo;
-            RepoItemInfo _commitInfo;
+            RepoItemInfo _resetpasswordlinkInfo;
             RepoItemInfo _contextstudioInfo;
             RepoItemInfo _buttonInfo;
             RepoItemInfo _closeInfo;
             RepoItemInfo _contextdescriptionInfo;
             RepoItemInfo _ataglogoutInfo;
+            RepoItemInfo _logoutInfo;
+            RepoItemInfo _forgotpasswordInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -104,12 +128,14 @@ namespace LoginObsidian
                 _container = new LoginObsidianRepositoryFolders.ContainerFolder(this);
                 _useremailInfo = new RepoItemInfo(this, "UserEmail", ".//input[#'user_email']", 30000, null, "30aa3156-89d7-45ef-ba92-3c6e65088364");
                 _userpasswordInfo = new RepoItemInfo(this, "UserPassword", ".//input[#'user_password']", 30000, null, "948265b4-e204-4bbd-8b29-1ed57d84763f");
-                _commitInfo = new RepoItemInfo(this, "Commit", ".//form[#'new_user']/?/?/input[@name='commit']", 30000, null, "5577d352-3b43-4eb3-b9d5-301da7285601");
+                _resetpasswordlinkInfo = new RepoItemInfo(this, "ResetPasswordLink", ".//form[#'new_user']/?/?/input[@name='commit']", 30000, null, "5577d352-3b43-4eb3-b9d5-301da7285601");
                 _contextstudioInfo = new RepoItemInfo(this, "ContextStudio", ".//h1[#'site_title']/a[@innertext='Context Studio']", 30000, null, "78a43905-d300-4f9b-8d7d-80f72604b884");
                 _buttonInfo = new RepoItemInfo(this, "Button", "body/div[1]/div/div/div/div[2]/input[@type='button']", 30000, null, "502d2d8a-929e-4b6c-9bcc-fbee4c8bc39d");
                 _closeInfo = new RepoItemInfo(this, "Close", "body/div[1]/div/div/div/div[2]/?/?/a[@innertext='Close']", 30000, null, "776b90fa-9729-4a76-8981-7638881ef85f");
                 _contextdescriptionInfo = new RepoItemInfo(this, "ContextDescription", ".//input[#'context-description']", 30000, null, "83c8e62e-c090-4b2a-8252-f40bde12fbf3");
                 _ataglogoutInfo = new RepoItemInfo(this, "ATagLogout", ".//div[#'myDropdown']/a[@innertext='  Logout']", 30000, null, "d1384c83-1531-44fb-8dad-d765ddce06ee");
+                _logoutInfo = new RepoItemInfo(this, "Logout", ".//li[#'logout']/a[@innertext='Logout']", 30000, null, "41fa2a06-0c4d-4d7a-a523-18c729719e2b");
+                _forgotpasswordInfo = new RepoItemInfo(this, "ForgotPassword", ".//form[#'new_user']/a[@innertext='Forgot password?']", 30000, null, "0077fdda-d6b3-48ce-a66d-9781c39898ab");
             }
 
             /// <summary>
@@ -185,26 +211,26 @@ namespace LoginObsidian
             }
 
             /// <summary>
-            /// The Commit item.
+            /// The ResetPasswordLink item.
             /// </summary>
             [RepositoryItem("5577d352-3b43-4eb3-b9d5-301da7285601")]
-            public virtual Ranorex.InputTag Commit
+            public virtual Ranorex.InputTag ResetPasswordLink
             {
                 get
                 {
-                    return _commitInfo.CreateAdapter<Ranorex.InputTag>(true);
+                    return _resetpasswordlinkInfo.CreateAdapter<Ranorex.InputTag>(true);
                 }
             }
 
             /// <summary>
-            /// The Commit item info.
+            /// The ResetPasswordLink item info.
             /// </summary>
             [RepositoryItemInfo("5577d352-3b43-4eb3-b9d5-301da7285601")]
-            public virtual RepoItemInfo CommitInfo
+            public virtual RepoItemInfo ResetPasswordLinkInfo
             {
                 get
                 {
-                    return _commitInfo;
+                    return _resetpasswordlinkInfo;
                 }
             }
 
@@ -329,6 +355,54 @@ namespace LoginObsidian
             }
 
             /// <summary>
+            /// The Logout item.
+            /// </summary>
+            [RepositoryItem("41fa2a06-0c4d-4d7a-a523-18c729719e2b")]
+            public virtual Ranorex.ATag Logout
+            {
+                get
+                {
+                    return _logoutInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Logout item info.
+            /// </summary>
+            [RepositoryItemInfo("41fa2a06-0c4d-4d7a-a523-18c729719e2b")]
+            public virtual RepoItemInfo LogoutInfo
+            {
+                get
+                {
+                    return _logoutInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ForgotPassword item.
+            /// </summary>
+            [RepositoryItem("0077fdda-d6b3-48ce-a66d-9781c39898ab")]
+            public virtual Ranorex.ATag ForgotPassword
+            {
+                get
+                {
+                    return _forgotpasswordInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ForgotPassword item info.
+            /// </summary>
+            [RepositoryItemInfo("0077fdda-d6b3-48ce-a66d-9781c39898ab")]
+            public virtual RepoItemInfo ForgotPasswordInfo
+            {
+                get
+                {
+                    return _forgotpasswordInfo;
+                }
+            }
+
+            /// <summary>
             /// The Container folder.
             /// </summary>
             [RepositoryFolder("9c190b5e-4c7b-44ef-9b59-819c571fd66e")]
@@ -344,18 +418,20 @@ namespace LoginObsidian
         [RepositoryFolder("9c190b5e-4c7b-44ef-9b59-819c571fd66e")]
         public partial class ContainerFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _priyankarameshInfo;
-            RepoItemInfo _automotiveInfo;
-            RepoItemInfo _fafasearchInfo;
-            RepoItemInfo _searchInfo;
+            RepoItemInfo _usermenuInfo;
+            RepoItemInfo _classificationselectInfo;
+            RepoItemInfo _searchcontextInfo;
+            RepoItemInfo _searchfieldInfo;
             RepoItemInfo _classificationsInfo;
             RepoItemInfo _subclassificationsInfo;
-            RepoItemInfo _autobodystylesInfo;
+            RepoItemInfo _subclassificationsselectInfo;
             RepoItemInfo _clearfilterInfo;
-            RepoItemInfo _obzay56Info;
-            RepoItemInfo _womenbeautyprodutsInfo;
-            RepoItemInfo _editInfo;
-            RepoItemInfo _showInfo;
+            RepoItemInfo _contextcodeInfo;
+            RepoItemInfo _contextnameInfo;
+            RepoItemInfo _editcontextInfo;
+            RepoItemInfo _showcontextInfo;
+            RepoItemInfo _googleInfo;
+            RepoItemInfo _priyankarameshInfo;
 
             /// <summary>
             /// Creates a new Container  folder.
@@ -363,18 +439,20 @@ namespace LoginObsidian
             public ContainerFolder(RepoGenBaseFolder parentFolder) :
                     base("Container", "body/div", parentFolder, 30000, null, false, "9c190b5e-4c7b-44ef-9b59-819c571fd66e", "")
             {
-                _priyankarameshInfo = new RepoItemInfo(this, "PriyankaRamesh", "div[1]//button[@innertext='Priyanka Ramesh ']", 30000, null, "d406bc9c-f621-4b9c-bd81-e8343b0c7933");
-                _automotiveInfo = new RepoItemInfo(this, "Automotive", "div[2]/div[1]/div/div[1]/?/?/ul/li[2]/a[@innertext='Automotive']", 30000, null, "8322d83b-13be-4bad-8f6f-15c89ea943bc");
-                _fafasearchInfo = new RepoItemInfo(this, "FaFaSearch", "div[2]/div[1]/div/div[1]/div[1]/?/?/i", 30000, null, "6d2062ba-9272-4fe8-9621-e037a9175f9c");
-                _searchInfo = new RepoItemInfo(this, "Search", "div[2]/div[1]/div/div[1]/div[1]/?/?/input[@name='search']", 30000, null, "d6f8d75e-8556-4b0f-b321-dba5bd213ce1");
-                _classificationsInfo = new RepoItemInfo(this, "Classifications", "div[2]/div[1]/div/div[1]/div[2]/button[@innertext='Classifications']", 30000, null, "d4072f08-56f9-4c29-bae0-c10dd79aa521");
+                _usermenuInfo = new RepoItemInfo(this, "UserMenu", "div[1]//button[@innertext='Admin User ']", 30000, null, "d406bc9c-f621-4b9c-bd81-e8343b0c7933");
+                _classificationselectInfo = new RepoItemInfo(this, "ClassificationSelect", "div[2]/div[1]/div/div[1]/?/?/ul/li[2]/a[@innertext='Automotive']", 30000, null, "8322d83b-13be-4bad-8f6f-15c89ea943bc");
+                _searchcontextInfo = new RepoItemInfo(this, "SearchContext", "div[2]/div[1]/div/div[1]/div[1]/?/?/i", 30000, null, "6d2062ba-9272-4fe8-9621-e037a9175f9c");
+                _searchfieldInfo = new RepoItemInfo(this, "SearchField", "div[2]/div[1]/div/div[1]/div[1]/?/?/input[@name='search']", 30000, null, "d6f8d75e-8556-4b0f-b321-dba5bd213ce1");
+                _classificationsInfo = new RepoItemInfo(this, "Classifications", "div[2]/div[1]/div/div[1]/div[2]/buttontag[@class='button-link dropdown-toggle drop-down-title btn btn float-right classification filt']", 30000, null, "d4072f08-56f9-4c29-bae0-c10dd79aa521");
                 _subclassificationsInfo = new RepoItemInfo(this, "SubClassifications", "div[2]/div[1]/div/div[1]/div[3]/button[@innertext='Sub-Classifications ']", 30000, null, "b000ec6a-f913-4c7e-868f-0a518a731774");
-                _autobodystylesInfo = new RepoItemInfo(this, "AutoBodyStyles", "div[2]/div[1]/div/div[1]/div[3]/ul/li[1]/a[@innertext='Auto Body Styles']", 30000, null, "91a8ffa8-7fdc-45bc-a353-ccd0dfc69903");
+                _subclassificationsselectInfo = new RepoItemInfo(this, "SubClassificationsSelect", "div[2]/div[1]/div/div[1]/div[3]/ul/li[1]/a[@innertext='Auto Body Styles']", 30000, null, "91a8ffa8-7fdc-45bc-a353-ccd0dfc69903");
                 _clearfilterInfo = new RepoItemInfo(this, "ClearFilter", "div[2]/div[1]/div/div[3]/?/?/a[@innertext='Clear Filter']", 30000, null, "15ff1ce7-f18c-402f-8cf4-13a798bc55cb");
-                _obzay56Info = new RepoItemInfo(this, "OBZAY56", "div[2]/div[2]/?/?/table/tbody/tr[1]/td[1]/?/?/a[@innertext='OBZAY56']", 30000, null, "475fc72c-b780-4813-8bed-790a0bca5716");
-                _womenbeautyprodutsInfo = new RepoItemInfo(this, "WomenBeautyProduts", "div[2]/div[2]/?/?/table/tbody/tr[1]/td[2]/?/?/div/span[1]/a[@innertext='Women beauty Produts']", 30000, null, "2ad33d06-80af-4e38-97cb-44764366e77d");
-                _editInfo = new RepoItemInfo(this, "Edit", "div[2]/div[2]/?/?/table/tbody/tr[1]/td[6]/span[@innertext=' /  / ']/a[@innertext='Edit']", 30000, null, "f2215fe1-521c-4985-9b80-ada8c5f27d99");
-                _showInfo = new RepoItemInfo(this, "Show", "div[2]/div[2]/?/?/table/tbody/tr[1]/td[6]/span[@innertext=' /  / ']/a[@innertext='Show']", 30000, null, "0d542a7f-c0a3-4b53-93a7-aa4a0372889e");
+                _contextcodeInfo = new RepoItemInfo(this, "ContextCode", "div[2]/div[2]/?/?/table/tbody/tr[1]/td[1]/?/?/a", 30000, null, "475fc72c-b780-4813-8bed-790a0bca5716");
+                _contextnameInfo = new RepoItemInfo(this, "ContextName", "div[2]/div[2]/?/?/table/tbody/tr[1]/td[2]/?/?/div/span[1]/a", 30000, null, "2ad33d06-80af-4e38-97cb-44764366e77d");
+                _editcontextInfo = new RepoItemInfo(this, "EditContext", "div[2]/div[2]/?/?/table/tbody/tr[1]/td[6]//a[@innertext='Edit']", 30000, null, "f2215fe1-521c-4985-9b80-ada8c5f27d99");
+                _showcontextInfo = new RepoItemInfo(this, "ShowContext", "div[2]/div[2]/?/?/table/tbody/tr[1]/td[6]//a[@innertext='Show']", 30000, null, "0d542a7f-c0a3-4b53-93a7-aa4a0372889e");
+                _googleInfo = new RepoItemInfo(this, "Google", "div/div/div[2]/div[2]/a[@href>'http://obsidian-staging.c']/?/?/b[@innertext='Google']", 30000, null, "35b61803-94e1-4e08-9037-727cab320ec2");
+                _priyankarameshInfo = new RepoItemInfo(this, "PriyankaRamesh", ".//button[@innertext='Priyanka Ramesh ']", 30000, null, "d7a23546-0eda-4bc4-b0cd-098259398187");
             }
 
             /// <summary>
@@ -402,98 +480,98 @@ namespace LoginObsidian
             }
 
             /// <summary>
-            /// The PriyankaRamesh item.
+            /// The UserMenu item.
             /// </summary>
             [RepositoryItem("d406bc9c-f621-4b9c-bd81-e8343b0c7933")]
-            public virtual Ranorex.ButtonTag PriyankaRamesh
+            public virtual Ranorex.ButtonTag UserMenu
             {
                 get
                 {
-                    return _priyankarameshInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                    return _usermenuInfo.CreateAdapter<Ranorex.ButtonTag>(true);
                 }
             }
 
             /// <summary>
-            /// The PriyankaRamesh item info.
+            /// The UserMenu item info.
             /// </summary>
             [RepositoryItemInfo("d406bc9c-f621-4b9c-bd81-e8343b0c7933")]
-            public virtual RepoItemInfo PriyankaRameshInfo
+            public virtual RepoItemInfo UserMenuInfo
             {
                 get
                 {
-                    return _priyankarameshInfo;
+                    return _usermenuInfo;
                 }
             }
 
             /// <summary>
-            /// The Automotive item.
+            /// The ClassificationSelect item.
             /// </summary>
             [RepositoryItem("8322d83b-13be-4bad-8f6f-15c89ea943bc")]
-            public virtual Ranorex.ATag Automotive
+            public virtual Ranorex.ATag ClassificationSelect
             {
                 get
                 {
-                    return _automotiveInfo.CreateAdapter<Ranorex.ATag>(true);
+                    return _classificationselectInfo.CreateAdapter<Ranorex.ATag>(true);
                 }
             }
 
             /// <summary>
-            /// The Automotive item info.
+            /// The ClassificationSelect item info.
             /// </summary>
             [RepositoryItemInfo("8322d83b-13be-4bad-8f6f-15c89ea943bc")]
-            public virtual RepoItemInfo AutomotiveInfo
+            public virtual RepoItemInfo ClassificationSelectInfo
             {
                 get
                 {
-                    return _automotiveInfo;
+                    return _classificationselectInfo;
                 }
             }
 
             /// <summary>
-            /// The FaFaSearch item.
+            /// The SearchContext item.
             /// </summary>
             [RepositoryItem("6d2062ba-9272-4fe8-9621-e037a9175f9c")]
-            public virtual Ranorex.ITag FaFaSearch
+            public virtual Ranorex.ITag SearchContext
             {
                 get
                 {
-                    return _fafasearchInfo.CreateAdapter<Ranorex.ITag>(true);
+                    return _searchcontextInfo.CreateAdapter<Ranorex.ITag>(true);
                 }
             }
 
             /// <summary>
-            /// The FaFaSearch item info.
+            /// The SearchContext item info.
             /// </summary>
             [RepositoryItemInfo("6d2062ba-9272-4fe8-9621-e037a9175f9c")]
-            public virtual RepoItemInfo FaFaSearchInfo
+            public virtual RepoItemInfo SearchContextInfo
             {
                 get
                 {
-                    return _fafasearchInfo;
+                    return _searchcontextInfo;
                 }
             }
 
             /// <summary>
-            /// The Search item.
+            /// The SearchField item.
             /// </summary>
             [RepositoryItem("d6f8d75e-8556-4b0f-b321-dba5bd213ce1")]
-            public virtual Ranorex.InputTag Search
+            public virtual Ranorex.InputTag SearchField
             {
                 get
                 {
-                    return _searchInfo.CreateAdapter<Ranorex.InputTag>(true);
+                    return _searchfieldInfo.CreateAdapter<Ranorex.InputTag>(true);
                 }
             }
 
             /// <summary>
-            /// The Search item info.
+            /// The SearchField item info.
             /// </summary>
             [RepositoryItemInfo("d6f8d75e-8556-4b0f-b321-dba5bd213ce1")]
-            public virtual RepoItemInfo SearchInfo
+            public virtual RepoItemInfo SearchFieldInfo
             {
                 get
                 {
-                    return _searchInfo;
+                    return _searchfieldInfo;
                 }
             }
 
@@ -546,26 +624,26 @@ namespace LoginObsidian
             }
 
             /// <summary>
-            /// The AutoBodyStyles item.
+            /// The SubClassificationsSelect item.
             /// </summary>
             [RepositoryItem("91a8ffa8-7fdc-45bc-a353-ccd0dfc69903")]
-            public virtual Ranorex.ATag AutoBodyStyles
+            public virtual Ranorex.ATag SubClassificationsSelect
             {
                 get
                 {
-                    return _autobodystylesInfo.CreateAdapter<Ranorex.ATag>(true);
+                    return _subclassificationsselectInfo.CreateAdapter<Ranorex.ATag>(true);
                 }
             }
 
             /// <summary>
-            /// The AutoBodyStyles item info.
+            /// The SubClassificationsSelect item info.
             /// </summary>
             [RepositoryItemInfo("91a8ffa8-7fdc-45bc-a353-ccd0dfc69903")]
-            public virtual RepoItemInfo AutoBodyStylesInfo
+            public virtual RepoItemInfo SubClassificationsSelectInfo
             {
                 get
                 {
-                    return _autobodystylesInfo;
+                    return _subclassificationsselectInfo;
                 }
             }
 
@@ -594,98 +672,252 @@ namespace LoginObsidian
             }
 
             /// <summary>
-            /// The OBZAY56 item.
+            /// The ContextCode item.
             /// </summary>
             [RepositoryItem("475fc72c-b780-4813-8bed-790a0bca5716")]
-            public virtual Ranorex.ATag OBZAY56
+            public virtual Ranorex.ATag ContextCode
             {
                 get
                 {
-                    return _obzay56Info.CreateAdapter<Ranorex.ATag>(true);
+                    return _contextcodeInfo.CreateAdapter<Ranorex.ATag>(true);
                 }
             }
 
             /// <summary>
-            /// The OBZAY56 item info.
+            /// The ContextCode item info.
             /// </summary>
             [RepositoryItemInfo("475fc72c-b780-4813-8bed-790a0bca5716")]
-            public virtual RepoItemInfo OBZAY56Info
+            public virtual RepoItemInfo ContextCodeInfo
             {
                 get
                 {
-                    return _obzay56Info;
+                    return _contextcodeInfo;
                 }
             }
 
             /// <summary>
-            /// The WomenBeautyProduts item.
+            /// The ContextName item.
             /// </summary>
             [RepositoryItem("2ad33d06-80af-4e38-97cb-44764366e77d")]
-            public virtual Ranorex.ATag WomenBeautyProduts
+            public virtual Ranorex.ATag ContextName
             {
                 get
                 {
-                    return _womenbeautyprodutsInfo.CreateAdapter<Ranorex.ATag>(true);
+                    return _contextnameInfo.CreateAdapter<Ranorex.ATag>(true);
                 }
             }
 
             /// <summary>
-            /// The WomenBeautyProduts item info.
+            /// The ContextName item info.
             /// </summary>
             [RepositoryItemInfo("2ad33d06-80af-4e38-97cb-44764366e77d")]
-            public virtual RepoItemInfo WomenBeautyProdutsInfo
+            public virtual RepoItemInfo ContextNameInfo
             {
                 get
                 {
-                    return _womenbeautyprodutsInfo;
+                    return _contextnameInfo;
                 }
             }
 
             /// <summary>
-            /// The Edit item.
+            /// The EditContext item.
             /// </summary>
             [RepositoryItem("f2215fe1-521c-4985-9b80-ada8c5f27d99")]
-            public virtual Ranorex.ATag Edit
+            public virtual Ranorex.ATag EditContext
             {
                 get
                 {
-                    return _editInfo.CreateAdapter<Ranorex.ATag>(true);
+                    return _editcontextInfo.CreateAdapter<Ranorex.ATag>(true);
                 }
             }
 
             /// <summary>
-            /// The Edit item info.
+            /// The EditContext item info.
             /// </summary>
             [RepositoryItemInfo("f2215fe1-521c-4985-9b80-ada8c5f27d99")]
-            public virtual RepoItemInfo EditInfo
+            public virtual RepoItemInfo EditContextInfo
             {
                 get
                 {
-                    return _editInfo;
+                    return _editcontextInfo;
                 }
             }
 
             /// <summary>
-            /// The Show item.
+            /// The ShowContext item.
             /// </summary>
             [RepositoryItem("0d542a7f-c0a3-4b53-93a7-aa4a0372889e")]
-            public virtual Ranorex.ATag Show
+            public virtual Ranorex.ATag ShowContext
             {
                 get
                 {
-                    return _showInfo.CreateAdapter<Ranorex.ATag>(true);
+                    return _showcontextInfo.CreateAdapter<Ranorex.ATag>(true);
                 }
             }
 
             /// <summary>
-            /// The Show item info.
+            /// The ShowContext item info.
             /// </summary>
             [RepositoryItemInfo("0d542a7f-c0a3-4b53-93a7-aa4a0372889e")]
-            public virtual RepoItemInfo ShowInfo
+            public virtual RepoItemInfo ShowContextInfo
             {
                 get
                 {
-                    return _showInfo;
+                    return _showcontextInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Google item.
+            /// </summary>
+            [RepositoryItem("35b61803-94e1-4e08-9037-727cab320ec2")]
+            public virtual Ranorex.BTag Google
+            {
+                get
+                {
+                    return _googleInfo.CreateAdapter<Ranorex.BTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Google item info.
+            /// </summary>
+            [RepositoryItemInfo("35b61803-94e1-4e08-9037-727cab320ec2")]
+            public virtual RepoItemInfo GoogleInfo
+            {
+                get
+                {
+                    return _googleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PriyankaRamesh item.
+            /// </summary>
+            [RepositoryItem("d7a23546-0eda-4bc4-b0cd-098259398187")]
+            public virtual Ranorex.ButtonTag PriyankaRamesh
+            {
+                get
+                {
+                    return _priyankarameshInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PriyankaRamesh item info.
+            /// </summary>
+            [RepositoryItemInfo("d7a23546-0eda-4bc4-b0cd-098259398187")]
+            public virtual RepoItemInfo PriyankaRameshInfo
+            {
+                get
+                {
+                    return _priyankarameshInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The DropdownAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("9cd2ab7c-8f01-4bac-8e55-41ccfe9ee10a")]
+        public partial class DropdownAppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new Dropdown  folder.
+            /// </summary>
+            public DropdownAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Dropdown", "/container[@caption='dropdown']", parentFolder, 30000, null, true, "9cd2ab7c-8f01-4bac-8e55-41ccfe9ee10a", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("9cd2ab7c-8f01-4bac-8e55-41ccfe9ee10a")]
+            public virtual Ranorex.Container Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("9cd2ab7c-8f01-4bac-8e55-41ccfe9ee10a")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ObsidianStagingCondeIoUsersPasswordAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("d1507476-514d-43de-9f0f-d07382ef1577")]
+        public partial class ObsidianStagingCondeIoUsersPasswordAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _backInfo;
+
+            /// <summary>
+            /// Creates a new ObsidianStagingCondeIoUsersPassword  folder.
+            /// </summary>
+            public ObsidianStagingCondeIoUsersPasswordAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("ObsidianStagingCondeIoUsersPassword", "/form[@title>'obsidian-staging.conde.io/users/password']", parentFolder, 30000, null, true, "d1507476-514d-43de-9f0f-d07382ef1577", "")
+            {
+                _backInfo = new RepoItemInfo(this, "Back", "container[@accessiblename>'obsidian-staging.conde.io/users/password']/container[@accessiblename='Google Chrome']//button[@accessiblename='Back']", 30000, null, "9b7e0dd9-a3c0-4dda-9e02-ca367df97268");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("d1507476-514d-43de-9f0f-d07382ef1577")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("d1507476-514d-43de-9f0f-d07382ef1577")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Back item.
+            /// </summary>
+            [RepositoryItem("9b7e0dd9-a3c0-4dda-9e02-ca367df97268")]
+            public virtual Ranorex.Button Back
+            {
+                get
+                {
+                    return _backInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Back item info.
+            /// </summary>
+            [RepositoryItemInfo("9b7e0dd9-a3c0-4dda-9e02-ca367df97268")]
+            public virtual RepoItemInfo BackInfo
+            {
+                get
+                {
+                    return _backInfo;
                 }
             }
         }
